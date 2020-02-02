@@ -63,7 +63,7 @@ const Home = () => {
 
   return (
     <main>
-      <Head title="OktoProfile" />
+      <Head title="OktoDashboard" />
 
       <StyledContainer>
         <form
