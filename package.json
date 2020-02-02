@@ -1,5 +1,5 @@
 {
-  "name": "oktadashboard",
+  "name": "octodashboard",
   "version": "1.0.0",
   "description": "",
   "keywords": [],
@@ -10,6 +10,10 @@
     "dev": "next",
     "build": "next build",
     "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nosregor/octodashboard"
   },
   "husky": {
     "hooks": {
