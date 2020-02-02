@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import PropTypes from 'prop-types';
-import { Head, Footer, Corner, Error, RateLimit } from '../components';
+import { Head, UserInfo, Footer, Corner, Error, RateLimit } from '../components';
 import GhPolyglot from 'gh-polyglot';
 import { mockUserData, mockLangData, mockRepoData } from '../utils';
 
@@ -12,6 +12,24 @@ const User = props => {
   const [error, setError] = useState({ active: false, type: 200 });
   const [rateLimit, setRateLimit] = useState(null);
 
+  const getUserData = () => {
+    fetch(`https://api.github.com/users/${username}`)
+      .then(response => {
+        if (response.status === 404) {
+          return setError({ active: true, type: 404 });
+        }
+        if (response.status === 403) {
+          return setError({ active: true, type: 403 });
+        }
+        return response.json();
+      })
+      .then(json => setUserData(json))
+      .catch(error => {
+        setError({ active: true, type: 400 });
+        console.error('Error:', error);
+      });
+  };
+
   useEffect(() => {
     fetch(`https://api.github.com/rate_limit`)
       .then(response => response.json())
@@ -22,9 +40,11 @@ const User = props => {
         }
       });
 
-    setUserData(mockUserData);
-    setLangData(mockLangData);
-    setRepoData(mockRepoData);
+    getUserData();
+
+    // setUserData(mockUserData);
+    // setLangData(mockLangData);
+    // setRepoData(mockRepoData);
   }, []);
 
   return (
@@ -38,6 +58,8 @@ const User = props => {
           <Head title={`${username ? `OctoDashboard | ${username}` : 'OctoDashboard'}`} />
 
           <Corner />
+
+          {userData && <UserInfo userData={userData} />}
 
           <Footer />
         </>

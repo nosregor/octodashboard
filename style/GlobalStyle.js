@@ -313,7 +313,7 @@ const GlobalStyle = createGlobalStyle`
     padding: 0;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
-    font-family: ${fonts.hind};
+    font-family: ${fonts.inter};
     color: ${colors.darkGrey};
     background-color: ${colors.offWhite};
   }

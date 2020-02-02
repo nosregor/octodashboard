@@ -13,7 +13,7 @@ const StyledContainer = styled.div`
   background-color: ${colors.white};
   // background-image: linear-gradient(${colors.black} 0%, ${colors.darkGrey} 100%);
   color: ${colors.solstice};
-  height: 90vh;
+  height: 100vh;
 
   form {
     background-color: transparent;
@@ -63,7 +63,7 @@ const Home = () => {
 
   return (
     <main>
-      <Head title="OktoDashboard" />
+      <Head title="OctoDashboard" />
 
       <StyledContainer>
         <form
@@ -80,7 +80,6 @@ const Home = () => {
           <input name="username" type="text" onChange={handleChange} placeholder="Enter a github user..." />
         </form>
       </StyledContainer>
-      <Footer />
     </main>
   );
 };

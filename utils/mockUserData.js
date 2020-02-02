@@ -18,7 +18,7 @@ export default {
   type: 'User',
   site_admin: false,
   name: 'Andrew Rogerson',
-  company: 'car2go GmbH',
+  company: 'FreeNow GmbH',
   blog: 'http://andrewrogerson.xyz',
   location: 'Berlin, Germany',
   email: null,
