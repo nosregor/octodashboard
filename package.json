@@ -1,0 +1,47 @@
+{
+  "name": "oktadashboard",
+  "version": "1.0.0",
+  "description": "",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "pretty-quick --staged && lint-staged"
+    }
+  },
+  "lint-staged": {
+    "*.js": [
+      "eslint --fix",
+      "git add"
+    ]
+  },
+  "dependencies": {
+    "@primer/octicons-react": "^9.4.0",
+    "chart.js": "^2.9.3",
+    "gh-polyglot": "^2.3.2",
+    "next": "^9.2.1",
+    "prop-types": "^15.7.2",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0",
+    "styled-components": "^5.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-styled-components": "^1.10.7",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.10.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.18.2",
+    "husky": "^4.2.1",
+    "lint-staged": "^10.0.1",
+    "prettier": "^1.19.1",
+    "pretty-quick": "^2.0.1"
+  }
+}
