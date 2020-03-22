@@ -14,16 +14,19 @@ const theme = {
     moon: '#f5f5fa;',
     nova: '#848ab8',
     solstice: '#3a416f',
-    nebula: '#5468ff'
+    nebula: '#5468ff',
   },
 
   fonts: {
-    inter: 'Inter, system, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Arial, sans-serif',
-    hind: 'Hind, system, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Arial, sans-serif',
-    mono: 'SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace'
+    inter:
+      'Inter, system, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Arial, sans-serif',
+    hind:
+      'Hind, system, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Arial, sans-serif',
+    mono:
+      'SF Mono, Fira Code, Fira Mono, Roboto Mono, Lucida Console, Monaco, monospace',
   },
 
-  transition: `all 0.2s ease-in-out`
+  transition: `all 0.2s ease-in-out`,
 };
 
 export default theme;

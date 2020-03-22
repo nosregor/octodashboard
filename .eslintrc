@@ -1,8 +1,17 @@
 {
-  "extends": "@upstatement/eslint-config/react",
+  "extends": ["eslint:recommended", "plugin:react/recommended"],
+  "plugins": ["react"],
   "rules": {
-    "react/react-in-jsx-scope": "off",
-    "jsx-a11y/anchor-is-valid": "off",
-    "no-unused-vars": "error"
+    "react/jsx-uses-react": "error",
+    "react/jsx-uses-vars": "error"
+  },
+  "parserOptions": {
+    "sourceType": "module",
+    "ecmaVersion": 2015
+  },
+  "env": {
+    "browser": true,
+    "node": true,
+    "es6": true
   }
 }

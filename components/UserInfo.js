@@ -5,7 +5,7 @@ import UserInfoStyles from './styles/UserInfoStyles';
 import { Section } from '../style';
 
 const UserInfo = ({ userData }) => (
-  <Section>
+  <Section dark>
     {userData && (
       <UserInfoStyles>
         {userData.avatar_url && (
@@ -18,7 +18,11 @@ const UserInfo = ({ userData }) => (
 
         {userData.login && (
           <h2>
-            <a href={userData.html_url} target="_blank" rel="noopener noreferrer">
+            <a
+              href={userData.html_url}
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               @{userData.login}
             </a>
           </h2>
@@ -46,7 +50,7 @@ const UserInfo = ({ userData }) => (
               {new Date(userData.created_at).toLocaleDateString('en-US', {
                 month: 'long',
                 day: 'numeric',
-                year: 'numeric'
+                year: 'numeric',
               })}
             </span>
           )}
@@ -54,7 +58,9 @@ const UserInfo = ({ userData }) => (
 
         <div className="stats">
           <div className="stats__item">
-            <span className="num">{userData.public_repos.toLocaleString()}</span>
+            <span className="num">
+              {userData.public_repos.toLocaleString()}
+            </span>
             <span className="num-label">Repositories</span>
           </div>
           <div className="stats__item">
@@ -72,7 +78,7 @@ const UserInfo = ({ userData }) => (
 );
 
 UserInfo.propTypes = {
-  userData: PropTypes.object.isRequired
+  userData: PropTypes.object.isRequired,
 };
 
 export default UserInfo;

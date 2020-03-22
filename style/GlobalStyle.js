@@ -5,14 +5,14 @@ const { colors, fonts } = theme;
 const GlobalStyle = createGlobalStyle`
   @font-face {
     font-family: 'Hind';
-    src: url('../static/assets/fonts/Hind/hind-v10-latin-300.woff2') format('woff2'), 
+    src: url('../static/assets/fonts/Hind/hind-v10-latin-300.woff2') format('woff2'),
     url('../static/assets/fonts/Hind/hind-v10-latin-300.woff') format('woff');
     font-weight: 300;
     font-style: normal;
   }
   @font-face {
     font-family: 'Hind';
-    src: url('../static/assets/fonts/Hind/hind-v10-latin-regular.woff2') format('woff2'), 
+    src: url('../static/assets/fonts/Hind/hind-v10-latin-regular.woff2') format('woff2'),
     url('../static/assets/fonts/Hind/hind-v10-latin-regular.woff') format('woff');
     font-weight: 400;
     font-style: normal;
@@ -33,7 +33,7 @@ const GlobalStyle = createGlobalStyle`
   }
   @font-face {
     font-family: 'Hind';
-    src: url('../static/assets/fonts/Hind/hind-v10-latin-700.woff2') format('woff2'), 
+    src: url('../static/assets/fonts/Hind/hind-v10-latin-700.woff2') format('woff2'),
     url('../static/assets/fonts/Hind/hind-v10-latin-700.woff') format('woff');
     font-weight: 700;
     font-style: normal;
