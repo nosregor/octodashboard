@@ -1,12 +1,12 @@
-import React from 'react';
 import NextHead from 'next/head';
 import PropTypes from 'prop-types';
+import React from 'react';
 
 const defaultTitle = 'OctoDashboard';
 const defaultDescription =
   'A dashboard for visualizing GitHub profiles. With charts!';
-const defaultOGURL = '';
-const defaultOGImage = '';
+const defaultOGURL = 'https://octodashboard.vercel.app/';
+const defaultOGImage = 'https://octodashboard.vercel.app/static/og.png';
 
 const Head = props => (
   <NextHead>
