@@ -67,6 +67,18 @@ const User = () => {
   useEffect(() => {
     if (!username) return;
 
+    fetch('https://api.github.com/rate_limit')
+      .then(response => response.json())
+      .then(json => {
+        const core: RateLimitCore = json.resources.core;
+        setRateLimit(core);
+        if (core.remaining < 1) setError({ active: true, type: 403 });
+      });
+
+    // getUserData();
+    // getLangData();
+    // getRepoData();
+
     setUserData(mockUserData);
     setLangData(mockLangData);
     setRepoData(mockRepoData);
