@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Octicon, { Repo, Star, RepoForked, ChevronDown } from '@primer/octicons-react';
+import Octicon, { Repo, Star, RepoForked, ChevronDown, ChevronUp } from '@primer/octicons-react';
 import FlipMove from 'react-flip-move';
 import { langColors } from '../utils';
 import type { GitHubRepo } from '../types/github';
@@ -37,30 +37,41 @@ const Repos = ({ repoData }: ReposProps) => {
   const sortTypes: SortType[] = ['stars', 'forks', 'size'];
 
   return (
-    <section className="py-12 px-20 max-[900px]:py-8 max-[900px]:px-8 max-[400px]:p-4">
+    <section className="relative py-12 px-20 max-[900px]:py-8 max-[900px]:px-8 max-[400px]:p-4">
       <div className="max-w-[1400px] mx-auto">
 
-        <header className="flex items-center mb-8">
+        <header className="relative z-30 flex flex-wrap items-center gap-y-2 mb-8">
           <h2 className="section-heading text-[1.75rem]">Top Repos</h2>
 
           <div className="flex items-center text-base text-[#6a737d] ml-4 print:hidden">
             <span className="mx-4">by</span>
-            <div className="relative w-[100px] text-sm font-medium">
+            <div className="relative z-30 min-w-[100px] text-sm font-medium">
               <button
-                className={`flex justify-between items-center w-full text-sm font-medium leading-none text-left text-[#0070f3] border border-[rgba(0,118,255,0.1)] px-[7px] py-[10px] rounded-[5px] transition-all duration-200 hover:bg-[rgba(0,118,255,0.1)] ${dropdownOpen ? 'bg-[rgba(0,118,255,0.1)]' : 'bg-transparent'}`}
+                type="button"
+                aria-expanded={dropdownOpen}
+                aria-haspopup="listbox"
+                className={`flex justify-between items-center w-full text-sm font-medium leading-none text-left text-[#0070f3] border border-[rgba(0,118,255,0.25)] px-[7px] py-[10px] rounded-[5px] transition-all duration-200 hover:bg-[rgba(0,118,255,0.1)] ${dropdownOpen ? 'bg-[rgba(0,118,255,0.1)]' : 'bg-white'}`}
                 onClick={toggleDropdown}
               >
-                <label className="transition-all duration-200 cursor-pointer">{sortType}</label>
-                <span className={`ml-2 shrink-0 text-[#0070f3] transition-transform duration-200 ${dropdownOpen ? 'rotate-180' : ''}`}>
-                  <Octicon icon={ChevronDown} className="text-[#0070f3]" />
+                <span className="text-[#0070f3] transition-all duration-200">{sortType}</span>
+                <span className="ml-2 inline-flex shrink-0 items-center text-[#0070f3]">
+                  <Octicon
+                    icon={dropdownOpen ? ChevronUp : ChevronDown}
+                    size={16}
+                    className="text-[#0070f3]"
+                  />
                 </span>
               </button>
               <ul
-                className={`absolute overflow-hidden w-full z-[2] transition-all duration-200 shadow-[0_5px_30px_-15px_rgba(0,0,0,0.2)] bg-[#f6f8fa] ${dropdownOpen ? 'opacity-100 visible' : 'opacity-0 invisible'}`}
+                role="listbox"
+                className={`absolute top-full left-0 mt-1 w-full z-50 rounded-[5px] transition-all duration-200 shadow-[0_5px_30px_-15px_rgba(0,0,0,0.2)] bg-[#f6f8fa] ${dropdownOpen ? 'opacity-100 visible pointer-events-auto' : 'opacity-0 invisible pointer-events-none'}`}
               >
                 {sortTypes.map((type, i) => (
-                  <li key={i} className="transition-all duration-200 hover:bg-[#c8e1ff]">
+                  <li key={type} className="transition-all duration-200 hover:bg-[#c8e1ff]">
                     <button
+                      type="button"
+                      role="option"
+                      aria-selected={sortType === type}
                       onClick={() => changeRepoSort(type)}
                       className={`text-[#0070f3] bg-[rgba(0,118,255,0.1)] px-[7px] py-[10px] w-full text-sm font-medium leading-none text-left ${i === 0 ? 'rounded-t-[5px]' : ''} ${i === sortTypes.length - 1 ? 'rounded-b-[5px]' : ''}`}
                     >

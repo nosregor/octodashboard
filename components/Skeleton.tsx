@@ -10,7 +10,7 @@ export const UserInfoSkeleton = () => (
           <div className="h-4 w-20 bg-[#24292e] rounded" />
           <div className="h-4 w-28 bg-[#24292e] rounded" />
         </div>
-        <div className="grid grid-cols-3 gap-2 mt-8 w-[320px]">
+        <div className="grid grid-cols-[repeat(3,150px)] gap-2 mt-8">
           {[0, 1, 2].map(i => <div key={i} className="bg-[#24292e] p-4 rounded h-[76px]" />)}
         </div>
       </div>
