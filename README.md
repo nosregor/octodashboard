@@ -5,37 +5,36 @@ A nicer look at your GitHub Profile! With charts!
 ![demo](https://raw.githubusercontent.com/nosregor/octodashboard/master/public/static/og.png)
 
 Built with:
-
-- [Next.js](https://nextjs.org/)
+- [Next.js 16](https://nextjs.org/)
+- [TypeScript](https://typescriptlang.org)
+- [Tailwind CSS v4](https://tailwindcss.com)
+- [Bun](https://bun.sh)
 - [GitHub Polyglot](https://github.com/IonicaBizau/node-gh-polyglot)
 - [Chart.js](https://www.chartjs.org/)
 - [React Flip Move](https://github.com/joshwcomeau/react-flip-move)
-- [Styled Components](https://www.styled-components.com/)
 
 ## Getting Started
 
-1. Install dependencies
-
+1. Install dependencies:
    ```bash
-   npm
+   bun install
    ```
 
-2. Fire up the server and watch files
-
+2. Fire up the development server:
    ```bash
-   npm run dev
+   bun run dev
    ```
 
 ## Deployment
 
-1. Install the Now CLI
+This project is optimized for deployment on **Vercel** using native Bun runtime detection.
 
+To deploy from your terminal:
+1. Link your project to Vercel:
    ```bash
-   npm install -g now
+   bunx vercel link
    ```
-
-2. Deploy!
-
+2. Deploy to production:
    ```bash
-   now
+   bunx vercel deploy --prod
    ```
