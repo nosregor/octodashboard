@@ -2,29 +2,54 @@
 
 This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## Commands
+## Package Manager
+
+Use **Bun** for all commands and package management. Never use `npm`, `npx`, or `yarn`.
 
 ```bash
-bun run dev      # Start dev server (localhost:3000)
+bun run dev      # Start dev server (localhost:3000) with Turbopack
 bun run build    # Production build
 bun run start    # Start production server
 ```
 
-All scripts require `NODE_OPTIONS='--openssl-legacy-provider'` (handled by `cross-env` in package.json) due to Node.js OpenSSL compatibility.
+Linting runs automatically via husky pre-commit hooks (ESLint + Prettier via `pretty-quick`).
 
-There is no test suite. Linting runs automatically via husky pre-commit hooks (ESLint + Prettier via `pretty-quick`).
-
-To lint manually: `npx eslint --fix <file>`
+To lint manually: `bunx eslint --fix <file>`
 
 ## Architecture
 
-This is a **Next.js 14** app (Pages Router) with TypeScript being adopted incrementally. New and converted files use `.tsx`; legacy files remain `.js` until migrated.
+This is a **Next.js 16** app using the **Pages Router** with full TypeScript. All files use `.tsx` (components/pages) or `.ts` (pure logic).
 
-Pages:
-- `pages/index.tsx` — Landing page with a username input form; on submit, routes to `/user?id=<username>`
-- `pages/user.js` — Dashboard page; fetches GitHub data client-side and renders components (not yet converted to TS)
+```
+pages/
+  _app.tsx          # Global CSS import only
+  _document.tsx     # HTML shell with lang="en"
+  index.tsx         # Landing page — username input, routes to /user?id=<username>
+  user.tsx          # Dashboard — fetches GitHub data client-side, renders all components
 
-**Data flow in `pages/user.js`:**
+components/
+  Head.tsx          # <head> meta, OG tags, favicons
+  UserInfo.tsx      # Avatar, name, stats
+  Charts.tsx        # Three Chart.js canvases (pie, bar, doughnut)
+  Repos.tsx         # Top repositories list
+  Footer.tsx        # Footer with links
+  Corner.tsx        # GitHub corner ribbon
+  Error.tsx         # Error state display
+  RateLimit.tsx     # API rate limit warning
+
+utils/
+  buildChart.ts     # Chart.js v2 factory — typed with BuildChartConfig interface
+  langColors.ts     # Record<string, string> mapping language names to hex colors
+  mockUserData.ts   # Dev-only mock for GitHubUser
+  mockRepoData.ts   # Dev-only mock for GitHubRepo[]
+  mockLangData.ts   # Dev-only mock for LangStat[]
+  index.ts          # Barrel — exports buildChart, langColors, color arrays, mocks
+
+types/
+  github.ts         # Shared interfaces: GitHubUser, GitHubRepo, LangStat, RateLimitCore, AppError
+```
+
+**Data flow in `pages/user.tsx`:**
 1. On mount, calls three data sources in parallel:
    - `https://api.github.com/users/<username>` → `userData`
    - `GhPolyglot.userStats()` (wraps GitHub API for language aggregation) → `langData`
@@ -32,22 +57,23 @@ Pages:
 2. Also checks `https://api.github.com/rate_limit` and shows `<RateLimit>` if near the limit
 3. All API calls are unauthenticated; 403 errors indicate GitHub API rate limiting
 
-**Mock data for local development:** `utils/mockUserData.js`, `utils/mockRepoData.js`, `utils/mockLangData.js` exist and can be swapped in by uncommenting the import/usage lines in `pages/user.js` (they're commented out).
+**Mock data for local development:** uncomment the import and usage lines in `pages/user.tsx` to swap in mock data from `utils/`.
 
-**Charts** (`components/Charts.js`): Three Chart.js canvases rendered via `utils/buildChart.js`:
+**Charts** (`components/Charts.tsx`): Three Chart.js v2 canvases built via `utils/buildChart.ts`:
 - `langChart` — Pie chart of top languages (from `langData`)
 - `starChart` — Bar chart of top 5 most-starred repos (from `repoData`)
 - `thirdChart` — Doughnut chart of stars per language (computed from `repoData`)
 
 Charts are initialized imperatively in `useEffect` by grabbing canvas elements by ID.
 
-**Styling:** Styled-components throughout. Central theme at `style/theme.js` (colors, fonts, transition). Shared mixins at `style/mixins.js`. Responsive breakpoints at `style/media.js`. Import from `style/` barrel via `import { theme, mixins, media, GlobalStyle, Section } from '../style'`.
+## Styling
 
-**Deployment:** Vercel (formerly Zeit Now). Config in `now.json`; deploy with `now` CLI.
+**Tailwind CSS v4** — styled-components and the legacy `style/` folder are completely removed.
 
-## Migration Status
-- **Done — Goal 1:** Babel removed; SWC compiler active.
-- **Done — Goal 2:** Next.js 14.2, React 18, ESLint 8 + eslint-config-next.
-- **Done — Goal 3:** TypeScript installed; `tsconfig.json` configured with `moduleResolution: bundler`; `pages/index.tsx` converted.
-- **Pending — Goal 4:** Migrate from styled-components to Tailwind CSS.
-- Rule: incremental approach — do not mix dependency upgrades with styling changes.
+- Global styles live in `styles/globals.css` with `@import "tailwindcss"` at the top
+- Custom animations and shared CSS classes (e.g. `.section-heading`, `.octo-arm`) are defined in `styles/globals.css` below the import
+- Use Tailwind utility classes directly in JSX; no theme object, no mixins, no CSS-in-JS
+
+## Deployment
+
+Vercel with native Bun lockfile detection — no configuration required. The old `now.json` has been superseded by `vercel.json` for any project-level overrides.
