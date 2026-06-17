@@ -40,17 +40,17 @@ const Repos = ({ repoData }: ReposProps) => {
     <section className="relative py-12 px-20 max-[900px]:py-8 max-[900px]:px-8 max-[400px]:p-4">
       <div className="max-w-[1400px] mx-auto">
 
-        <header className="relative z-30 flex flex-wrap items-center gap-y-2 mb-8">
+        <header className="relative z-30 flex flex-wrap items-center gap-x-2 gap-y-2 mb-8">
           <h2 className="section-heading text-[1.75rem]">Top Repos</h2>
 
-          <div className="flex items-center text-base text-[#6a737d] ml-4 print:hidden">
-            <span className="mx-4">by</span>
+          <div className="flex items-center text-base text-[#6a737d] print:hidden">
+            <span className="mx-2">by</span>
             <div className="relative z-30 min-w-[100px] text-sm font-medium">
               <button
                 type="button"
                 aria-expanded={dropdownOpen}
                 aria-haspopup="listbox"
-                className={`flex justify-between items-center w-full text-sm font-medium leading-none text-left text-[#0070f3] border border-[rgba(0,118,255,0.25)] px-[7px] py-[10px] rounded-[5px] transition-all duration-200 hover:bg-[rgba(0,118,255,0.1)] ${dropdownOpen ? 'bg-[rgba(0,118,255,0.1)]' : 'bg-white'}`}
+                className={`flex justify-between items-center w-full text-sm font-medium leading-none text-left text-[#0070f3] border border-[rgba(0,118,255,0.1)] px-[7px] py-[10px] rounded-[5px] transition-all duration-200 hover:bg-[rgba(0,118,255,0.1)] ${dropdownOpen ? 'bg-[rgba(0,118,255,0.1)]' : 'bg-transparent'}`}
                 onClick={toggleDropdown}
               >
                 <span className="text-[#0070f3] transition-all duration-200">{sortType}</span>
