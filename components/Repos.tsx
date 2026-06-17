@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Octicon, { Repo, Star, RepoForked, ChevronDown, ChevronUp } from '@primer/octicons-react';
+import Octicon, { Repo, Star, RepoForked, TriangleDown, TriangleUp } from '@primer/octicons-react';
 import FlipMove from 'react-flip-move';
 import { langColors } from '../utils';
 import type { GitHubRepo } from '../types/github';
@@ -56,7 +56,7 @@ const Repos = ({ repoData }: ReposProps) => {
                 <span className="text-[#0070f3] transition-all duration-200">{sortType}</span>
                 <span className="ml-2 inline-flex shrink-0 items-center text-[#0070f3]">
                   <Octicon
-                    icon={dropdownOpen ? ChevronUp : ChevronDown}
+                    icon={dropdownOpen ? TriangleUp : TriangleDown}
                     size={16}
                     className="text-[#0070f3]"
                   />
