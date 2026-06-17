@@ -3,66 +3,6 @@ import { useRouter } from "next/router";
 import Octicon, { MarkGithub } from "@primer/octicons-react";
 import { Head } from "../components";
 
-import styled from "styled-components";
-import { theme, mixins } from "../style";
-
-const { colors, fonts } = theme;
-
-const StyledContainer = styled.div`
-  ${mixins.flexCenter};
-  background-color: ${colors.black};
-  background-image: linear-gradient(
-    ${colors.black} 0%,
-    ${colors.darkGrey} 100%
-  );
-  color: ${colors.offWhite};
-  height: 100vh;
-
-  form {
-    background-color: transparent;
-    border-radius: 5px;
-    margin-bottom: 20vh;
-    max-width: 600px;
-    text-align: center;
-    svg {
-      color: ${colors.blue};
-    }
-    label {
-      display: block;
-      font-size: 2.5rem;
-      font-weight: 500;
-      margin: 2rem;
-    }
-    input {
-      background-color: #26303c;
-      outline: 0;
-      border: 0;
-      border-radius: 0.25rem;
-      width: 100%;
-      max-width: 500px;
-      margin: 0 auto;
-      padding: 1rem;
-      color: ${colors.lightblue};
-      font-family: ${fonts.mono};
-      font-size: 2rem;
-      font-weight: 400;
-      text-align: center;
-    }
-    p {
-      color: ${colors.lightblue};
-      font-family: ${fonts.mono};
-      font-size: 1rem;
-      font-weight: 400;
-    }
-
-    .submit {
-      ${mixins.blueButton};
-      margin-top: 3rem;
-      filter: none;
-    }
-  }
-`;
-
 const Home = () => {
   const router = useRouter();
   const [username, setUsername] = useState<string>("");
@@ -76,23 +16,34 @@ const Home = () => {
   };
 
   return (
-    <main>
-      <div className="bg-blue-500 text-white p-4 text-center font-bold">Tailwind is Working!</div>
+    <main className="flex justify-center items-center min-h-screen bg-gradient-to-b from-[#1A1E22] to-[#24292e] text-[#f6f8fa]">
       <Head title="OctoDashboard" />
 
-      <StyledContainer>
-        <form onSubmit={handleSubmit}>
+      <form
+        onSubmit={handleSubmit}
+        className="w-full max-w-[600px] text-center rounded mb-[20vh] px-4"
+      >
+        <div className="text-[#0070f3]">
           <Octicon icon={MarkGithub} size="large" />
-          <label htmlFor="username">OctoDashboard</label>
-          <p>Enter a GitHub username</p>
-          <input
-            name="username"
-            type="text"
-            onChange={handleChange}
-            placeholder="ex. 'nosregor'"
-          />
-        </form>
-      </StyledContainer>
+        </div>
+
+        <label htmlFor="username" className="block text-[2.5rem] font-medium my-8">
+          OctoDashboard
+        </label>
+
+        <p className="text-[#79b8ff] font-mono text-base">
+          Enter a GitHub username
+        </p>
+
+        <input
+          id="username"
+          name="username"
+          type="text"
+          onChange={handleChange}
+          placeholder="ex. 'nosregor'"
+          className="block w-full max-w-[500px] mx-auto p-4 mt-2 bg-[#26303c] border-0 rounded outline-none text-[#79b8ff] font-mono text-[2rem] text-center focus:outline-none"
+        />
+      </form>
     </main>
   );
 };
