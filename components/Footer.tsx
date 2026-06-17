@@ -31,6 +31,7 @@ const Footer = () => (
       <a href="https://github.com/joshwcomeau/react-flip-move" target="_blank" rel="noopener noreferrer" className={linkClass}>
         React Flip Move
       </a>
+      and more!
     </div>
   </footer>
 );
