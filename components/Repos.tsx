@@ -100,7 +100,9 @@ const Repos = ({ repoData }: ReposProps) => {
                   >
                     <div className="mb-8">
                       <div className="flex items-center mb-3">
-                        <span className="mr-2 min-w-[16px]"><Octicon icon={Repo} /></span>
+                        <span className="mr-2 inline-flex min-w-[16px] items-center text-[#586069]">
+                          <Octicon icon={Repo} size={16} className="text-[#586069]" />
+                        </span>
                         <h3 className="overflow-hidden whitespace-nowrap text-ellipsis text-[#24292e] text-[20px] font-mono font-bold tracking-[-0.5px] m-0">
                           {repo.name}
                         </h3>
@@ -118,11 +120,15 @@ const Repos = ({ repoData }: ReposProps) => {
                           {repo.language}
                         </span>
                         <span className="flex items-center mr-3">
-                          <span className="mr-1"><Octicon icon={Star} /></span>
+                          <span className="mr-1 inline-flex items-center text-[#6a737d]">
+                            <Octicon icon={Star} size={16} className="text-[#6a737d]" />
+                          </span>
                           {repo.stargazers_count.toLocaleString()}
                         </span>
                         <span className="flex items-center mr-3">
-                          <span className="mr-1"><Octicon icon={RepoForked} /></span>
+                          <span className="mr-1 inline-flex items-center text-[#6a737d]">
+                            <Octicon icon={RepoForked} size={16} className="text-[#6a737d]" />
+                          </span>
                           {repo.forks.toLocaleString()}
                         </span>
                       </div>
