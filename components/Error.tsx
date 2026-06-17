@@ -17,7 +17,7 @@ const Error = ({ error, username }: ErrorProps) => (
     <h1 className="text-[2.5rem] font-medium mb-8">OctoDashboard</h1>
 
     {error && (
-      <div className="text-[#79b8ff] font-mono text-base">
+      <div className="text-[#79b8ff] font-sans text-base">
         {error.type === 403 ? (
           <p>
             Oh no, you hit the{' '}

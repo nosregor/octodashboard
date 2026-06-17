@@ -31,7 +31,7 @@ const Home = () => {
           OctoDashboard
         </label>
 
-        <p className="text-[#79b8ff] font-mono text-base">
+        <p className="text-[#79b8ff] font-sans text-base">
           Enter a GitHub username
         </p>
 
@@ -40,7 +40,6 @@ const Home = () => {
           name="username"
           type="text"
           onChange={handleChange}
-          placeholder="ex. 'nosregor'"
           className="block w-full max-w-[500px] mx-auto p-4 mt-2 bg-[#26303c] border-0 rounded outline-none text-[#79b8ff] font-mono text-[2rem] text-center focus:outline-none"
         />
       </form>
