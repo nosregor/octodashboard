@@ -18,10 +18,11 @@ To lint manually: `npx eslint --fix <file>`
 
 ## Architecture
 
-This is a **Next.js** app (v9) with two pages:
+This is a **Next.js 14** app (Pages Router) with TypeScript being adopted incrementally. New and converted files use `.tsx`; legacy files remain `.js` until migrated.
 
-- `pages/index.js` — Landing page with a username input form; on submit, routes to `/user?id=<username>`
-- `pages/user.js` — Dashboard page; fetches GitHub data client-side and renders components
+Pages:
+- `pages/index.tsx` — Landing page with a username input form; on submit, routes to `/user?id=<username>`
+- `pages/user.js` — Dashboard page; fetches GitHub data client-side and renders components (not yet converted to TS)
 
 **Data flow in `pages/user.js`:**
 1. On mount, calls three data sources in parallel:
@@ -44,10 +45,9 @@ Charts are initialized imperatively in `useEffect` by grabbing canvas elements b
 
 **Deployment:** Vercel (formerly Zeit Now). Config in `now.json`; deploy with `now` CLI.
 
-## Current Migration Strategy
-- We are migrating a legacy Next.js v9 Pages Router app to the latest version.
-- Goal 1: Remove Babel completely and switch to the native Rust-based Next.js SWC compiler.
-- Goal 2: Safely upgrade Next.js and React dependencies incrementally via Bun.
-- Goal 3: Setup TypeScript.
-- Goal 4: Migrate from styled-components to Tailwind CSS.
-- Crucial: Take an incremental approach. Do not mix dependency updates with styling updates.
+## Migration Status
+- **Done — Goal 1:** Babel removed; SWC compiler active.
+- **Done — Goal 2:** Next.js 14.2, React 18, ESLint 8 + eslint-config-next.
+- **Done — Goal 3:** TypeScript installed; `tsconfig.json` configured with `moduleResolution: bundler`; `pages/index.tsx` converted.
+- **Pending — Goal 4:** Migrate from styled-components to Tailwind CSS.
+- Rule: incremental approach — do not mix dependency upgrades with styling changes.

@@ -21,7 +21,6 @@ const StyledContainer = styled.div`
   form {
     background-color: transparent;
     border-radius: 5px;
-    // padding: 2rem;
     margin-bottom: 20vh;
     max-width: 600px;
     text-align: center;
@@ -66,23 +65,22 @@ const StyledContainer = styled.div`
 
 const Home = () => {
   const router = useRouter();
-  const [username, setUsername] = useState("");
-  const handleChange = event => setUsername(event.target.value);
+  const [username, setUsername] = useState<string>("");
+
+  const handleChange = (event: React.ChangeEvent<HTMLInputElement>) =>
+    setUsername(event.target.value);
+
+  const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    router.push({ pathname: "/user", query: { id: username } });
+  };
 
   return (
     <main>
       <Head title="OctoDashboard" />
 
       <StyledContainer>
-        <form
-          onSubmit={event => {
-            event.preventDefault();
-            router.push({
-              pathname: "/user",
-              query: { id: username }
-            });
-          }}
-        >
+        <form onSubmit={handleSubmit}>
           <Octicon icon={MarkGithub} size="large" />
           <label htmlFor="username">OctoDashboard</label>
           <p>Enter a GitHub username</p>
