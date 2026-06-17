@@ -26,6 +26,8 @@ declare module '@primer/octicons-react' {
   export const Star: OcticonDef;
   export const RepoForked: OcticonDef;
   export const TriangleDown: OcticonDef;
+  export const ChevronDown: OcticonDef;
+  export const ChevronUp: OcticonDef;
 }
 
 declare module 'gh-polyglot' {
