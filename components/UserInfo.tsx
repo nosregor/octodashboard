@@ -38,19 +38,19 @@ const UserInfo = ({ userData }: UserInfoProps) => (
           <div className="flex justify-center items-center flex-wrap max-[600px]:block">
             {userData.company && (
               <span className="flex items-center mx-4 mb-2 whitespace-nowrap">
-                <span className="mr-[10px]"><Octicon icon={Briefcase} size="small" /></span>
+                <span className="mr-[10px] inline-flex items-center"><Octicon icon={Briefcase} size="small" /></span>
                 {userData.company}
               </span>
             )}
             {userData.location && (
               <span className="flex items-center mx-4 mb-2 whitespace-nowrap">
-                <span className="mr-[10px]"><Octicon icon={Location} size="small" /></span>
+                <span className="mr-[10px] inline-flex items-center"><Octicon icon={Location} size="small" /></span>
                 {userData.location}
               </span>
             )}
             {userData.created_at && (
               <span className="flex items-center mx-4 mb-2 whitespace-nowrap">
-                <span className="mr-[10px]"><Octicon icon={Calendar} size="small" /></span>
+                <span className="mr-[10px] inline-flex items-center"><Octicon icon={Calendar} size="small" /></span>
                 Joined{' '}
                 {new Date(userData.created_at).toLocaleDateString('en-US', {
                   month: 'long',
