@@ -10,6 +10,7 @@ import {
   Error,
   RateLimit,
 } from '../components';
+import { UserInfoSkeleton, ChartsSkeleton, ReposSkeleton } from '../components/Skeleton';
 import GhPolyglot from 'gh-polyglot';
 import type { GitHubUser, GitHubRepo, LangStat, RateLimitCore, AppError } from '../types/github';
 // import { mockUserData, mockLangData, mockRepoData } from '../utils';
@@ -95,13 +96,23 @@ const User = () => {
 
           <Corner />
 
-          {userData && <UserInfo userData={userData} />}
-
-          {langData && repoData && (
-            <Charts langData={langData} repoData={repoData} />
+          {userData ? (
+            <UserInfo userData={userData} />
+          ) : (
+            <UserInfoSkeleton />
           )}
 
-          {repoData && <Repos repoData={repoData} />}
+          {langData && repoData ? (
+            <Charts langData={langData} repoData={repoData} />
+          ) : (
+            <ChartsSkeleton />
+          )}
+
+          {repoData ? (
+            <Repos repoData={repoData} />
+          ) : (
+            <ReposSkeleton />
+          )}
 
           <Footer />
         </>
