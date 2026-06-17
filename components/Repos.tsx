@@ -1,21 +1,27 @@
-import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
+import { useState, useEffect } from 'react';
 import Octicon, { Repo, Star, RepoForked, TriangleDown } from '@primer/octicons-react';
 import FlipMove from 'react-flip-move';
 import { langColors } from '../utils';
+import type { GitHubRepo } from '../types/github';
 
-const Repos = ({ repoData }) => {
-  const [topRepos, setTopRepos] = useState([]);
-  const [sortType, setSortType] = useState('stars');
+interface ReposProps {
+  repoData: GitHubRepo[];
+}
+
+type SortType = 'stars' | 'forks' | 'size';
+
+const Repos = ({ repoData }: ReposProps) => {
+  const [topRepos, setTopRepos] = useState<GitHubRepo[]>([]);
+  const [sortType, setSortType] = useState<SortType>('stars');
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  const getTopRepos = type => {
+  const getTopRepos = (type: SortType = 'stars') => {
     const LIMIT = 8;
-    const map = { stars: 'stargazers_count', forks: 'forks_count', size: 'size' };
+    const map: Record<SortType, keyof GitHubRepo> = { stars: 'stargazers_count', forks: 'forks_count', size: 'size' };
     const sortProperty = map[type];
     const sorted = repoData
       .filter(repo => !repo.fork)
-      .sort((a, b) => b[sortProperty] - a[sortProperty])
+      .sort((a, b) => (b[sortProperty] as number) - (a[sortProperty] as number))
       .slice(0, LIMIT);
     setTopRepos(sorted);
   };
@@ -27,8 +33,8 @@ const Repos = ({ repoData }) => {
   useEffect(() => getTopRepos(sortType), [sortType]);
 
   const toggleDropdown = () => setDropdownOpen(!dropdownOpen);
-  const changeRepoSort = type => { setSortType(type); toggleDropdown(); };
-  const sortTypes = ['stars', 'forks', 'size'];
+  const changeRepoSort = (type: SortType) => { setSortType(type); toggleDropdown(); };
+  const sortTypes: SortType[] = ['stars', 'forks', 'size'];
 
   return (
     <section className="py-12 px-20 max-[900px]:py-8 max-[900px]:px-8 max-[400px]:p-4">
@@ -37,7 +43,6 @@ const Repos = ({ repoData }) => {
         <header className="flex items-center mb-8">
           <h2 className="section-heading text-[1.75rem]">Top Repos</h2>
 
-          {/* Sort dropdown */}
           <div className="flex items-center text-base text-[#6a737d] ml-4">
             <span className="mx-4">by</span>
             <div className="relative w-[100px] text-sm font-medium">
@@ -97,7 +102,7 @@ const Repos = ({ repoData }) => {
                         <span className="flex items-center mr-3">
                           <div
                             className="rounded-full w-[10px] h-[10px] mr-1"
-                            style={{ backgroundColor: langColors[repo.language] }}
+                            style={{ backgroundColor: langColors[repo.language as string] }}
                           />
                           {repo.language}
                         </span>
@@ -126,10 +131,6 @@ const Repos = ({ repoData }) => {
       </div>
     </section>
   );
-};
-
-Repos.propTypes = {
-  repoData: PropTypes.array.isRequired,
 };
 
 export default Repos;

@@ -1,8 +1,12 @@
-import PropTypes from 'prop-types';
 import Octicon, { MarkGithub } from '@primer/octicons-react';
 import { Head, Corner } from '../components';
+import type { AppError } from '../types/github';
 
-const Error = ({ error }) => (
+interface ErrorProps {
+  error: AppError;
+}
+
+const Error = ({ error }: ErrorProps) => (
   <div className="flex flex-col justify-center items-center bg-white text-[#3a416f] min-h-screen pb-[20vh] text-2xl">
     <Head title="OctoDashboard" />
     <Corner />
@@ -35,9 +39,5 @@ const Error = ({ error }) => (
     )}
   </div>
 );
-
-Error.propTypes = {
-  error: PropTypes.object.isRequired,
-};
 
 export default Error;

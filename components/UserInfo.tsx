@@ -1,8 +1,11 @@
-import React from 'react';
-import PropTypes from 'prop-types';
 import Octicon, { Briefcase, Calendar, Location } from '@primer/octicons-react';
+import type { GitHubUser } from '../types/github';
 
-const UserInfo = ({ userData }) => (
+interface UserInfoProps {
+  userData: GitHubUser;
+}
+
+const UserInfo = ({ userData }: UserInfoProps) => (
   <section className="py-12 px-20 pb-40 bg-[#1A1E22] text-[#c8e1ff] max-[900px]:py-8 max-[900px]:px-8 max-[900px]:pb-40 max-[400px]:p-4 max-[400px]:pb-40">
     <div className="max-w-[1400px] mx-auto">
       {userData && (
@@ -89,9 +92,5 @@ const UserInfo = ({ userData }) => (
     </div>
   </section>
 );
-
-UserInfo.propTypes = {
-  userData: PropTypes.object.isRequired,
-};
 
 export default UserInfo;

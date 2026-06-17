@@ -1,6 +1,10 @@
-import PropTypes from 'prop-types';
+import type { RateLimitCore } from '../types/github';
 
-const RateLimit = ({ rateLimit }) => (
+interface RateLimitProps {
+  rateLimit: RateLimitCore;
+}
+
+const RateLimit = ({ rateLimit }: RateLimitProps) => (
   <div className="absolute top-0 left-0 p-4">
     {rateLimit && (
       <div>
@@ -14,9 +18,5 @@ const RateLimit = ({ rateLimit }) => (
     )}
   </div>
 );
-
-RateLimit.propTypes = {
-  rateLimit: PropTypes.object.isRequired,
-};
 
 export default RateLimit;

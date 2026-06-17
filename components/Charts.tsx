@@ -1,29 +1,34 @@
-import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
+import { useState, useEffect } from 'react';
 import { buildChart, langColors, backgroundColor, borderColor } from '../utils';
+import type { LangStat, GitHubRepo } from '../types/github';
 
-const Charts = ({ langData, repoData }) => {
-  const [langChartData, setLangChartData] = useState(null);
+interface ChartsProps {
+  langData: LangStat[];
+  repoData: GitHubRepo[];
+}
+
+const Charts = ({ langData, repoData }: ChartsProps) => {
+  const [langChartData, setLangChartData] = useState<number[] | null>(null);
   const initLangChart = () => {
-    const ctx = document.getElementById('langChart');
+    const ctx = document.getElementById('langChart') as HTMLCanvasElement;
     const labels = langData.map(lang => lang.label);
     const data = langData.map(lang => lang.value);
 
     setLangChartData(data);
 
     if (data.length > 0) {
-      const backgroundColor = langData.map(
+      const bgColor = langData.map(
         ({ color }) =>
           `#${color.length > 4 ? color.slice(1) : color.slice(1).repeat(2)}B3`
       );
-      const borderColor = langData.map(lang => `${lang.color}`);
-      buildChart({ ctx, chartType: 'pie', labels, data, backgroundColor, borderColor, axes: false, legend: true });
+      const bdColor = langData.map(lang => `${lang.color}`);
+      buildChart({ ctx, chartType: 'pie', labels, data, backgroundColor: bgColor, borderColor: bdColor, axes: false, legend: true });
     }
   };
 
-  const [starChartData, setStarChartData] = useState(null);
+  const [starChartData, setStarChartData] = useState<number[] | null>(null);
   const initStarChart = () => {
-    const ctx = document.getElementById('starChart');
+    const ctx = document.getElementById('starChart') as HTMLCanvasElement;
     const LIMIT = 5;
     const sortProperty = 'stargazers_count';
     const mostStarredRepos = repoData
@@ -40,12 +45,12 @@ const Charts = ({ langData, repoData }) => {
     }
   };
 
-  const [thirdChartData, setThirdChartData] = useState(null);
+  const [thirdChartData, setThirdChartData] = useState<number[] | null>(null);
   const initThirdChart = () => {
-    const ctx = document.getElementById('thirdChart');
+    const ctx = document.getElementById('thirdChart') as HTMLCanvasElement;
     const filteredRepos = repoData.filter(repo => !repo.fork && repo.stargazers_count > 0);
     const uniqueLangs = new Set(filteredRepos.map(repo => repo.language));
-    const labels = Array.from(uniqueLangs.values()).filter(l => l);
+    const labels = Array.from(uniqueLangs.values()).filter((l): l is string => l !== null);
     const data = labels.map(lang => {
       const repos = filteredRepos.filter(repo => repo.language === lang);
       return repos.map(r => r.stargazers_count).reduce((a, b) => a + b, 0);
@@ -54,9 +59,9 @@ const Charts = ({ langData, repoData }) => {
     setThirdChartData(data);
 
     if (data.length > 0) {
-      const borderColor = labels.map(label => langColors[label]);
-      const backgroundColor = borderColor.map(color => `${color}B3`);
-      buildChart({ ctx, chartType: 'doughnut', labels, data, backgroundColor, borderColor, axes: false, legend: true });
+      const bdColor = labels.map(label => langColors[label]);
+      const bgColor = bdColor.map(color => `${color}B3`);
+      buildChart({ ctx, chartType: 'doughnut', labels, data, backgroundColor: bgColor, borderColor: bdColor, axes: false, legend: true });
     }
   };
 
@@ -112,11 +117,6 @@ const Charts = ({ langData, repoData }) => {
       </div>
     </section>
   );
-};
-
-Charts.propTypes = {
-  langData: PropTypes.array.isRequired,
-  repoData: PropTypes.array.isRequired,
 };
 
 export default Charts;
