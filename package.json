@@ -38,9 +38,11 @@
     "styled-components": "^5.0.1"
   },
   "devDependencies": {
+    "@tailwindcss/postcss": "^4.3.1",
     "@types/node": "^25.9.3",
     "@types/react": "^19.2.17",
     "@types/react-dom": "^19.2.3",
+    "autoprefixer": "^10.5.0",
     "cross-env": "^7.0.3",
     "eslint": "8",
     "eslint-config-next": "14",
@@ -49,8 +51,10 @@
     "eslint-plugin-react": "^7.19.0",
     "husky": "^4.2.3",
     "lint-staged": "^10.0.8",
+    "postcss": "^8.5.15",
     "prettier": "^1.19.1",
     "pretty-quick": "^2.0.1",
+    "tailwindcss": "^4.3.1",
     "typescript": "^6.0.3"
   }
 }
