@@ -10,7 +10,7 @@ const Corner = () => (
       width="80"
       height="80"
       viewBox="0 0 250 250"
-      className="fill-[#5468ff] text-[#f6f8fa]"
+      className="fill-[#0070f3] text-[#f6f8fa]"
       aria-hidden="true"
     >
       <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z" />

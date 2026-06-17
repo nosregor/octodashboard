@@ -10,7 +10,7 @@ const Error = ({ error }: ErrorProps) => (
   <div className="flex flex-col justify-center items-center bg-white text-[#3a416f] min-h-screen pb-[20vh] text-2xl">
     <Head title="OctoDashboard" />
     <Corner />
-    <div className="text-[#5468ff] mb-12">
+    <div className="text-[#0070f3] mb-12">
       <Octicon icon={MarkGithub} size="large" />
     </div>
     <h1>OctoDashboard</h1>
