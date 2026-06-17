@@ -5,9 +5,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 ## Commands
 
 ```bash
-npm run dev      # Start dev server (localhost:3000)
-npm run build    # Production build
-npm run start    # Start production server
+bun run dev      # Start dev server (localhost:3000)
+bun run build    # Production build
+bun run start    # Start production server
 ```
 
 All scripts require `NODE_OPTIONS='--openssl-legacy-provider'` (handled by `cross-env` in package.json) due to Node.js OpenSSL compatibility.

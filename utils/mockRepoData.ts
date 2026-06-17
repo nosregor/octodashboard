@@ -1,4 +1,4 @@
-[
+export default [
   {
     id: 154202949,
     node_id: 'MDEwOlJlcG9zaXRvcnkxNTQyMDI5NDk=',

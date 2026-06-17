@@ -1,4 +1,6 @@
-export default {
+import type { GitHubUser } from '../types/github';
+
+const mockUserData = {
   login: 'nosregor',
   id: 7705200,
   node_id: 'MDQ6VXNlcjc3MDUyMDA=',
@@ -29,5 +31,7 @@ export default {
   followers: 17,
   following: 49,
   created_at: '2014-05-26T19:03:53Z',
-  updated_at: '2020-01-21T20:48:01Z'
-};
+  updated_at: '2020-01-21T20:48:01Z',
+} as unknown as GitHubUser;
+
+export default mockUserData;
