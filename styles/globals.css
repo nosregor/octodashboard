@@ -25,6 +25,31 @@ body {
   .github-corner .octo-arm { animation: octocat-wave 560ms ease-in-out; }
 }
 
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 8mm;
+  }
+
+  * {
+    -webkit-print-color-adjust: exact;
+    print-color-adjust: exact;
+  }
+
+  body {
+    zoom: 70%;
+  }
+
+  .chart-card {
+    break-inside: avoid;
+  }
+
+  /* Remove the screen overlap trick — not needed in a flat PDF */
+  .charts-grid {
+    margin-top: 0 !important;
+  }
+}
+
 /* Dotted underline used on section headings */
 .section-heading {
   display: inline-block;
