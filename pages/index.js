@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Router from "next/router";
+import { useRouter } from "next/router";
 import Octicon, { MarkGithub } from "@primer/octicons-react";
 import { Head } from "../components";
 
@@ -64,8 +64,8 @@ const StyledContainer = styled.div`
   }
 `;
 
-// using react hooks, refer to: https://flaviocopes.com/react-hooks/
 const Home = () => {
+  const router = useRouter();
   const [username, setUsername] = useState("");
   const handleChange = event => setUsername(event.target.value);
 
@@ -77,7 +77,7 @@ const Home = () => {
         <form
           onSubmit={event => {
             event.preventDefault();
-            Router.push({
+            router.push({
               pathname: "/user",
               query: { id: username }
             });

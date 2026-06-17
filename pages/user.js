@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import PropTypes from 'prop-types';
+import { useRouter } from 'next/router';
 import {
   Head,
   UserInfo,
@@ -13,8 +13,9 @@ import {
 import GhPolyglot from 'gh-polyglot';
 // import { mockUserData, mockLangData, mockRepoData } from '../utils';
 
-const User = props => {
-  const username = props.query.id;
+const User = () => {
+  const router = useRouter();
+  const username = router.query.id;
   const [userData, setUserData] = useState(null);
   const [langData, setLangData] = useState(null);
   const [repoData, setRepoData] = useState(null);
@@ -69,6 +70,8 @@ const User = props => {
   };
 
   useEffect(() => {
+    if (!username) return;
+
     fetch(`https://api.github.com/rate_limit`)
       .then(response => response.json())
       .then(json => {
@@ -85,7 +88,7 @@ const User = props => {
     // setUserData(mockUserData);
     // setLangData(mockLangData);
     // setRepoData(mockRepoData);
-  }, []);
+  }, [username]);
 
   return (
     <main>
@@ -116,10 +119,6 @@ const User = props => {
       )}
     </main>
   );
-};
-
-User.propTypes = {
-  query: PropTypes.object,
 };
 
 export default User;
