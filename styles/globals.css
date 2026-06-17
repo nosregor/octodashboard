@@ -1,5 +1,10 @@
 @import "tailwindcss";
 
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 /* Corner ribbon animation */
 @keyframes octocat-wave {
   0%, 100% { transform: rotate(0); }

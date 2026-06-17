@@ -34,8 +34,7 @@
     "prop-types": "^15.7.2",
     "react": "18",
     "react-dom": "18",
-    "react-flip-move": "^3.0.4",
-    "styled-components": "^5.0.1"
+    "react-flip-move": "^3.0.4"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.3.1",

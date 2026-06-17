@@ -1,13 +1,13 @@
 import Chart from 'chart.js';
-import { theme } from '../style';
-const { fonts } = theme;
+
+const interFont = 'Inter, system, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Arial, sans-serif';
 
 const buildScales = axes => {
   const scales = {
     xAxes: [
       {
         ticks: {
-          fontFamily: fonts.inter,
+          fontFamily: interFont,
           fontSize: 12,
         },
       },
@@ -16,7 +16,7 @@ const buildScales = axes => {
       {
         ticks: {
           beginAtZero: true,
-          fontFamily: fonts.inter,
+          fontFamily: interFont,
           fontSize: 12,
         },
       },
@@ -30,7 +30,7 @@ const buildLegend = legend => {
   const leg = {
     position: 'right',
     labels: {
-      fontFamily: fonts.inter,
+      fontFamily: interFont,
     },
   };
   return legend ? leg : null;
@@ -58,8 +58,8 @@ const buildChart = config => {
       scales: buildScales(axes),
       legend: buildLegend(legend),
       tooltips: {
-        titleFontFamily: fonts.inter,
-        bodyFontFamily: fonts.inter,
+        titleFontFamily: interFont,
+        bodyFontFamily: interFont,
         cornerRadius: 3,
       },
     },
