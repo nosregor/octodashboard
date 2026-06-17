@@ -30,10 +30,10 @@
     "@primer/octicons-react": "^9.4.0",
     "chart.js": "^2.9.3",
     "gh-polyglot": "^2.3.2",
-    "next": "14",
+    "next": "^16.2.9",
     "prop-types": "^15.7.2",
-    "react": "18",
-    "react-dom": "18",
+    "react": "^19.2.7",
+    "react-dom": "^19.2.7",
     "react-flip-move": "^3.0.4"
   },
   "devDependencies": {
