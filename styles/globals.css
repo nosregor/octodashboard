@@ -1,1 +1,32 @@
 @import "tailwindcss";
+
+/* Corner ribbon animation */
+@keyframes octocat-wave {
+  0%, 100% { transform: rotate(0); }
+  20%, 60% { transform: rotate(-25deg); }
+  40%, 80% { transform: rotate(10deg); }
+}
+
+.octo-arm {
+  transform-origin: 130px 106px;
+}
+
+.github-corner:hover .octo-arm {
+  animation: octocat-wave 560ms ease-in-out;
+}
+
+@media (max-width: 500px) {
+  .github-corner:hover .octo-arm { animation: none; }
+  .github-corner .octo-arm { animation: octocat-wave 560ms ease-in-out; }
+}
+
+/* Dotted underline used on section headings */
+.section-heading {
+  display: inline-block;
+  margin: 0;
+  background-image: linear-gradient(90deg, #d1d5da 50%, hsla(0, 0%, 100%, 0) 0);
+  background-position: bottom;
+  background-repeat: repeat-x;
+  background-size: 10px 2px;
+  padding-bottom: 6px;
+}

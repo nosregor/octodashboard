@@ -1,55 +1,29 @@
-import styled from 'styled-components';
-import { theme, mixins, media } from '../style';
-const { colors } = theme;
-
-const StyledFooter = styled.footer`
-  ${mixins.flexCenter};
-  padding: 2rem 5rem;
-  color: ${colors.grey};
-  text-align: center;
-  font-weight: 500;
-  font-size: 14px;
-  ${media.bp900`
-    padding: 2rem;
-  `};
-  ${media.bp400`
-    padding: 1rem;
-  `};
-  a {
-    padding: 5px;
-    &:hover,
-    &:focus {
-      text-decoration: underline;
-    }
-  }
-`;
-
 const Footer = () => (
-  <StyledFooter>
+  <footer className="flex justify-center items-center py-8 px-20 text-[#6a737d] text-center font-medium text-sm max-[900px]:px-8 max-[400px]:p-4">
     <div>
       <span>Built with</span>
-      <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer">
+      <a href="https://nextjs.org/" target="_blank" rel="noopener noreferrer" className="p-[5px] hover:underline focus:underline">
         Next.js
       </a>
       &middot;
-      <a href="https://www.chartjs.org/" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.chartjs.org/" target="_blank" rel="noopener noreferrer" className="p-[5px] hover:underline focus:underline">
         Chart.js
       </a>
       &middot;
-      <a href="https://github.com/IonicaBizau/node-gh-polyglot" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/IonicaBizau/node-gh-polyglot" target="_blank" rel="noopener noreferrer" className="p-[5px] hover:underline focus:underline">
         GitHub Polyglot
       </a>
       &middot;
-      <a href="https://www.styled-components.com/" target="_blank" rel="noopener noreferrer">
+      <a href="https://www.styled-components.com/" target="_blank" rel="noopener noreferrer" className="p-[5px] hover:underline focus:underline">
         Styled Components
       </a>
       &middot;
-      <a href="https://github.com/joshwcomeau/react-flip-move" target="_blank" rel="noopener noreferrer">
+      <a href="https://github.com/joshwcomeau/react-flip-move" target="_blank" rel="noopener noreferrer" className="p-[5px] hover:underline focus:underline">
         React Flip Move
       </a>
       and more!
     </div>
-  </StyledFooter>
+  </footer>
 );
 
 export default Footer;

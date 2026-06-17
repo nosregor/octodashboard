@@ -15,7 +15,7 @@ import GhPolyglot from 'gh-polyglot';
 
 const User = () => {
   const router = useRouter();
-  const username = router.query.id;
+  const username = router.query.id as string | undefined;
   const [userData, setUserData] = useState(null);
   const [langData, setLangData] = useState(null);
   const [repoData, setRepoData] = useState(null);
@@ -34,15 +34,15 @@ const User = () => {
         return response.json();
       })
       .then(json => setUserData(json))
-      .catch(error => {
+      .catch(err => {
         setError({ active: true, type: 400 });
-        console.error('Error:', error);
+        console.error('Error:', err);
       });
   };
 
   const getLangData = () => {
     const me = new GhPolyglot(`${username}`);
-    me.userStats((err, stats) => {
+    me.userStats((err: Error, stats: unknown) => {
       if (err) {
         console.error('Error:', err);
         setError({ active: true, type: 400 });
@@ -63,9 +63,9 @@ const User = () => {
         return response.json();
       })
       .then(json => setRepoData(json))
-      .catch(error => {
+      .catch(err => {
         setError({ active: true, type: 200 });
-        console.error('Error:', error);
+        console.error('Error:', err);
       });
   };
 
@@ -91,7 +91,7 @@ const User = () => {
   }, [username]);
 
   return (
-    <main>
+    <main className="relative">
       {rateLimit && <RateLimit rateLimit={rateLimit} />}
 
       {error && error.active ? (

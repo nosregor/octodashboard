@@ -1,80 +1,93 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import Octicon, { Briefcase, Calendar, Location } from '@primer/octicons-react';
-import UserInfoStyles from './styles/UserInfoStyles';
-import { Section } from '../style';
 
 const UserInfo = ({ userData }) => (
-  <Section dark>
-    {userData && (
-      <UserInfoStyles>
-        {userData.avatar_url && (
-          <div className="avatar">
-            <img src={userData.avatar_url} alt="avatar" />
+  <section className="py-12 px-20 pb-40 bg-[#1A1E22] text-[#c8e1ff] max-[900px]:py-8 max-[900px]:px-8 max-[900px]:pb-40 max-[400px]:p-4 max-[400px]:pb-40">
+    <div className="max-w-[1400px] mx-auto">
+      {userData && (
+        <div className="flex flex-col items-center mb-[30px] text-center max-[600px]:pt-16">
+          {userData.avatar_url && (
+            <div className="flex justify-center items-center mb-6 border-[8px] border-[#0070f3] rounded-full w-[150px] h-[150px]">
+              <img src={userData.avatar_url} alt="avatar" className="rounded-full" />
+            </div>
+          )}
+
+          {userData.name && (
+            <h1 className="text-[2.5rem] mb-[10px] text-[#f6f8fa] max-[400px]:text-[2rem]">
+              {userData.name}
+            </h1>
+          )}
+
+          {userData.login && (
+            <h2 className="font-mono text-2xl mb-6">
+              <a
+                href={userData.html_url}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-[#0070f3] hover:underline focus:underline"
+              >
+                @{userData.login}
+              </a>
+            </h2>
+          )}
+
+          <div className="flex justify-center items-center flex-wrap max-[600px]:block">
+            {userData.company && (
+              <span className="flex items-center mx-4 mb-2 whitespace-nowrap">
+                <span className="mr-[10px]"><Octicon icon={Briefcase} size="small" /></span>
+                {userData.company}
+              </span>
+            )}
+            {userData.location && (
+              <span className="flex items-center mx-4 mb-2 whitespace-nowrap">
+                <span className="mr-[10px]"><Octicon icon={Location} size="small" /></span>
+                {userData.location}
+              </span>
+            )}
+            {userData.created_at && (
+              <span className="flex items-center mx-4 mb-2 whitespace-nowrap">
+                <span className="mr-[10px]"><Octicon icon={Calendar} size="small" /></span>
+                Joined{' '}
+                {new Date(userData.created_at).toLocaleDateString('en-US', {
+                  month: 'long',
+                  day: 'numeric',
+                  year: 'numeric',
+                })}
+              </span>
+            )}
           </div>
-        )}
 
-        {userData.name && <h1>{userData.name}</h1>}
-
-        {userData.login && (
-          <h2>
-            <a
-              href={userData.html_url}
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              @{userData.login}
-            </a>
-          </h2>
-        )}
-
-        <div className="info">
-          {userData.company && (
-            <span className="info__item">
-              <Octicon icon={Briefcase} size="small" />
-              {userData.company}
-            </span>
-          )}
-
-          {userData.location && (
-            <span className="info__item">
-              <Octicon icon={Location} size="small" />
-              {userData.location}
-            </span>
-          )}
-
-          {userData.created_at && (
-            <span className="info__item">
-              <Octicon icon={Calendar} size="small" />
-              Joined{' '}
-              {new Date(userData.created_at).toLocaleDateString('en-US', {
-                month: 'long',
-                day: 'numeric',
-                year: 'numeric',
-              })}
-            </span>
-          )}
+          <div className="grid grid-cols-3 gap-2 mt-8">
+            <div className="flex flex-col items-center bg-[#24292e] p-4 rounded text-center max-[400px]:px-2">
+              <span className="text-[#f6f8fa] text-2xl max-[400px]:text-base">
+                {userData.public_repos.toLocaleString()}
+              </span>
+              <span className="uppercase text-[0.75rem] tracking-[1px] mt-3 text-[rgba(200,225,255,0.7)] max-[400px]:text-[0.5rem]">
+                Repositories
+              </span>
+            </div>
+            <div className="flex flex-col items-center bg-[#24292e] p-4 rounded text-center max-[400px]:px-2">
+              <span className="text-[#f6f8fa] text-2xl max-[400px]:text-base">
+                {userData.followers.toLocaleString()}
+              </span>
+              <span className="uppercase text-[0.75rem] tracking-[1px] mt-3 text-[rgba(200,225,255,0.7)] max-[400px]:text-[0.5rem]">
+                Followers
+              </span>
+            </div>
+            <div className="flex flex-col items-center bg-[#24292e] p-4 rounded text-center max-[400px]:px-2">
+              <span className="text-[#f6f8fa] text-2xl max-[400px]:text-base">
+                {userData.following.toLocaleString()}
+              </span>
+              <span className="uppercase text-[0.75rem] tracking-[1px] mt-3 text-[rgba(200,225,255,0.7)] max-[400px]:text-[0.5rem]">
+                Following
+              </span>
+            </div>
+          </div>
         </div>
-
-        <div className="stats">
-          <div className="stats__item">
-            <span className="num">
-              {userData.public_repos.toLocaleString()}
-            </span>
-            <span className="num-label">Repositories</span>
-          </div>
-          <div className="stats__item">
-            <span className="num">{userData.followers.toLocaleString()}</span>
-            <span className="num-label">Followers</span>
-          </div>
-          <div className="stats__item">
-            <span className="num">{userData.following.toLocaleString()}</span>
-            <span className="num-label">Following</span>
-          </div>
-        </div>
-      </UserInfoStyles>
-    )}
-  </Section>
+      )}
+    </div>
+  </section>
 );
 
 UserInfo.propTypes = {

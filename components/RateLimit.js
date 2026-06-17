@@ -1,42 +1,22 @@
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
-import { theme } from '../style';
-const { colors } = theme;
-
-const LimitStyles = styled.main`
-  .limit {
-    position: absolute;
-    top: 0;
-    left: 0;
-    padding: 1rem;
-  }
-  .num {
-    color: ${colors.grey};
-    font-size: 20px;
-    margin-bottom: 0.5rem;
-  }
-  p {
-    text-transform: uppercase;
-    font-size: 10px;
-    letter-spacing: 1px;
-    margin: 0;
-    color: ${colors.grey2};
-  }
-`;
 
 const RateLimit = ({ rateLimit }) => (
-  <LimitStyles>
+  <div className="absolute top-0 left-0 p-4">
     {rateLimit && (
-      <div className="limit">
-        <div className="num">{`${rateLimit.remaining} / ${rateLimit.limit}`}</div>
-        <p>Requests Left</p>
+      <div>
+        <div className="text-[#6a737d] text-[20px] mb-2">
+          {`${rateLimit.remaining} / ${rateLimit.limit}`}
+        </div>
+        <p className="uppercase text-[10px] tracking-[1px] m-0 text-[#586069]">
+          Requests Left
+        </p>
       </div>
     )}
-  </LimitStyles>
+  </div>
 );
 
 RateLimit.propTypes = {
-  rateLimit: PropTypes.object.isRequired
+  rateLimit: PropTypes.object.isRequired,
 };
 
 export default RateLimit;
