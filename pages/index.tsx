@@ -12,7 +12,7 @@ const Home = () => {
 
   const handleSubmit = (event: React.FormEvent<HTMLFormElement>) => {
     event.preventDefault();
-    router.push({ pathname: "/user", query: { id: username } });
+    router.push(`/user/${username}`);
   };
 
   return (

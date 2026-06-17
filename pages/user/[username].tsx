@@ -9,15 +9,15 @@ import {
   Corner,
   Error,
   RateLimit,
-} from '../components';
-import { UserInfoSkeleton, ChartsSkeleton, ReposSkeleton } from '../components/Skeleton';
+} from '../../components';
+import { UserInfoSkeleton, ChartsSkeleton, ReposSkeleton } from '../../components/Skeleton';
 import GhPolyglot from 'gh-polyglot';
-import type { GitHubUser, GitHubRepo, LangStat, RateLimitCore, AppError } from '../types/github';
-// import { mockUserData, mockLangData, mockRepoData } from '../utils';
+import type { GitHubUser, GitHubRepo, LangStat, RateLimitCore, AppError } from '../../types/github';
+// import { mockUserData, mockLangData, mockRepoData } from '../../utils';
 
 const User = () => {
   const router = useRouter();
-  const username = router.query.id as string | undefined;
+  const username = router.query.username as string | undefined;
 
   const [userData, setUserData] = useState<GitHubUser | null>(null);
   const [langData, setLangData] = useState<LangStat[] | null>(null);
