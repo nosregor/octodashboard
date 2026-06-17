@@ -13,7 +13,7 @@ import {
 import { UserInfoSkeleton, ChartsSkeleton, ReposSkeleton } from '../../components/Skeleton';
 import GhPolyglot from 'gh-polyglot';
 import type { GitHubUser, GitHubRepo, LangStat, RateLimitCore, AppError } from '../../types/github';
-import { mockUserData, mockLangData, mockRepoData } from '../../utils';
+import {mockUserData, mockLangData, mockRepoData} from '../../utils';
 
 const User = () => {
   const router = useRouter();
@@ -75,13 +75,13 @@ const User = () => {
         if (core.remaining < 1) setError({ active: true, type: 403 });
       });
 
-    // getUserData();
-    // getLangData();
-    // getRepoData();
+    getUserData();
+    getLangData();
+    getRepoData();
 
-    setUserData(mockUserData);
-    setLangData(mockLangData);
-    setRepoData(mockRepoData);
+    // setUserData(mockUserData);
+    // setLangData(mockLangData);
+    // setRepoData(mockRepoData);
   }, [username]);
 
   return (

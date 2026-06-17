@@ -81,7 +81,7 @@ const Charts = ({ langData, repoData }: ChartsProps) => {
   return (
     <section className="py-12 px-20 max-[900px]:py-8 max-[900px]:px-8 max-[400px]:p-4">
       <div className="max-w-[1400px] mx-auto">
-        <div className="charts-grid max-w-[1200px] -mt-32 grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-8 max-[900px]:justify-items-center">
+        <div className="charts-grid max-w-[1200px] mx-auto -mt-32 grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-8 max-[900px]:justify-items-center">
 
           <div className="chart-card bg-white max-w-[500px] p-8 rounded shadow-[0_5px_30px_-15px_rgba(0,0,0,0.2)] max-[400px]:px-4">
             <header className="flex justify-between mb-8">

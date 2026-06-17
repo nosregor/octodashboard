@@ -17,13 +17,13 @@ const UserInfo = ({ userData }: UserInfoProps) => (
           )}
 
           {userData.name && (
-            <h1 className="text-[2.5rem] mb-[10px] text-[#f6f8fa] max-[400px]:text-[2rem]">
+            <h1 className="text-[2.5rem] font-medium mb-[10px] text-[#f6f8fa] max-[400px]:text-[2rem]">
               {userData.name}
             </h1>
           )}
 
           {userData.login && (
-            <h2 className="font-mono text-2xl mb-6">
+            <h2 className="font-mono font-medium text-2xl mb-6">
               <a
                 href={userData.html_url}
                 target="_blank"

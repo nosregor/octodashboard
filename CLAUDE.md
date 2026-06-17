@@ -60,7 +60,7 @@ types/
 **Mock data for local development:** uncomment the import and usage lines in `pages/user.tsx` to swap in mock data from `utils/`.
 
 **Charts** (`components/Charts.tsx`): Three Chart.js v2 canvases built via `utils/buildChart.ts`:
-- `langChart` — Pie chart of top languages (from `langData`)
+- `langChart` — Pie chart of top most used languages (from `langData`)
 - `starChart` — Bar chart of top 5 most-starred repos (from `repoData`)
 - `thirdChart` — Doughnut chart of stars per language (computed from `repoData`)
 

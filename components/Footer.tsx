@@ -1,4 +1,4 @@
-const linkClass = 'p-[5px] hover:underline focus:underline';
+const linkClass = 'p-[5px] text-[#0070f3] hover:underline focus:underline';
 
 const Footer = () => (
   <footer className="flex justify-center items-center py-8 px-20 text-[#6a737d] text-center font-medium text-sm max-[900px]:px-8 max-[400px]:p-4 print:hidden">

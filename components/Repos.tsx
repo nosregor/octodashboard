@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import Octicon, { Repo, Star, RepoForked, TriangleDown } from '@primer/octicons-react';
+import Octicon, { Repo, Star, RepoForked, ChevronDown } from '@primer/octicons-react';
 import FlipMove from 'react-flip-move';
 import { langColors } from '../utils';
 import type { GitHubRepo } from '../types/github';
@@ -51,8 +51,8 @@ const Repos = ({ repoData }: ReposProps) => {
                 onClick={toggleDropdown}
               >
                 <label className="transition-all duration-200 cursor-pointer">{sortType}</label>
-                <span className={`ml-2 transition-all duration-200 ${dropdownOpen ? 'rotate-180' : ''}`}>
-                  <Octicon icon={TriangleDown} />
+                <span className={`ml-2 shrink-0 text-[#0070f3] transition-transform duration-200 ${dropdownOpen ? 'rotate-180' : ''}`}>
+                  <Octicon icon={ChevronDown} className="text-[#0070f3]" />
                 </span>
               </button>
               <ul

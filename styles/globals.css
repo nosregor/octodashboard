@@ -25,12 +25,12 @@ body {
   .github-corner .octo-arm { animation: octocat-wave 560ms ease-in-out; }
 }
 
-@media print {
-  @page {
-    size: A4 portrait;
-    margin: 8mm;
-  }
+@page {
+  size: A4 portrait;
+  margin: 8mm;
+}
 
+@media print {
   * {
     -webkit-print-color-adjust: exact;
     print-color-adjust: exact;
@@ -47,6 +47,17 @@ body {
   /* Remove the screen overlap trick — not needed in a flat PDF */
   .charts-grid {
     margin-top: 0 !important;
+  }
+
+  /* Constrain chart canvases to their grid column width */
+  canvas {
+    max-width: 100% !important;
+    height: auto !important;
+  }
+
+  /* Only show first 6 repos in print */
+  .repo-card:nth-child(n+7) {
+    display: none !important;
   }
 }
 
