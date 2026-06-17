@@ -86,10 +86,10 @@ const User = () => {
 
   return (
     <main className="relative">
-      {rateLimit && <RateLimit rateLimit={rateLimit} />}
+      {rateLimit && !error.active && <RateLimit rateLimit={rateLimit} />}
 
       {error && error.active ? (
-        <Error error={error} />
+        <Error error={error} username={username} />
       ) : (
         <>
           <Head title={username ? `OctoDashboard | ${username}` : 'OctoDashboard'} />

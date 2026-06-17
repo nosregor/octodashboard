@@ -4,10 +4,11 @@ import type { AppError } from '../types/github';
 
 interface ErrorProps {
   error: AppError;
+  username?: string;
 }
 
-const Error = ({ error }: ErrorProps) => (
-  <div className="flex flex-col justify-center items-center min-h-screen pb-[20vh] bg-gradient-to-b from-[#1A1E22] to-[#24292e] text-[#f6f8fa] text-2xl text-center px-4">
+const Error = ({ error, username }: ErrorProps) => (
+  <div className="flex flex-col justify-center items-center w-full min-h-screen pb-[20vh] bg-gradient-to-b from-[#1A1E22] to-[#24292e] text-[#f6f8fa] text-2xl text-center px-4">
     <Head title="OctoDashboard" />
     <Corner />
     <div className="text-[#0070f3] mb-12">
@@ -31,7 +32,25 @@ const Error = ({ error }: ErrorProps) => (
             ! Try again later.
           </p>
         ) : error.type === 404 ? (
-          <p>User not found!</p>
+          <div>
+            <p>
+              {username ? (
+                <>
+                  User{' '}
+                  <span className="text-[#0070f3]">{username}</span>
+                  {' '}not found!
+                </>
+              ) : (
+                'User not found!'
+              )}
+            </p>
+            <a
+              href="/"
+              className="inline-block mt-6 text-[#0070f3] hover:underline focus:underline"
+            >
+              Try another username
+            </a>
+          </div>
         ) : (
           <p>Oh no! Something went wrong. Try again later!</p>
         )}
