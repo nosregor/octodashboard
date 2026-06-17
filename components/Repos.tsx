@@ -88,7 +88,7 @@ const Repos = ({ repoData }: ReposProps) => {
           {topRepos.length > 0 ? (
             <FlipMove
               typeName="ul"
-              className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-4"
+              className="grid grid-cols-3 gap-4 max-[900px]:grid-cols-1"
             >
               {topRepos.map(repo => (
                 <li key={repo.id} className="repo-card">

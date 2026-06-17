@@ -21,7 +21,7 @@ export const UserInfoSkeleton = () => (
 export const ChartsSkeleton = () => (
   <section className="py-12 px-20 max-[900px]:py-8 max-[900px]:px-8 max-[400px]:p-4">
     <div className="max-w-[1400px] mx-auto">
-      <div className="max-w-[1200px] -mt-32 grid grid-cols-[repeat(auto-fill,minmax(300px,1fr))] gap-8 max-[900px]:justify-items-center animate-pulse">
+      <div className="max-w-[1200px] -mt-32 grid grid-cols-3 gap-8 max-[900px]:grid-cols-1 max-[900px]:justify-items-center animate-pulse">
         {[0, 1, 2].map(i => (
           <div key={i} className="bg-white max-w-[500px] p-8 rounded shadow-[0_5px_30px_-15px_rgba(0,0,0,0.2)]">
             <div className="h-7 w-40 bg-gray-200 rounded mb-8" />
@@ -40,7 +40,7 @@ export const ReposSkeleton = () => (
         <div className="h-7 w-32 bg-gray-200 rounded" />
         <div className="ml-8 h-8 w-24 bg-gray-200 rounded" />
       </div>
-      <ul className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-4">
+      <ul className="grid grid-cols-3 gap-4 max-[900px]:grid-cols-1">
         {[0, 1, 2, 3, 4, 5, 6, 7].map(i => (
           <li key={i} className="bg-white rounded shadow-[0_10px_30px_-15px_rgba(0,0,0,0.2)] p-8 h-[180px]" />
         ))}
