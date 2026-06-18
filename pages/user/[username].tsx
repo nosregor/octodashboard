@@ -86,7 +86,7 @@ const User = () => {
 
   return (
     <main className="relative">
-      {rateLimit && !error.active && <RateLimit rateLimit={rateLimit} />}
+      {rateLimit && (!error.active || error.type === 403) && <RateLimit rateLimit={rateLimit} />}
 
       {error && error.active ? (
         <Error error={error} username={username} />
