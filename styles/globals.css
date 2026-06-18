@@ -1,38 +1,50 @@
-@import "tailwindcss";
+@import 'tailwindcss';
 
 html {
   line-height: normal;
 }
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   font-weight: 500;
 }
 
 @theme {
-  --font-sans: Inter, system, -apple-system, BlinkMacSystemFont, Roboto, "Segoe UI", Arial, sans-serif;
-  --font-mono: "SF Mono", "Fira Code", "Fira Mono", "Roboto Mono", "Lucida Console", Monaco, monospace;
+  --font-sans:
+    Inter, system, -apple-system, BlinkMacSystemFont, Roboto, 'Segoe UI', Arial,
+    sans-serif;
+  --font-mono:
+    'SF Mono', 'Fira Code', 'Fira Mono', 'Roboto Mono', 'Lucida Console',
+    Monaco, monospace;
 }
 
 @font-face {
   font-family: 'Inter';
-  src: url('/static/assets/fonts/Inter/Inter-Regular.woff2') format('woff2'),
-       url('/static/assets/fonts/Inter/Inter-Regular.woff') format('woff');
+  src:
+    url('/static/assets/fonts/Inter/Inter-Regular.woff2') format('woff2'),
+    url('/static/assets/fonts/Inter/Inter-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Inter';
-  src: url('/static/assets/fonts/Inter/Inter-Medium.woff2') format('woff2'),
-       url('/static/assets/fonts/Inter/Inter-Medium.woff') format('woff');
+  src:
+    url('/static/assets/fonts/Inter/Inter-Medium.woff2') format('woff2'),
+    url('/static/assets/fonts/Inter/Inter-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'Inter';
-  src: url('/static/assets/fonts/Inter/Inter-Bold.woff2') format('woff2'),
-       url('/static/assets/fonts/Inter/Inter-Bold.woff') format('woff');
+  src:
+    url('/static/assets/fonts/Inter/Inter-Bold.woff2') format('woff2'),
+    url('/static/assets/fonts/Inter/Inter-Bold.woff') format('woff');
   font-weight: 700;
   font-style: normal;
   font-display: swap;
@@ -40,16 +52,18 @@ h1, h2, h3, h4, h5, h6 {
 
 @font-face {
   font-family: 'SF Mono';
-  src: url('/static/assets/fonts/SFMono/SFMono-Regular.woff2') format('woff2'),
-       url('/static/assets/fonts/SFMono/SFMono-Regular.woff') format('woff');
+  src:
+    url('/static/assets/fonts/SFMono/SFMono-Regular.woff2') format('woff2'),
+    url('/static/assets/fonts/SFMono/SFMono-Regular.woff') format('woff');
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: 'SF Mono';
-  src: url('/static/assets/fonts/SFMono/SFMono-Medium.woff2') format('woff2'),
-       url('/static/assets/fonts/SFMono/SFMono-Medium.woff') format('woff');
+  src:
+    url('/static/assets/fonts/SFMono/SFMono-Medium.woff2') format('woff2'),
+    url('/static/assets/fonts/SFMono/SFMono-Medium.woff') format('woff');
   font-weight: 500;
   font-style: normal;
   font-display: swap;
@@ -63,9 +77,18 @@ body {
 
 /* Corner ribbon animation */
 @keyframes octocat-wave {
-  0%, 100% { transform: rotate(0); }
-  20%, 60% { transform: rotate(-25deg); }
-  40%, 80% { transform: rotate(10deg); }
+  0%,
+  100% {
+    transform: rotate(0);
+  }
+  20%,
+  60% {
+    transform: rotate(-25deg);
+  }
+  40%,
+  80% {
+    transform: rotate(10deg);
+  }
 }
 
 .octo-arm {
@@ -77,8 +100,12 @@ body {
 }
 
 @media (max-width: 500px) {
-  .github-corner:hover .octo-arm { animation: none; }
-  .github-corner .octo-arm { animation: octocat-wave 560ms ease-in-out; }
+  .github-corner:hover .octo-arm {
+    animation: none;
+  }
+  .github-corner .octo-arm {
+    animation: octocat-wave 560ms ease-in-out;
+  }
 }
 
 /* Dotted underline used on section headings */

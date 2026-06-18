@@ -12,9 +12,12 @@ bun run build    # Production build
 bun run start    # Start production server
 ```
 
-Linting runs automatically via husky pre-commit hooks (ESLint + Prettier via `pretty-quick`).
+There are no git hooks — lint and format manually:
 
-To lint manually: `bunx eslint --fix <file>`
+```bash
+bun run lint     # eslint --fix .
+bun run format   # prettier --write .
+```
 
 ## Architecture
 
@@ -50,6 +53,7 @@ types/
 ```
 
 **Data flow in `pages/user.tsx`:**
+
 1. On mount, calls three data sources in parallel:
    - `https://api.github.com/users/<username>` → `userData`
    - `GhPolyglot.userStats()` (wraps GitHub API for language aggregation) → `langData`
@@ -60,6 +64,7 @@ types/
 **Mock data for local development:** uncomment the import and usage lines in `pages/user.tsx` to swap in mock data from `utils/`.
 
 **Charts** (`components/Charts.tsx`): Three Chart.js v2 canvases built via `utils/buildChart.ts`:
+
 - `langChart` — Pie chart of top most used languages (from `langData`)
 - `starChart` — Bar chart of top 5 most-starred repos (from `repoData`)
 - `thirdChart` — Doughnut chart of stars per language (computed from `repoData`)

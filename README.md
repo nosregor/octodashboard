@@ -5,6 +5,7 @@ A nicer look at your GitHub Profile! With charts!
 ![demo](https://raw.githubusercontent.com/nosregor/octodashboard/master/public/static/og.png)
 
 Built with:
+
 - [Next.js 16](https://nextjs.org/)
 - [TypeScript](https://typescriptlang.org)
 - [Tailwind CSS v4](https://tailwindcss.com)
@@ -16,6 +17,7 @@ Built with:
 ## Getting Started
 
 1. Install dependencies:
+
    ```bash
    bun install
    ```
@@ -30,6 +32,7 @@ Built with:
 This project is optimized for deployment on **Vercel** using native Bun runtime detection.
 
 To deploy from your terminal:
+
 1. Link your project to Vercel:
    ```bash
    bunx vercel link

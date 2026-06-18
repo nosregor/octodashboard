@@ -8,9 +8,15 @@ const redis = new Redis({
   token: process.env.KV_REST_API_TOKEN as string,
 });
 
-export default async function handler(req: NextApiRequest, res: NextApiResponse) {
+export default async function handler(
+  req: NextApiRequest,
+  res: NextApiResponse,
+) {
   try {
-    const count = req.method === 'POST' ? await redis.incr(VISITS_KEY) : ((await redis.get<number>(VISITS_KEY)) ?? 0);
+    const count =
+      req.method === 'POST'
+        ? await redis.incr(VISITS_KEY)
+        : ((await redis.get<number>(VISITS_KEY)) ?? 0);
     res.status(200).json({ count });
   } catch (err) {
     console.error('Error:', err);

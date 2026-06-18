@@ -1,6 +1,7 @@
 import Chart from 'chart.js';
 
-const interFont = 'Inter, system, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Arial, sans-serif';
+const interFont =
+  'Inter, system, -apple-system, BlinkMacSystemFont, Roboto, Segoe UI, Arial, sans-serif';
 
 interface BuildChartConfig {
   ctx: HTMLCanvasElement;
@@ -17,7 +18,9 @@ const buildScales = (axes: boolean): Chart.ChartScales | undefined => {
   if (!axes) return undefined;
   return {
     xAxes: [{ ticks: { fontFamily: interFont, fontSize: 12 } }],
-    yAxes: [{ ticks: { beginAtZero: true, fontFamily: interFont, fontSize: 12 } }],
+    yAxes: [
+      { ticks: { beginAtZero: true, fontFamily: interFont, fontSize: 12 } },
+    ],
   };
 };
 
@@ -30,7 +33,16 @@ const buildLegend = (legend: boolean): Chart.ChartLegendOptions | undefined => {
 };
 
 const buildChart = (config: BuildChartConfig): Chart => {
-  const { ctx, chartType, labels, data, backgroundColor, borderColor, axes, legend } = config;
+  const {
+    ctx,
+    chartType,
+    labels,
+    data,
+    backgroundColor,
+    borderColor,
+    axes,
+    legend,
+  } = config;
 
   return new Chart(ctx, {
     type: chartType,

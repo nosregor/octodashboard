@@ -9,22 +9,13 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "lint": "eslint --fix .",
+    "format": "prettier --write ."
   },
   "repository": {
     "type": "git",
     "url": "https://github.com/nosregor/octodashboard"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "pretty-quick --staged && lint-staged"
-    }
-  },
-  "lint-staged": {
-    "*.js": [
-      "eslint --fix",
-      "git add"
-    ]
   },
   "dependencies": {
     "@primer/octicons-react": "^9.4.0",
@@ -46,16 +37,11 @@
     "@types/react-dom": "^19.2.3",
     "autoprefixer": "^10.5.0",
     "cross-env": "^7.0.3",
-    "eslint": "8",
-    "eslint-config-next": "14",
-    "eslint-config-prettier": "^6.10.0",
-    "eslint-plugin-jsx-a11y": "^6.2.3",
-    "eslint-plugin-react": "^7.19.0",
-    "husky": "^4.2.3",
-    "lint-staged": "^10.0.8",
+    "eslint": "^9",
+    "eslint-config-next": "16.2.9",
+    "eslint-config-prettier": "^10.1.8",
     "postcss": "^8.5.15",
-    "prettier": "^1.19.1",
-    "pretty-quick": "^2.0.1",
+    "prettier": "^3.8.4",
     "tailwindcss": "^4.3.1",
     "typescript": "^6.0.3"
   }

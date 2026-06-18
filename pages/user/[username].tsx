@@ -10,10 +10,20 @@ import {
   Error,
   RateLimit,
 } from '../../components';
-import { UserInfoSkeleton, ChartsSkeleton, ReposSkeleton } from '../../components/Skeleton';
+import {
+  UserInfoSkeleton,
+  ChartsSkeleton,
+  ReposSkeleton,
+} from '../../components/Skeleton';
 import GhPolyglot from 'gh-polyglot';
-import type { GitHubUser, GitHubRepo, LangStat, RateLimitCore, AppError } from '../../types/github';
-import {mockUserData, mockLangData, mockRepoData} from '../../utils';
+import type {
+  GitHubUser,
+  GitHubRepo,
+  LangStat,
+  RateLimitCore,
+  AppError,
+} from '../../types/github';
+import { mockUserData, mockLangData, mockRepoData } from '../../utils';
 
 const User = () => {
   const router = useRouter();
@@ -27,13 +37,15 @@ const User = () => {
 
   const getUserData = () => {
     fetch(`https://api.github.com/users/${username}`)
-      .then(response => {
-        if (response.status === 404) return setError({ active: true, type: 404 });
-        if (response.status === 403) return setError({ active: true, type: 403 });
+      .then((response) => {
+        if (response.status === 404)
+          return setError({ active: true, type: 404 });
+        if (response.status === 403)
+          return setError({ active: true, type: 403 });
         return response.json();
       })
       .then((json: GitHubUser) => setUserData(json))
-      .catch(err => {
+      .catch((err) => {
         setError({ active: true, type: 400 });
         console.error('Error:', err);
       });
@@ -52,13 +64,15 @@ const User = () => {
 
   const getRepoData = () => {
     fetch(`https://api.github.com/users/${username}/repos?per_page=100`)
-      .then(response => {
-        if (response.status === 404) return setError({ active: true, type: 404 });
-        if (response.status === 403) return setError({ active: true, type: 403 });
+      .then((response) => {
+        if (response.status === 404)
+          return setError({ active: true, type: 404 });
+        if (response.status === 403)
+          return setError({ active: true, type: 403 });
         return response.json();
       })
       .then((json: GitHubRepo[]) => setRepoData(json))
-      .catch(err => {
+      .catch((err) => {
         setError({ active: true, type: 200 });
         console.error('Error:', err);
       });
@@ -68,8 +82,8 @@ const User = () => {
     if (!username) return;
 
     fetch('https://api.github.com/rate_limit')
-      .then(response => response.json())
-      .then(json => {
+      .then((response) => response.json())
+      .then((json) => {
         const core: RateLimitCore = json.resources.core;
         setRateLimit(core);
         if (core.remaining < 1) setError({ active: true, type: 403 });
@@ -86,21 +100,21 @@ const User = () => {
 
   return (
     <main className="relative">
-      {rateLimit && (!error.active || error.type === 403) && <RateLimit rateLimit={rateLimit} />}
+      {rateLimit && (!error.active || error.type === 403) && (
+        <RateLimit rateLimit={rateLimit} />
+      )}
 
       {error && error.active ? (
         <Error error={error} username={username} />
       ) : (
         <>
-          <Head title={username ? `OctoDashboard | ${username}` : 'OctoDashboard'} />
+          <Head
+            title={username ? `OctoDashboard | ${username}` : 'OctoDashboard'}
+          />
 
           <Corner />
 
-          {userData ? (
-            <UserInfo userData={userData} />
-          ) : (
-            <UserInfoSkeleton />
-          )}
+          {userData ? <UserInfo userData={userData} /> : <UserInfoSkeleton />}
 
           {langData && repoData ? (
             <Charts langData={langData} repoData={repoData} />
@@ -108,11 +122,7 @@ const User = () => {
             <ChartsSkeleton />
           )}
 
-          {repoData ? (
-            <Repos repoData={repoData} />
-          ) : (
-            <ReposSkeleton />
-          )}
+          {repoData ? <Repos repoData={repoData} /> : <ReposSkeleton />}
 
           <Footer />
         </>

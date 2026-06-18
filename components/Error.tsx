@@ -1,3 +1,4 @@
+import Link from 'next/link';
 import Octicon, { MarkGithub } from '@primer/octicons-react';
 import { Head, Corner } from '../components';
 import type { AppError } from '../types/github';
@@ -36,20 +37,19 @@ const Error = ({ error, username }: ErrorProps) => (
             <p>
               {username ? (
                 <>
-                  User{' '}
-                  <span className="text-[#0070f3]">{username}</span>
-                  {' '}not found!
+                  User <span className="text-[#0070f3]">{username}</span> not
+                  found!
                 </>
               ) : (
                 'User not found!'
               )}
             </p>
-            <a
+            <Link
               href="/"
               className="inline-block mt-6 text-[#0070f3] hover:underline focus:underline"
             >
               Try another username
-            </a>
+            </Link>
           </div>
         ) : (
           <p>Oh no! Something went wrong. Try again later!</p>

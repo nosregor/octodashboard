@@ -1,5 +1,11 @@
-import { useState, useEffect } from 'react';
-import Octicon, { Repo, Star, RepoForked, TriangleDown, TriangleUp } from '@primer/octicons-react';
+import { useState } from 'react';
+import Octicon, {
+  Repo,
+  Star,
+  RepoForked,
+  TriangleDown,
+  TriangleUp,
+} from '@primer/octicons-react';
 import FlipMove from 'react-flip-move';
 import { langColors } from '../utils';
 import type { GitHubRepo } from '../types/github';
@@ -11,35 +17,30 @@ interface ReposProps {
 type SortType = 'stars' | 'forks' | 'size';
 
 const Repos = ({ repoData }: ReposProps) => {
-  const [topRepos, setTopRepos] = useState<GitHubRepo[]>([]);
   const [sortType, setSortType] = useState<SortType>('stars');
   const [dropdownOpen, setDropdownOpen] = useState(false);
 
-  const getTopRepos = (type: SortType = 'stars') => {
-    const LIMIT = 8;
-    const map: Record<SortType, keyof GitHubRepo> = { stars: 'stargazers_count', forks: 'forks_count', size: 'size' };
-    const sortProperty = map[type];
-    const sorted = repoData
-      .filter(repo => !repo.fork)
-      .sort((a, b) => (b[sortProperty] as number) - (a[sortProperty] as number))
-      .slice(0, LIMIT);
-    setTopRepos(sorted);
+  const sortPropertyMap: Record<SortType, keyof GitHubRepo> = {
+    stars: 'stargazers_count',
+    forks: 'forks_count',
+    size: 'size',
   };
-
-  useEffect(() => {
-    if (repoData.length) getTopRepos();
-  }, []);
-
-  useEffect(() => getTopRepos(sortType), [sortType]);
+  const sortProperty = sortPropertyMap[sortType];
+  const topRepos = repoData
+    .filter((repo) => !repo.fork)
+    .sort((a, b) => (b[sortProperty] as number) - (a[sortProperty] as number))
+    .slice(0, 8);
 
   const toggleDropdown = () => setDropdownOpen(!dropdownOpen);
-  const changeRepoSort = (type: SortType) => { setSortType(type); toggleDropdown(); };
+  const changeRepoSort = (type: SortType) => {
+    setSortType(type);
+    toggleDropdown();
+  };
   const sortTypes: SortType[] = ['stars', 'forks', 'size'];
 
   return (
     <section className="relative py-12 px-20 max-[900px]:py-8 max-[900px]:px-8 max-[400px]:p-4">
       <div className="max-w-[1400px] mx-auto">
-
         <header className="relative z-30 flex flex-wrap items-center gap-x-2 gap-y-2 mb-8">
           <h2 className="section-heading text-[1.75rem]">Top Repos</h2>
 
@@ -53,7 +54,9 @@ const Repos = ({ repoData }: ReposProps) => {
                 className={`flex justify-between items-center w-full text-sm font-medium leading-none text-left text-[#0070f3] border border-[rgba(0,118,255,0.1)] px-[7px] py-[10px] rounded-[5px] transition-all duration-200 hover:bg-[rgba(0,118,255,0.1)] ${dropdownOpen ? 'bg-[rgba(0,118,255,0.1)]' : 'bg-transparent'}`}
                 onClick={toggleDropdown}
               >
-                <span className="text-[#0070f3] transition-all duration-200">{sortType}</span>
+                <span className="text-[#0070f3] transition-all duration-200">
+                  {sortType}
+                </span>
                 <span className="ml-2 inline-flex shrink-0 items-center text-[#0070f3]">
                   <Octicon
                     icon={dropdownOpen ? TriangleUp : TriangleDown}
@@ -67,7 +70,10 @@ const Repos = ({ repoData }: ReposProps) => {
                 className={`absolute top-full left-0 mt-1 w-full z-50 rounded-[5px] transition-all duration-200 shadow-[0_5px_30px_-15px_rgba(0,0,0,0.2)] bg-[#f6f8fa] ${dropdownOpen ? 'opacity-100 visible pointer-events-auto' : 'opacity-0 invisible pointer-events-none'}`}
               >
                 {sortTypes.map((type, i) => (
-                  <li key={type} className="transition-all duration-200 hover:bg-[#c8e1ff]">
+                  <li
+                    key={type}
+                    className="transition-all duration-200 hover:bg-[#c8e1ff]"
+                  >
                     <button
                       type="button"
                       role="option"
@@ -90,7 +96,7 @@ const Repos = ({ repoData }: ReposProps) => {
               typeName="ul"
               className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-4"
             >
-              {topRepos.map(repo => (
+              {topRepos.map((repo) => (
                 <li key={repo.id}>
                   <a
                     href={repo.html_url}
@@ -101,7 +107,11 @@ const Repos = ({ repoData }: ReposProps) => {
                     <div className="mb-8">
                       <div className="flex items-center mb-3">
                         <span className="mr-2 inline-flex min-w-[16px] items-center text-[#586069]">
-                          <Octicon icon={Repo} size={16} className="text-[#586069]" />
+                          <Octicon
+                            icon={Repo}
+                            size={16}
+                            className="text-[#586069]"
+                          />
                         </span>
                         <h3 className="overflow-hidden whitespace-nowrap text-ellipsis text-[#24292e] text-[20px] font-mono font-bold tracking-[-0.5px] m-0">
                           {repo.name}
@@ -115,19 +125,30 @@ const Repos = ({ repoData }: ReposProps) => {
                         <span className="flex items-center mr-3">
                           <div
                             className="rounded-full w-[10px] h-[10px] mr-1"
-                            style={{ backgroundColor: langColors[repo.language as string] }}
+                            style={{
+                              backgroundColor:
+                                langColors[repo.language as string],
+                            }}
                           />
                           {repo.language}
                         </span>
                         <span className="flex items-center mr-3">
                           <span className="mr-1 inline-flex items-center text-[#6a737d]">
-                            <Octicon icon={Star} size={16} className="text-[#6a737d]" />
+                            <Octicon
+                              icon={Star}
+                              size={16}
+                              className="text-[#6a737d]"
+                            />
                           </span>
                           {repo.stargazers_count.toLocaleString()}
                         </span>
                         <span className="flex items-center mr-3">
                           <span className="mr-1 inline-flex items-center text-[#6a737d]">
-                            <Octicon icon={RepoForked} size={16} className="text-[#6a737d]" />
+                            <Octicon
+                              icon={RepoForked}
+                              size={16}
+                              className="text-[#6a737d]"
+                            />
                           </span>
                           {repo.forks.toLocaleString()}
                         </span>
@@ -144,7 +165,6 @@ const Repos = ({ repoData }: ReposProps) => {
             <p>No available repositories!</p>
           )}
         </div>
-
       </div>
     </section>
   );

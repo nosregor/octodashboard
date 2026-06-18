@@ -21,4 +21,12 @@ const borderColor: string[] = [
   'rgba(255, 159, 64, 1)',
 ];
 
-export { mockUserData, mockRepoData, mockLangData, langColors, backgroundColor, borderColor, buildChart };
+export {
+  mockUserData,
+  mockRepoData,
+  mockLangData,
+  langColors,
+  backgroundColor,
+  borderColor,
+  buildChart,
+};

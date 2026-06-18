@@ -14,57 +14,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/33-js-concepts',
     description: '📜 33 concepts every JavaScript developer should know.',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/33-js-concepts',
     forks_url: 'https://api.github.com/repos/nosregor/33-js-concepts/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/33-js-concepts/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/33-js-concepts/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/33-js-concepts/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/33-js-concepts/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/33-js-concepts/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/33-js-concepts/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/33-js-concepts/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/33-js-concepts/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/33-js-concepts/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/33-js-concepts/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/33-js-concepts/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/33-js-concepts/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/33-js-concepts/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/33-js-concepts/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/33-js-concepts/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/33-js-concepts/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/33-js-concepts/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/33-js-concepts/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/33-js-concepts/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/33-js-concepts/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/33-js-concepts/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/33-js-concepts/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/33-js-concepts/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/33-js-concepts/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/33-js-concepts/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/33-js-concepts/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/33-js-concepts/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/33-js-concepts/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/33-js-concepts/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/33-js-concepts/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/33-js-concepts/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/33-js-concepts/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/33-js-concepts/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/33-js-concepts/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/33-js-concepts/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/33-js-concepts/deployments',
     created_at: '2018-10-22T19:24:29Z',
     updated_at: '2018-10-22T19:24:31Z',
     pushed_at: '2018-10-22T19:16:36Z',
@@ -92,12 +125,12 @@ export default [
       name: 'MIT License',
       spdx_id: 'MIT',
       url: 'https://api.github.com/licenses/mit',
-      node_id: 'MDc6TGljZW5zZTEz'
+      node_id: 'MDc6TGljZW5zZTEz',
     },
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 146595728,
@@ -114,58 +147,97 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/adjust-code-challenge',
-    description: 'A web service which turns all integers from one to a client-specified number in a JSON array.',
+    description:
+      'A web service which turns all integers from one to a client-specified number in a JSON array.',
     fork: false,
     url: 'https://api.github.com/repos/nosregor/adjust-code-challenge',
-    forks_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/adjust-code-challenge/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/adjust-code-challenge/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/adjust-code-challenge/deployments',
     created_at: '2018-08-29T12:21:29Z',
     updated_at: '2018-08-31T10:44:28Z',
     pushed_at: '2018-08-31T10:44:26Z',
@@ -193,12 +265,12 @@ export default [
       name: 'MIT License',
       spdx_id: 'MIT',
       url: 'https://api.github.com/licenses/mit',
-      node_id: 'MDc6TGljZW5zZTEz'
+      node_id: 'MDc6TGljZW5zZTEz',
     },
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 30267187,
@@ -215,60 +287,97 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/Algorithms-Design-and-Analysis',
     description:
       'Programming Questions for coursera course Algorithms: Design and Analysis, Part 1 by Tim Roughgarden (Stanford)',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis',
-    forks_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/keys{/key_id}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/keys{/key_id}',
     collaborators_url:
       'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/milestones{/number}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/Algorithms-Design-and-Analysis/deployments',
     created_at: '2015-02-03T22:07:55Z',
     updated_at: '2015-02-03T22:07:55Z',
     pushed_at: '2013-09-04T15:02:36Z',
@@ -295,7 +404,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 147169946,
@@ -312,58 +421,95 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/blog-spoonacular-api',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api',
-    forks_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/branches{/branch}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/milestones{/number}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/blog-spoonacular-api/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/blog-spoonacular-api/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/blog-spoonacular-api/deployments',
     created_at: '2018-09-03T07:48:52Z',
     updated_at: '2018-09-03T07:48:54Z',
     pushed_at: '2017-08-23T10:27:36Z',
@@ -390,7 +536,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 153581960,
@@ -407,57 +553,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/canvas-intro',
     description: null,
     fork: false,
     url: 'https://api.github.com/repos/nosregor/canvas-intro',
     forks_url: 'https://api.github.com/repos/nosregor/canvas-intro/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/canvas-intro/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/canvas-intro/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/canvas-intro/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/canvas-intro/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/canvas-intro/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/canvas-intro/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/canvas-intro/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/canvas-intro/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/canvas-intro/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/canvas-intro/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/canvas-intro/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/canvas-intro/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/canvas-intro/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/canvas-intro/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/canvas-intro/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/canvas-intro/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/canvas-intro/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/canvas-intro/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/canvas-intro/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/canvas-intro/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/canvas-intro/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/canvas-intro/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/canvas-intro/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/canvas-intro/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/canvas-intro/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/canvas-intro/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/canvas-intro/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/canvas-intro/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/canvas-intro/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/canvas-intro/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/canvas-intro/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/canvas-intro/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/canvas-intro/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/canvas-intro/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/canvas-intro/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/canvas-intro/deployments',
     created_at: '2018-10-18T07:31:06Z',
     updated_at: '2018-10-18T07:31:06Z',
     pushed_at: '2018-10-18T07:31:07Z',
@@ -484,7 +663,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 153636074,
@@ -501,58 +680,95 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/canvas-treasure-hunt',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt',
-    forks_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/branches{/branch}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/milestones{/number}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/canvas-treasure-hunt/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/canvas-treasure-hunt/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/canvas-treasure-hunt/deployments',
     created_at: '2018-10-18T14:19:36Z',
     updated_at: '2018-10-18T14:19:38Z',
     pushed_at: '2018-10-18T13:38:02Z',
@@ -579,7 +795,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 60984088,
@@ -596,58 +812,96 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/code-academy-command-line',
     description: null,
     fork: false,
     url: 'https://api.github.com/repos/nosregor/code-academy-command-line',
-    forks_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/code-academy-command-line/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/code-academy-command-line/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/code-academy-command-line/deployments',
     created_at: '2016-06-12T18:57:38Z',
     updated_at: '2016-06-12T18:57:38Z',
     pushed_at: '2016-06-12T20:23:39Z',
@@ -674,7 +928,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 60408245,
@@ -691,58 +945,96 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/code-academy-javascript',
     description: null,
     fork: false,
     url: 'https://api.github.com/repos/nosregor/code-academy-javascript',
-    forks_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/code-academy-javascript/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/code-academy-javascript/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/code-academy-javascript/deployments',
     created_at: '2016-06-04T11:59:48Z',
     updated_at: '2016-06-04T11:59:48Z',
     pushed_at: '2016-06-20T10:49:30Z',
@@ -769,7 +1061,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 145426140,
@@ -786,58 +1078,92 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/coding-challenges',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/coding-challenges',
     forks_url: 'https://api.github.com/repos/nosregor/coding-challenges/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/coding-challenges/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/coding-challenges/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/coding-challenges/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/coding-challenges/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/coding-challenges/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/coding-challenges/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/coding-challenges/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/coding-challenges/branches{/branch}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/coding-challenges/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/coding-challenges/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/coding-challenges/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/coding-challenges/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/coding-challenges/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/coding-challenges/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/coding-challenges/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/coding-challenges/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/coding-challenges/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/coding-challenges/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/coding-challenges/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/coding-challenges/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/coding-challenges/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/coding-challenges/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/coding-challenges/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/coding-challenges/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/coding-challenges/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/coding-challenges/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/coding-challenges/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/coding-challenges/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/coding-challenges/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/coding-challenges/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/coding-challenges/milestones{/number}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/coding-challenges/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/coding-challenges/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/coding-challenges/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/coding-challenges/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/coding-challenges/deployments',
     created_at: '2018-08-20T14:08:10Z',
     updated_at: '2018-08-20T14:08:11Z',
     pushed_at: '2018-08-17T13:37:47Z',
@@ -864,7 +1190,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 158072308,
@@ -881,16 +1207,19 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/confusion',
     description: null,
@@ -898,40 +1227,65 @@ export default [
     url: 'https://api.github.com/repos/nosregor/confusion',
     forks_url: 'https://api.github.com/repos/nosregor/confusion/forks',
     keys_url: 'https://api.github.com/repos/nosregor/confusion/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/confusion/collaborators{/collaborator}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/confusion/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/confusion/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/confusion/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/confusion/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/confusion/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/confusion/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/confusion/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/confusion/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/confusion/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/confusion/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/confusion/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/confusion/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/confusion/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/confusion/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/confusion/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/confusion/statuses/{sha}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/confusion/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/confusion/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/confusion/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/confusion/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/confusion/statuses/{sha}',
     languages_url: 'https://api.github.com/repos/nosregor/confusion/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/confusion/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/confusion/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/confusion/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/confusion/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/confusion/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/confusion/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/confusion/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/confusion/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/confusion/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/confusion/compare/{base}...{head}',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/confusion/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/confusion/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/confusion/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/confusion/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/confusion/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/confusion/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/confusion/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/confusion/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/confusion/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/confusion/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/confusion/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/confusion/{archive_format}{/ref}',
+    archive_url:
+      'https://api.github.com/repos/nosregor/confusion/{archive_format}{/ref}',
     downloads_url: 'https://api.github.com/repos/nosregor/confusion/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/confusion/issues{/number}',
+    issues_url:
+      'https://api.github.com/repos/nosregor/confusion/issues{/number}',
     pulls_url: 'https://api.github.com/repos/nosregor/confusion/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/confusion/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/confusion/notifications{?since,all,participating}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/confusion/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/confusion/notifications{?since,all,participating}',
     labels_url: 'https://api.github.com/repos/nosregor/confusion/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/confusion/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/confusion/deployments',
+    releases_url:
+      'https://api.github.com/repos/nosregor/confusion/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/confusion/deployments',
     created_at: '2018-11-18T10:30:43Z',
     updated_at: '2019-05-12T19:04:45Z',
     pushed_at: '2020-01-31T04:50:07Z',
@@ -958,7 +1312,7 @@ export default [
     forks: 0,
     open_issues: 11,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 157368994,
@@ -975,57 +1329,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/conFusionServer',
     description: null,
     fork: false,
     url: 'https://api.github.com/repos/nosregor/conFusionServer',
     forks_url: 'https://api.github.com/repos/nosregor/conFusionServer/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/conFusionServer/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/conFusionServer/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/conFusionServer/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/conFusionServer/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/conFusionServer/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/conFusionServer/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/conFusionServer/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/conFusionServer/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/conFusionServer/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/conFusionServer/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/conFusionServer/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/conFusionServer/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/conFusionServer/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/conFusionServer/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/conFusionServer/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/conFusionServer/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/conFusionServer/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/conFusionServer/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/conFusionServer/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/conFusionServer/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/conFusionServer/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/conFusionServer/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/conFusionServer/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/conFusionServer/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/conFusionServer/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/conFusionServer/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/conFusionServer/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/conFusionServer/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/conFusionServer/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/conFusionServer/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/conFusionServer/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/conFusionServer/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/conFusionServer/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/conFusionServer/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/conFusionServer/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/conFusionServer/deployments',
     created_at: '2018-11-13T11:24:01Z',
     updated_at: '2019-05-18T11:12:45Z',
     pushed_at: '2019-05-18T11:12:43Z',
@@ -1052,7 +1439,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 70466316,
@@ -1069,57 +1456,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/cookbook-sinatra',
     description: null,
     fork: false,
     url: 'https://api.github.com/repos/nosregor/cookbook-sinatra',
     forks_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/cookbook-sinatra/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/cookbook-sinatra/deployments',
     created_at: '2016-10-10T08:13:32Z',
     updated_at: '2016-10-10T08:14:31Z',
     pushed_at: '2016-11-08T23:25:47Z',
@@ -1146,7 +1566,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 30267122,
@@ -1163,59 +1583,96 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/coursera-stanford-algorithms1',
     description: 'Coursera: Algorithms: Design and Analysis, Part 1 (Stanford)',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1',
-    forks_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/keys{/key_id}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/keys{/key_id}',
     collaborators_url:
       'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/milestones{/number}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/coursera-stanford-algorithms1/deployments',
     created_at: '2015-02-03T22:06:25Z',
     updated_at: '2015-02-03T22:06:27Z',
     pushed_at: '2014-06-30T01:01:25Z',
@@ -1242,7 +1699,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 171005653,
@@ -1259,58 +1716,92 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/developer-roadmap',
     description: 'Roadmap to becoming a web developer in 2019',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/developer-roadmap',
     forks_url: 'https://api.github.com/repos/nosregor/developer-roadmap/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/developer-roadmap/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/developer-roadmap/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/developer-roadmap/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/developer-roadmap/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/developer-roadmap/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/developer-roadmap/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/developer-roadmap/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/developer-roadmap/branches{/branch}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/developer-roadmap/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/developer-roadmap/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/developer-roadmap/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/developer-roadmap/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/developer-roadmap/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/developer-roadmap/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/developer-roadmap/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/developer-roadmap/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/developer-roadmap/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/developer-roadmap/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/developer-roadmap/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/developer-roadmap/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/developer-roadmap/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/developer-roadmap/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/developer-roadmap/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/developer-roadmap/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/developer-roadmap/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/developer-roadmap/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/developer-roadmap/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/developer-roadmap/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/developer-roadmap/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/developer-roadmap/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/developer-roadmap/milestones{/number}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/developer-roadmap/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/developer-roadmap/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/developer-roadmap/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/developer-roadmap/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/developer-roadmap/deployments',
     created_at: '2019-02-16T13:15:52Z',
     updated_at: '2019-05-01T10:53:59Z',
     pushed_at: '2019-02-11T22:35:11Z',
@@ -1337,7 +1828,7 @@ export default [
     forks: 1,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 160660767,
@@ -1354,16 +1845,19 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/docker-pg',
     description: null,
@@ -1371,40 +1865,65 @@ export default [
     url: 'https://api.github.com/repos/nosregor/docker-pg',
     forks_url: 'https://api.github.com/repos/nosregor/docker-pg/forks',
     keys_url: 'https://api.github.com/repos/nosregor/docker-pg/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/docker-pg/collaborators{/collaborator}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/docker-pg/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/docker-pg/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/docker-pg/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/docker-pg/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/docker-pg/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/docker-pg/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/docker-pg/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/docker-pg/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/docker-pg/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/docker-pg/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/docker-pg/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/docker-pg/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/docker-pg/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/docker-pg/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/docker-pg/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/docker-pg/statuses/{sha}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/docker-pg/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/docker-pg/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/docker-pg/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/docker-pg/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/docker-pg/statuses/{sha}',
     languages_url: 'https://api.github.com/repos/nosregor/docker-pg/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/docker-pg/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/docker-pg/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/docker-pg/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/docker-pg/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/docker-pg/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/docker-pg/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/docker-pg/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/docker-pg/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/docker-pg/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/docker-pg/compare/{base}...{head}',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/docker-pg/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/docker-pg/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/docker-pg/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/docker-pg/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/docker-pg/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/docker-pg/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/docker-pg/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/docker-pg/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/docker-pg/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/docker-pg/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/docker-pg/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/docker-pg/{archive_format}{/ref}',
+    archive_url:
+      'https://api.github.com/repos/nosregor/docker-pg/{archive_format}{/ref}',
     downloads_url: 'https://api.github.com/repos/nosregor/docker-pg/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/docker-pg/issues{/number}',
+    issues_url:
+      'https://api.github.com/repos/nosregor/docker-pg/issues{/number}',
     pulls_url: 'https://api.github.com/repos/nosregor/docker-pg/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/docker-pg/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/docker-pg/notifications{?since,all,participating}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/docker-pg/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/docker-pg/notifications{?since,all,participating}',
     labels_url: 'https://api.github.com/repos/nosregor/docker-pg/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/docker-pg/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/docker-pg/deployments',
+    releases_url:
+      'https://api.github.com/repos/nosregor/docker-pg/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/docker-pg/deployments',
     created_at: '2018-12-06T10:48:18Z',
     updated_at: '2018-12-06T10:48:37Z',
     pushed_at: '2018-12-06T10:48:35Z',
@@ -1431,7 +1950,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 155733826,
@@ -1448,57 +1967,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/docker-project',
     description: null,
     fork: false,
     url: 'https://api.github.com/repos/nosregor/docker-project',
     forks_url: 'https://api.github.com/repos/nosregor/docker-project/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/docker-project/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/docker-project/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/docker-project/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/docker-project/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/docker-project/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/docker-project/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/docker-project/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/docker-project/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/docker-project/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/docker-project/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/docker-project/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/docker-project/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/docker-project/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/docker-project/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/docker-project/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/docker-project/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/docker-project/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/docker-project/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/docker-project/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/docker-project/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/docker-project/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/docker-project/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/docker-project/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/docker-project/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/docker-project/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/docker-project/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/docker-project/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/docker-project/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/docker-project/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/docker-project/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/docker-project/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/docker-project/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/docker-project/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/docker-project/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/docker-project/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/docker-project/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/docker-project/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/docker-project/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/docker-project/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/docker-project/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/docker-project/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/docker-project/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/docker-project/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/docker-project/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/docker-project/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/docker-project/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/docker-project/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/docker-project/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/docker-project/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/docker-project/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/docker-project/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/docker-project/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/docker-project/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/docker-project/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/docker-project/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/docker-project/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/docker-project/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/docker-project/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/docker-project/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/docker-project/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/docker-project/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/docker-project/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/docker-project/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/docker-project/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/docker-project/deployments',
     created_at: '2018-11-01T15:12:54Z',
     updated_at: '2018-11-02T09:28:32Z',
     pushed_at: '2018-11-02T09:28:30Z',
@@ -1525,7 +2077,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 145576785,
@@ -1542,16 +2094,19 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/dotfiles',
     description: "Default configuration for Le Wagon's students",
@@ -1559,40 +2114,61 @@ export default [
     url: 'https://api.github.com/repos/nosregor/dotfiles',
     forks_url: 'https://api.github.com/repos/nosregor/dotfiles/forks',
     keys_url: 'https://api.github.com/repos/nosregor/dotfiles/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/dotfiles/collaborators{/collaborator}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/dotfiles/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/dotfiles/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/dotfiles/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/dotfiles/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/dotfiles/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/dotfiles/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/dotfiles/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/dotfiles/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/dotfiles/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/dotfiles/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/dotfiles/tags',
     blobs_url: 'https://api.github.com/repos/nosregor/dotfiles/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/dotfiles/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/dotfiles/git/refs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/dotfiles/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/dotfiles/git/refs{/sha}',
     trees_url: 'https://api.github.com/repos/nosregor/dotfiles/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/dotfiles/statuses/{sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/dotfiles/statuses/{sha}',
     languages_url: 'https://api.github.com/repos/nosregor/dotfiles/languages',
     stargazers_url: 'https://api.github.com/repos/nosregor/dotfiles/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/dotfiles/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/dotfiles/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/dotfiles/subscription',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/dotfiles/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/dotfiles/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/dotfiles/subscription',
     commits_url: 'https://api.github.com/repos/nosregor/dotfiles/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/dotfiles/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/dotfiles/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/dotfiles/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/dotfiles/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/dotfiles/compare/{base}...{head}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/dotfiles/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/dotfiles/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/dotfiles/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/dotfiles/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/dotfiles/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/dotfiles/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/dotfiles/{archive_format}{/ref}',
+    archive_url:
+      'https://api.github.com/repos/nosregor/dotfiles/{archive_format}{/ref}',
     downloads_url: 'https://api.github.com/repos/nosregor/dotfiles/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/dotfiles/issues{/number}',
+    issues_url:
+      'https://api.github.com/repos/nosregor/dotfiles/issues{/number}',
     pulls_url: 'https://api.github.com/repos/nosregor/dotfiles/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/dotfiles/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/dotfiles/notifications{?since,all,participating}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/dotfiles/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/dotfiles/notifications{?since,all,participating}',
     labels_url: 'https://api.github.com/repos/nosregor/dotfiles/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/dotfiles/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/dotfiles/deployments',
+    releases_url:
+      'https://api.github.com/repos/nosregor/dotfiles/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/dotfiles/deployments',
     created_at: '2018-08-21T14:38:27Z',
     updated_at: '2019-01-21T14:52:53Z',
     pushed_at: '2019-01-21T14:52:48Z',
@@ -1619,7 +2195,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 147818022,
@@ -1636,16 +2212,19 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/es6.io',
     description: '🔥 Starter Files to Learn with ES6 for Everyone',
@@ -1653,13 +2232,17 @@ export default [
     url: 'https://api.github.com/repos/nosregor/es6.io',
     forks_url: 'https://api.github.com/repos/nosregor/es6.io/forks',
     keys_url: 'https://api.github.com/repos/nosregor/es6.io/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/es6.io/collaborators{/collaborator}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/es6.io/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/es6.io/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/es6.io/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/es6.io/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/es6.io/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/es6.io/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/es6.io/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/es6.io/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/es6.io/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/es6.io/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/es6.io/tags',
     blobs_url: 'https://api.github.com/repos/nosregor/es6.io/git/blobs{/sha}',
     git_tags_url: 'https://api.github.com/repos/nosregor/es6.io/git/tags{/sha}',
@@ -1668,22 +2251,32 @@ export default [
     statuses_url: 'https://api.github.com/repos/nosregor/es6.io/statuses/{sha}',
     languages_url: 'https://api.github.com/repos/nosregor/es6.io/languages',
     stargazers_url: 'https://api.github.com/repos/nosregor/es6.io/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/es6.io/contributors',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/es6.io/contributors',
     subscribers_url: 'https://api.github.com/repos/nosregor/es6.io/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/es6.io/subscription',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/es6.io/subscription',
     commits_url: 'https://api.github.com/repos/nosregor/es6.io/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/es6.io/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/es6.io/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/es6.io/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/es6.io/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/es6.io/compare/{base}...{head}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/es6.io/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/es6.io/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/es6.io/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/es6.io/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/es6.io/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/es6.io/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/es6.io/{archive_format}{/ref}',
+    archive_url:
+      'https://api.github.com/repos/nosregor/es6.io/{archive_format}{/ref}',
     downloads_url: 'https://api.github.com/repos/nosregor/es6.io/downloads',
     issues_url: 'https://api.github.com/repos/nosregor/es6.io/issues{/number}',
     pulls_url: 'https://api.github.com/repos/nosregor/es6.io/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/es6.io/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/es6.io/notifications{?since,all,participating}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/es6.io/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/es6.io/notifications{?since,all,participating}',
     labels_url: 'https://api.github.com/repos/nosregor/es6.io/labels{/name}',
     releases_url: 'https://api.github.com/repos/nosregor/es6.io/releases{/id}',
     deployments_url: 'https://api.github.com/repos/nosregor/es6.io/deployments',
@@ -1713,7 +2306,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 161308754,
@@ -1730,58 +2323,96 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/freighthub-code-challenge',
     description: 'freighthub-code-challenge',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge',
-    forks_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/freighthub-code-challenge/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/freighthub-code-challenge/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/freighthub-code-challenge/deployments',
     created_at: '2018-12-11T09:22:04Z',
     updated_at: '2018-12-11T09:22:06Z',
     pushed_at: '2018-04-09T09:18:11Z',
@@ -1808,7 +2439,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 147103806,
@@ -1825,57 +2456,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/graphql-invoices',
     description: 'GraphQL demo on Ruby on Rails.',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/graphql-invoices',
     forks_url: 'https://api.github.com/repos/nosregor/graphql-invoices/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/graphql-invoices/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/graphql-invoices/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/graphql-invoices/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/graphql-invoices/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/graphql-invoices/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/graphql-invoices/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/graphql-invoices/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/graphql-invoices/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/graphql-invoices/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/graphql-invoices/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/graphql-invoices/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/graphql-invoices/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/graphql-invoices/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/graphql-invoices/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/graphql-invoices/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/graphql-invoices/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/graphql-invoices/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/graphql-invoices/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/graphql-invoices/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/graphql-invoices/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/graphql-invoices/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/graphql-invoices/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/graphql-invoices/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/graphql-invoices/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/graphql-invoices/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/graphql-invoices/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/graphql-invoices/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/graphql-invoices/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/graphql-invoices/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/graphql-invoices/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/graphql-invoices/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/graphql-invoices/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/graphql-invoices/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/graphql-invoices/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/graphql-invoices/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/graphql-invoices/deployments',
     created_at: '2018-09-02T16:46:02Z',
     updated_at: '2018-09-02T16:46:04Z',
     pushed_at: '2017-11-15T12:04:43Z',
@@ -1903,12 +2567,12 @@ export default [
       name: 'MIT License',
       spdx_id: 'MIT',
       url: 'https://api.github.com/licenses/mit',
-      node_id: 'MDc6TGljZW5zZTEz'
+      node_id: 'MDc6TGljZW5zZTEz',
     },
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 93829691,
@@ -1925,57 +2589,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/JavaScript30',
     description: '30 Day Vanilla JS Challenge',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/JavaScript30',
     forks_url: 'https://api.github.com/repos/nosregor/JavaScript30/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/JavaScript30/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/JavaScript30/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/JavaScript30/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/JavaScript30/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/JavaScript30/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/JavaScript30/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/JavaScript30/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/JavaScript30/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/JavaScript30/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/JavaScript30/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/JavaScript30/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/JavaScript30/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/JavaScript30/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/JavaScript30/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/JavaScript30/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/JavaScript30/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/JavaScript30/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/JavaScript30/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/JavaScript30/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/JavaScript30/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/JavaScript30/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/JavaScript30/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/JavaScript30/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/JavaScript30/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/JavaScript30/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/JavaScript30/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/JavaScript30/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/JavaScript30/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/JavaScript30/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/JavaScript30/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/JavaScript30/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/JavaScript30/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/JavaScript30/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/JavaScript30/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/JavaScript30/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/JavaScript30/deployments',
     created_at: '2017-06-09T07:08:07Z',
     updated_at: '2017-06-09T07:08:09Z',
     pushed_at: '2017-06-09T08:22:10Z',
@@ -2002,7 +2699,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 153468794,
@@ -2019,16 +2716,19 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/jGame',
     description: 'A starter code for a game written in jQuery',
@@ -2036,13 +2736,17 @@ export default [
     url: 'https://api.github.com/repos/nosregor/jGame',
     forks_url: 'https://api.github.com/repos/nosregor/jGame/forks',
     keys_url: 'https://api.github.com/repos/nosregor/jGame/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/jGame/collaborators{/collaborator}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/jGame/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/jGame/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/jGame/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/jGame/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/jGame/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/jGame/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/jGame/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/jGame/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/jGame/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/jGame/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/jGame/tags',
     blobs_url: 'https://api.github.com/repos/nosregor/jGame/git/blobs{/sha}',
     git_tags_url: 'https://api.github.com/repos/nosregor/jGame/git/tags{/sha}',
@@ -2051,22 +2755,32 @@ export default [
     statuses_url: 'https://api.github.com/repos/nosregor/jGame/statuses/{sha}',
     languages_url: 'https://api.github.com/repos/nosregor/jGame/languages',
     stargazers_url: 'https://api.github.com/repos/nosregor/jGame/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/jGame/contributors',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/jGame/contributors',
     subscribers_url: 'https://api.github.com/repos/nosregor/jGame/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/jGame/subscription',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/jGame/subscription',
     commits_url: 'https://api.github.com/repos/nosregor/jGame/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/jGame/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/jGame/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/jGame/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/jGame/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/jGame/compare/{base}...{head}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/jGame/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/jGame/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/jGame/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/jGame/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/jGame/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/jGame/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/jGame/{archive_format}{/ref}',
+    archive_url:
+      'https://api.github.com/repos/nosregor/jGame/{archive_format}{/ref}',
     downloads_url: 'https://api.github.com/repos/nosregor/jGame/downloads',
     issues_url: 'https://api.github.com/repos/nosregor/jGame/issues{/number}',
     pulls_url: 'https://api.github.com/repos/nosregor/jGame/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/jGame/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/jGame/notifications{?since,all,participating}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/jGame/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/jGame/notifications{?since,all,participating}',
     labels_url: 'https://api.github.com/repos/nosregor/jGame/labels{/name}',
     releases_url: 'https://api.github.com/repos/nosregor/jGame/releases{/id}',
     deployments_url: 'https://api.github.com/repos/nosregor/jGame/deployments',
@@ -2096,7 +2810,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 153476775,
@@ -2113,16 +2827,19 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/jgame-1',
     description: 'An starter code for a game with jQuery',
@@ -2130,40 +2847,59 @@ export default [
     url: 'https://api.github.com/repos/nosregor/jgame-1',
     forks_url: 'https://api.github.com/repos/nosregor/jgame-1/forks',
     keys_url: 'https://api.github.com/repos/nosregor/jgame-1/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/jgame-1/collaborators{/collaborator}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/jgame-1/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/jgame-1/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/jgame-1/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/jgame-1/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/jgame-1/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/jgame-1/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/jgame-1/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/jgame-1/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/jgame-1/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/jgame-1/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/jgame-1/tags',
     blobs_url: 'https://api.github.com/repos/nosregor/jgame-1/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/jgame-1/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/jgame-1/git/refs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/jgame-1/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/jgame-1/git/refs{/sha}',
     trees_url: 'https://api.github.com/repos/nosregor/jgame-1/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/jgame-1/statuses/{sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/jgame-1/statuses/{sha}',
     languages_url: 'https://api.github.com/repos/nosregor/jgame-1/languages',
     stargazers_url: 'https://api.github.com/repos/nosregor/jgame-1/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/jgame-1/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/jgame-1/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/jgame-1/subscription',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/jgame-1/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/jgame-1/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/jgame-1/subscription',
     commits_url: 'https://api.github.com/repos/nosregor/jgame-1/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/jgame-1/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/jgame-1/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/jgame-1/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/jgame-1/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/jgame-1/compare/{base}...{head}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/jgame-1/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/jgame-1/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/jgame-1/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/jgame-1/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/jgame-1/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/jgame-1/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/jgame-1/{archive_format}{/ref}',
+    archive_url:
+      'https://api.github.com/repos/nosregor/jgame-1/{archive_format}{/ref}',
     downloads_url: 'https://api.github.com/repos/nosregor/jgame-1/downloads',
     issues_url: 'https://api.github.com/repos/nosregor/jgame-1/issues{/number}',
     pulls_url: 'https://api.github.com/repos/nosregor/jgame-1/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/jgame-1/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/jgame-1/notifications{?since,all,participating}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/jgame-1/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/jgame-1/notifications{?since,all,participating}',
     labels_url: 'https://api.github.com/repos/nosregor/jgame-1/labels{/name}',
     releases_url: 'https://api.github.com/repos/nosregor/jgame-1/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/jgame-1/deployments',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/jgame-1/deployments',
     created_at: '2018-10-17T15:04:32Z',
     updated_at: '2018-10-17T15:04:34Z',
     pushed_at: '2018-10-17T15:03:21Z',
@@ -2190,7 +2926,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 226334985,
@@ -2207,16 +2943,19 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/jumio',
     description: null,
@@ -2224,13 +2963,17 @@ export default [
     url: 'https://api.github.com/repos/nosregor/jumio',
     forks_url: 'https://api.github.com/repos/nosregor/jumio/forks',
     keys_url: 'https://api.github.com/repos/nosregor/jumio/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/jumio/collaborators{/collaborator}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/jumio/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/jumio/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/jumio/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/jumio/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/jumio/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/jumio/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/jumio/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/jumio/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/jumio/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/jumio/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/jumio/tags',
     blobs_url: 'https://api.github.com/repos/nosregor/jumio/git/blobs{/sha}',
     git_tags_url: 'https://api.github.com/repos/nosregor/jumio/git/tags{/sha}',
@@ -2239,22 +2982,32 @@ export default [
     statuses_url: 'https://api.github.com/repos/nosregor/jumio/statuses/{sha}',
     languages_url: 'https://api.github.com/repos/nosregor/jumio/languages',
     stargazers_url: 'https://api.github.com/repos/nosregor/jumio/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/jumio/contributors',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/jumio/contributors',
     subscribers_url: 'https://api.github.com/repos/nosregor/jumio/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/jumio/subscription',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/jumio/subscription',
     commits_url: 'https://api.github.com/repos/nosregor/jumio/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/jumio/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/jumio/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/jumio/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/jumio/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/jumio/compare/{base}...{head}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/jumio/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/jumio/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/jumio/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/jumio/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/jumio/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/jumio/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/jumio/{archive_format}{/ref}',
+    archive_url:
+      'https://api.github.com/repos/nosregor/jumio/{archive_format}{/ref}',
     downloads_url: 'https://api.github.com/repos/nosregor/jumio/downloads',
     issues_url: 'https://api.github.com/repos/nosregor/jumio/issues{/number}',
     pulls_url: 'https://api.github.com/repos/nosregor/jumio/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/jumio/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/jumio/notifications{?since,all,participating}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/jumio/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/jumio/notifications{?since,all,participating}',
     labels_url: 'https://api.github.com/repos/nosregor/jumio/labels{/name}',
     releases_url: 'https://api.github.com/repos/nosregor/jumio/releases{/id}',
     deployments_url: 'https://api.github.com/repos/nosregor/jumio/deployments',
@@ -2284,7 +3037,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 23408179,
@@ -2301,16 +3054,19 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/kaggle-bike',
     description: 'Code for the Kaggle bike sharing competition',
@@ -2318,40 +3074,69 @@ export default [
     url: 'https://api.github.com/repos/nosregor/kaggle-bike',
     forks_url: 'https://api.github.com/repos/nosregor/kaggle-bike/forks',
     keys_url: 'https://api.github.com/repos/nosregor/kaggle-bike/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/kaggle-bike/collaborators{/collaborator}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/kaggle-bike/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/kaggle-bike/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/kaggle-bike/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/kaggle-bike/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/kaggle-bike/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/kaggle-bike/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/kaggle-bike/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/kaggle-bike/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/kaggle-bike/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/kaggle-bike/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/kaggle-bike/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/kaggle-bike/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/kaggle-bike/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/kaggle-bike/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/kaggle-bike/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/kaggle-bike/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/kaggle-bike/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/kaggle-bike/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/kaggle-bike/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/kaggle-bike/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/kaggle-bike/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/kaggle-bike/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/kaggle-bike/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/kaggle-bike/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/kaggle-bike/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/kaggle-bike/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/kaggle-bike/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/kaggle-bike/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/kaggle-bike/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/kaggle-bike/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/kaggle-bike/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/kaggle-bike/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/kaggle-bike/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/kaggle-bike/deployments',
     created_at: '2014-08-27T22:53:49Z',
     updated_at: '2014-08-20T12:18:00Z',
     pushed_at: '2014-07-23T04:04:27Z',
@@ -2378,7 +3163,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 23405294,
@@ -2395,57 +3180,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/kdd_bikeshare',
     description: 'An analysis of Bikeshare Data',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/kdd_bikeshare',
     forks_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/kdd_bikeshare/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/kdd_bikeshare/deployments',
     created_at: '2014-08-27T21:01:13Z',
     updated_at: '2014-02-22T05:01:06Z',
     pushed_at: '2014-02-22T05:01:06Z',
@@ -2472,7 +3290,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 161312667,
@@ -2489,57 +3307,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/klarna-code-test',
     description: 'JS code test for Klarna',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/klarna-code-test',
     forks_url: 'https://api.github.com/repos/nosregor/klarna-code-test/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/klarna-code-test/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/klarna-code-test/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/klarna-code-test/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/klarna-code-test/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/klarna-code-test/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/klarna-code-test/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/klarna-code-test/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/klarna-code-test/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/klarna-code-test/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/klarna-code-test/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/klarna-code-test/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/klarna-code-test/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/klarna-code-test/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/klarna-code-test/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/klarna-code-test/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/klarna-code-test/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/klarna-code-test/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/klarna-code-test/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/klarna-code-test/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/klarna-code-test/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/klarna-code-test/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/klarna-code-test/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/klarna-code-test/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/klarna-code-test/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/klarna-code-test/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/klarna-code-test/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/klarna-code-test/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/klarna-code-test/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/klarna-code-test/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/klarna-code-test/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/klarna-code-test/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/klarna-code-test/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/klarna-code-test/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/klarna-code-test/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/klarna-code-test/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/klarna-code-test/deployments',
     created_at: '2018-12-11T09:52:42Z',
     updated_at: '2018-12-11T09:52:45Z',
     pushed_at: '2018-01-08T22:14:46Z',
@@ -2566,7 +3417,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 156693550,
@@ -2583,58 +3434,96 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-ajax-crud-characters',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-ajax-crud-characters/deployments',
     created_at: '2018-11-08T11:02:08Z',
     updated_at: '2018-11-08T14:15:28Z',
     pushed_at: '2018-11-08T14:15:27Z',
@@ -2661,7 +3550,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 156367235,
@@ -2678,66 +3567,103 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-authentication-with-passport',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/keys{/key_id}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/keys{/key_id}',
     collaborators_url:
       'https://api.github.com/repos/nosregor/lab-authentication-with-passport/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/comments{/number}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/comments{/number}',
     issue_comment_url:
       'https://api.github.com/repos/nosregor/lab-authentication-with-passport/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/milestones{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-authentication-with-passport/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-authentication-with-passport/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-authentication-with-passport/deployments',
     created_at: '2018-11-06T10:35:45Z',
     updated_at: '2018-11-06T11:23:39Z',
     pushed_at: '2018-11-06T11:23:38Z',
     git_url: 'git://github.com/nosregor/lab-authentication-with-passport.git',
     ssh_url: 'git@github.com:nosregor/lab-authentication-with-passport.git',
-    clone_url: 'https://github.com/nosregor/lab-authentication-with-passport.git',
+    clone_url:
+      'https://github.com/nosregor/lab-authentication-with-passport.git',
     svn_url: 'https://github.com/nosregor/lab-authentication-with-passport',
     homepage: null,
     size: 8674,
@@ -2758,7 +3684,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 158350956,
@@ -2775,58 +3701,95 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-bulma-components',
     description: null,
     fork: false,
     url: 'https://api.github.com/repos/nosregor/lab-bulma-components',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/branches{/branch}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/milestones{/number}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-bulma-components/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-bulma-components/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-bulma-components/deployments',
     created_at: '2018-11-20T07:51:52Z',
     updated_at: '2018-11-20T10:31:09Z',
     pushed_at: '2018-11-20T10:31:07Z',
@@ -2853,7 +3816,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 153799823,
@@ -2870,58 +3833,96 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-canvas-flappybirds',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-flappybirds/deployments',
     created_at: '2018-10-19T14:57:08Z',
     updated_at: '2018-10-19T22:44:49Z',
     pushed_at: '2018-10-19T22:44:48Z',
@@ -2948,7 +3949,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 153605534,
@@ -2965,58 +3966,92 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-canvas-hangman',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman',
     forks_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/branches{/branch}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/milestones{/number}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-canvas-hangman/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-canvas-hangman/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-hangman/deployments',
     created_at: '2018-10-18T10:22:22Z',
     updated_at: '2018-10-18T14:00:15Z',
     pushed_at: '2018-10-18T14:00:13Z',
@@ -3043,7 +4078,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 153763924,
@@ -3060,58 +4095,95 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-canvas-race-car',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/branches{/branch}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/milestones{/number}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-canvas-race-car/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-canvas-race-car/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-canvas-race-car/deployments',
     created_at: '2018-10-19T10:09:08Z',
     updated_at: '2018-11-08T16:20:24Z',
     pushed_at: '2018-11-08T16:20:22Z',
@@ -3138,7 +4210,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 152377988,
@@ -3155,58 +4227,96 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-css-instagram-clone',
     description: 'A CSS Lab to clone instagram and practice positioning',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-css-instagram-clone/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-css-instagram-clone/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-css-instagram-clone/deployments',
     created_at: '2018-10-10T07:03:44Z',
     updated_at: '2018-10-10T07:03:46Z',
     pushed_at: '2018-10-03T18:52:33Z',
@@ -3233,7 +4343,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 152859289,
@@ -3250,58 +4360,97 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-css-recipes-clone',
-    description: 'An exercise to clone a recipes page and understand the basics of HTML and CSS',
+    description:
+      'An exercise to clone a recipes page and understand the basics of HTML and CSS',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-css-recipes-clone/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-css-recipes-clone/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-css-recipes-clone/deployments',
     created_at: '2018-10-13T10:07:49Z',
     updated_at: '2018-10-13T13:28:04Z',
     pushed_at: '2018-10-13T13:28:02Z',
@@ -3328,7 +4477,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 152453827,
@@ -3345,58 +4494,96 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-css-spotify-clone',
     description: 'A CSS exercise to practice positioning and layout',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-css-spotify-clone/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-css-spotify-clone/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-css-spotify-clone/deployments',
     created_at: '2018-10-10T16:19:53Z',
     updated_at: '2018-10-10T16:19:55Z',
     pushed_at: '2018-09-30T20:54:22Z',
@@ -3423,7 +4610,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 153078998,
@@ -3440,58 +4627,97 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-dom-ironhack-cart',
-    description: 'An exercise to understand the DOM and manipulate DOM elements',
+    description:
+      'An exercise to understand the DOM and manipulate DOM elements',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-dom-ironhack-cart/deployments',
     created_at: '2018-10-15T08:31:20Z',
     updated_at: '2018-10-16T08:45:19Z',
     pushed_at: '2018-10-16T08:45:16Z',
@@ -3518,7 +4744,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 156239499,
@@ -3535,58 +4761,96 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-express-basic-auth',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-express-basic-auth/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-express-basic-auth/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-auth/deployments',
     created_at: '2018-11-05T15:27:45Z',
     updated_at: '2019-01-05T10:58:48Z',
     pushed_at: '2019-01-05T10:58:46Z',
@@ -3613,7 +4877,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 155561730,
@@ -3630,58 +4894,96 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-express-basic-site',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-express-basic-site',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-express-basic-site/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-express-basic-site/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-express-basic-site/deployments',
     created_at: '2018-10-31T13:25:39Z',
     updated_at: '2018-10-31T14:11:35Z',
     pushed_at: '2018-10-31T14:11:33Z',
@@ -3708,7 +5010,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 155870032,
@@ -3725,58 +5027,92 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-express-cinema',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-express-cinema',
     forks_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/branches{/branch}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/milestones{/number}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-express-cinema/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-express-cinema/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-express-cinema/deployments',
     created_at: '2018-11-02T13:30:47Z',
     updated_at: '2018-11-02T16:20:57Z',
     pushed_at: '2018-11-02T16:20:56Z',
@@ -3803,7 +5139,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 162086506,
@@ -3820,58 +5156,95 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-express-spotify',
     description: null,
     fork: false,
     url: 'https://api.github.com/repos/nosregor/lab-express-spotify',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/branches{/branch}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/milestones{/number}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-express-spotify/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-express-spotify/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-express-spotify/deployments',
     created_at: '2018-12-17T06:44:23Z',
     updated_at: '2018-12-17T06:44:44Z',
     pushed_at: '2018-12-17T06:44:42Z',
@@ -3898,7 +5271,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 156843035,
@@ -3915,57 +5288,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-file-upload',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-file-upload',
     forks_url: 'https://api.github.com/repos/nosregor/lab-file-upload/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-file-upload/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-file-upload/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/lab-file-upload/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/lab-file-upload/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-file-upload/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/lab-file-upload/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-file-upload/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-file-upload/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/lab-file-upload/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-file-upload/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-file-upload/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-file-upload/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-file-upload/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-file-upload/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-file-upload/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-file-upload/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-file-upload/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-file-upload/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-file-upload/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-file-upload/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-file-upload/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-file-upload/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-file-upload/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-file-upload/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-file-upload/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/lab-file-upload/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-file-upload/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-file-upload/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-file-upload/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-file-upload/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-file-upload/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/lab-file-upload/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-file-upload/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-file-upload/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-file-upload/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-file-upload/deployments',
     created_at: '2018-11-09T09:56:23Z',
     updated_at: '2018-11-09T09:56:25Z',
     pushed_at: '2018-11-07T01:39:54Z',
@@ -3992,7 +5398,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 156717165,
@@ -4009,57 +5415,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-first-deploy',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-first-deploy',
     forks_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-first-deploy/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-first-deploy/deployments',
     created_at: '2018-11-08T14:14:55Z',
     updated_at: '2018-11-08T14:14:57Z',
     pushed_at: '2017-02-02T15:20:58Z',
@@ -4086,7 +5525,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 171006793,
@@ -4103,58 +5542,92 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-hello-ironhack',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack',
     forks_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/branches{/branch}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/milestones{/number}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-hello-ironhack/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-hello-ironhack/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-hello-ironhack/deployments',
     created_at: '2019-02-16T13:27:31Z',
     updated_at: '2019-05-05T13:57:44Z',
     pushed_at: '2019-05-05T13:57:42Z',
@@ -4181,7 +5654,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 154629271,
@@ -4198,57 +5671,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-intro-node',
     description: 'Getting started with Node? Try and solve me!',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-intro-node',
     forks_url: 'https://api.github.com/repos/nosregor/lab-intro-node/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-intro-node/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-intro-node/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/lab-intro-node/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/lab-intro-node/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-intro-node/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/lab-intro-node/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-intro-node/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-intro-node/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/lab-intro-node/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-intro-node/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-intro-node/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-intro-node/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-intro-node/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-intro-node/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-intro-node/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-intro-node/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-intro-node/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-intro-node/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-intro-node/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-intro-node/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-intro-node/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-intro-node/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-intro-node/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-intro-node/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-intro-node/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/lab-intro-node/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-intro-node/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-intro-node/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-intro-node/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-intro-node/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-intro-node/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/lab-intro-node/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-intro-node/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-intro-node/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-intro-node/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-intro-node/deployments',
     created_at: '2018-10-25T07:36:47Z',
     updated_at: '2018-10-25T09:16:33Z',
     pushed_at: '2018-10-25T09:16:31Z',
@@ -4275,7 +5781,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 155682696,
@@ -4292,57 +5798,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-ironbeers',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-ironbeers',
     forks_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-ironbeers/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-ironbeers/deployments',
     created_at: '2018-11-01T08:10:29Z',
     updated_at: '2018-11-01T08:10:31Z',
     pushed_at: '2018-10-27T00:22:51Z',
@@ -4369,7 +5908,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 153487699,
@@ -4386,66 +5925,104 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-javascript-advanced-algorithms',
-    description: 'An exercise to practice JavaScript and use testing to create a solution',
+    description:
+      'An exercise to practice JavaScript and use testing to create a solution',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/keys{/key_id}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/keys{/key_id}',
     collaborators_url:
       'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/comments{/number}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/comments{/number}',
     issue_comment_url:
       'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/milestones{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-advanced-algorithms/deployments',
     created_at: '2018-10-17T16:18:24Z',
     updated_at: '2018-10-18T07:34:34Z',
     pushed_at: '2018-10-18T07:34:32Z',
     git_url: 'git://github.com/nosregor/lab-javascript-advanced-algorithms.git',
     ssh_url: 'git@github.com:nosregor/lab-javascript-advanced-algorithms.git',
-    clone_url: 'https://github.com/nosregor/lab-javascript-advanced-algorithms.git',
+    clone_url:
+      'https://github.com/nosregor/lab-javascript-advanced-algorithms.git',
     svn_url: 'https://github.com/nosregor/lab-javascript-advanced-algorithms',
     homepage: null,
     size: 76,
@@ -4466,7 +6043,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 152583920,
@@ -4483,65 +6060,103 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-javascript-all-times-movies',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/keys{/key_id}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/keys{/key_id}',
     collaborators_url:
       'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/milestones{/number}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-all-times-movies/deployments',
     created_at: '2018-10-11T11:55:19Z',
     updated_at: '2018-10-11T14:59:20Z',
     pushed_at: '2018-10-11T14:59:17Z',
     git_url: 'git://github.com/nosregor/lab-javascript-all-times-movies.git',
     ssh_url: 'git@github.com:nosregor/lab-javascript-all-times-movies.git',
-    clone_url: 'https://github.com/nosregor/lab-javascript-all-times-movies.git',
+    clone_url:
+      'https://github.com/nosregor/lab-javascript-all-times-movies.git',
     svn_url: 'https://github.com/nosregor/lab-javascript-all-times-movies',
     homepage: null,
     size: 82,
@@ -4562,7 +6177,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 153239971,
@@ -4579,58 +6194,96 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-javascript-chronometer',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-javascript-chronometer/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-javascript-chronometer/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-chronometer/deployments',
     created_at: '2018-10-16T07:17:17Z',
     updated_at: '2018-10-16T09:07:43Z',
     pushed_at: '2018-10-16T09:07:41Z',
@@ -4657,7 +6310,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 152418495,
@@ -4674,58 +6327,96 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-javascript-clue',
-    description: 'An exercise to practice JavaScript objects (as hashes) and arrays',
+    description:
+      'An exercise to practice JavaScript objects (as hashes) and arrays',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-javascript-clue',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/branches{/branch}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/milestones{/number}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-javascript-clue/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-javascript-clue/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-clue/deployments',
     created_at: '2018-10-10T12:17:03Z',
     updated_at: '2018-10-10T13:50:14Z',
     pushed_at: '2018-10-10T13:50:13Z',
@@ -4752,7 +6443,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 152230330,
@@ -4769,67 +6460,105 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-javascript-functions-and-arrays',
-    description: 'An exercise to apply Array iteration and Array manipulation tecniques ',
+    description:
+      'An exercise to apply Array iteration and Array manipulation tecniques ',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/keys{/key_id}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/keys{/key_id}',
     collaborators_url:
       'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/hooks',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/hooks',
     issue_events_url:
       'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/comments{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/comments{/number}',
     issue_comment_url:
       'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/milestones{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-functions-and-arrays/deployments',
     created_at: '2018-10-09T10:12:12Z',
     updated_at: '2018-10-14T18:22:27Z',
     pushed_at: '2018-10-14T18:22:25Z',
-    git_url: 'git://github.com/nosregor/lab-javascript-functions-and-arrays.git',
+    git_url:
+      'git://github.com/nosregor/lab-javascript-functions-and-arrays.git',
     ssh_url: 'git@github.com:nosregor/lab-javascript-functions-and-arrays.git',
-    clone_url: 'https://github.com/nosregor/lab-javascript-functions-and-arrays.git',
+    clone_url:
+      'https://github.com/nosregor/lab-javascript-functions-and-arrays.git',
     svn_url: 'https://github.com/nosregor/lab-javascript-functions-and-arrays',
     homepage: null,
     size: 68,
@@ -4850,7 +6579,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 153452124,
@@ -4867,58 +6596,95 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-javascript-koans',
     description: 'A very Zen exercise to practice JavaScript',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-javascript-koans',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/branches{/branch}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/milestones{/number}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-javascript-koans/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-javascript-koans/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-koans/deployments',
     created_at: '2018-10-17T12:20:42Z',
     updated_at: '2018-10-17T12:20:45Z',
     pushed_at: '2018-10-16T23:31:52Z',
@@ -4945,7 +6711,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 153411905,
@@ -4962,58 +6728,97 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-javascript-memory-game',
-    description: 'An exercise to practice jQuery and understand how to separate logic and user interactions',
+    description:
+      'An exercise to practice jQuery and understand how to separate logic and user interactions',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-javascript-memory-game/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-javascript-memory-game/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-memory-game/deployments',
     created_at: '2018-10-17T07:12:14Z',
     updated_at: '2018-10-17T16:13:35Z',
     pushed_at: '2018-10-17T16:13:32Z',
@@ -5040,7 +6845,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 152771782,
@@ -5057,58 +6862,97 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-javascript-vikings',
-    description: 'A JavaScript exercise to practice Object Oriented Programming',
+    description:
+      'A JavaScript exercise to practice Object Oriented Programming',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-javascript-vikings/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-javascript-vikings/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-javascript-vikings/deployments',
     created_at: '2018-10-12T15:30:47Z',
     updated_at: '2018-10-14T18:20:05Z',
     pushed_at: '2018-10-14T18:20:04Z',
@@ -5135,7 +6979,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 153279840,
@@ -5152,58 +6996,96 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-jquery-pizza-builder',
     description: 'An exercise to practice jQuery events and DOM manipulation',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-jquery-pizza-builder/deployments',
     created_at: '2018-10-16T12:13:49Z',
     updated_at: '2018-10-16T14:18:31Z',
     pushed_at: '2018-10-16T14:18:30Z',
@@ -5230,7 +7112,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 155895623,
@@ -5247,58 +7129,95 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-mongoose-movies',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/branches{/branch}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/milestones{/number}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-mongoose-movies/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-mongoose-movies/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-movies/deployments',
     created_at: '2018-11-02T16:51:20Z',
     updated_at: '2019-01-03T19:51:19Z',
     pushed_at: '2019-01-03T19:51:17Z',
@@ -5325,7 +7244,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 155717482,
@@ -5342,58 +7261,95 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-mongoose-recipes',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/branches{/branch}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/milestones{/number}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-mongoose-recipes/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-mongoose-recipes/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-mongoose-recipes/deployments',
     created_at: '2018-11-01T13:15:08Z',
     updated_at: '2018-11-01T14:43:17Z',
     pushed_at: '2018-11-01T14:43:15Z',
@@ -5420,7 +7376,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 156793943,
@@ -5437,57 +7393,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-nodemailer',
     description: null,
     fork: false,
     url: 'https://api.github.com/repos/nosregor/lab-nodemailer',
     forks_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-nodemailer/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-nodemailer/deployments',
     created_at: '2018-11-09T01:45:08Z',
     updated_at: '2018-11-09T01:45:34Z',
     pushed_at: '2018-11-09T01:45:32Z',
@@ -5514,7 +7503,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 156435577,
@@ -5531,58 +7520,92 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-passport-roles',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/lab-passport-roles',
     forks_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/branches{/branch}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/milestones{/number}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-passport-roles/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-passport-roles/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-passport-roles/deployments',
     created_at: '2018-11-06T19:21:21Z',
     updated_at: '2018-11-06T19:21:26Z',
     pushed_at: '2018-10-27T00:38:09Z',
@@ -5609,7 +7632,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 158419394,
@@ -5626,58 +7649,96 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/lab-react-ironcontacts',
     description: null,
     fork: false,
     url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts',
-    forks_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/lab-react-ironcontacts/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/lab-react-ironcontacts/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/lab-react-ironcontacts/deployments',
     created_at: '2018-11-20T16:27:27Z',
     updated_at: '2018-11-20T16:27:41Z',
     pushed_at: '2018-11-20T16:27:39Z',
@@ -5704,7 +7765,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 148322854,
@@ -5721,16 +7782,19 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/Learn-Node',
     description: 'Starter Files + Stepped Solutions for the Learn Node course',
@@ -5738,40 +7802,67 @@ export default [
     url: 'https://api.github.com/repos/nosregor/Learn-Node',
     forks_url: 'https://api.github.com/repos/nosregor/Learn-Node/forks',
     keys_url: 'https://api.github.com/repos/nosregor/Learn-Node/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/Learn-Node/collaborators{/collaborator}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/Learn-Node/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/Learn-Node/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/Learn-Node/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/Learn-Node/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/Learn-Node/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/Learn-Node/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/Learn-Node/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/Learn-Node/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/Learn-Node/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/Learn-Node/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/Learn-Node/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/Learn-Node/statuses/{sha}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/statuses/{sha}',
     languages_url: 'https://api.github.com/repos/nosregor/Learn-Node/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/Learn-Node/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/Learn-Node/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/Learn-Node/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/Learn-Node/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/Learn-Node/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/Learn-Node/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/Learn-Node/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/Learn-Node/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/Learn-Node/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/Learn-Node/compare/{base}...{head}',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/Learn-Node/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/Learn-Node/{archive_format}{/ref}',
+    archive_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/{archive_format}{/ref}',
     downloads_url: 'https://api.github.com/repos/nosregor/Learn-Node/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/Learn-Node/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/Learn-Node/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/Learn-Node/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/Learn-Node/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/Learn-Node/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/Learn-Node/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/Learn-Node/deployments',
+    issues_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/Learn-Node/deployments',
     created_at: '2018-09-11T13:36:00Z',
     updated_at: '2018-09-11T13:36:03Z',
     pushed_at: '2018-07-20T14:17:27Z',
@@ -5798,7 +7889,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 146886739,
@@ -5815,58 +7906,95 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/luiz-code-challenge',
     description: null,
     fork: false,
     url: 'https://api.github.com/repos/nosregor/luiz-code-challenge',
-    forks_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/branches{/branch}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/milestones{/number}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/luiz-code-challenge/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/luiz-code-challenge/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/luiz-code-challenge/deployments',
     created_at: '2018-08-31T12:04:56Z',
     updated_at: '2018-09-02T06:11:11Z',
     pushed_at: '2018-09-02T06:11:10Z',
@@ -5894,12 +8022,12 @@ export default [
       name: 'MIT License',
       spdx_id: 'MIT',
       url: 'https://api.github.com/licenses/mit',
-      node_id: 'MDc6TGljZW5zZTEz'
+      node_id: 'MDc6TGljZW5zZTEz',
     },
     forks: 0,
     open_issues: 1,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 159301085,
@@ -5916,57 +8044,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/mern-boilerplate',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/mern-boilerplate',
     forks_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/mern-boilerplate/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/mern-boilerplate/deployments',
     created_at: '2018-11-27T08:26:38Z',
     updated_at: '2018-11-27T08:26:40Z',
     pushed_at: '2018-11-24T14:13:20Z',
@@ -5993,7 +8154,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 159145972,
@@ -6010,58 +8171,96 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/mern-countries-example',
     description: null,
     fork: false,
     url: 'https://api.github.com/repos/nosregor/mern-countries-example',
-    forks_url: 'https://api.github.com/repos/nosregor/mern-countries-example/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/mern-countries-example/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/mern-countries-example/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/mern-countries-example/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/mern-countries-example/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/mern-countries-example/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/mern-countries-example/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/mern-countries-example/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/mern-countries-example/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/mern-countries-example/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/mern-countries-example/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/mern-countries-example/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/mern-countries-example/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/mern-countries-example/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/mern-countries-example/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/mern-countries-example/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/mern-countries-example/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/mern-countries-example/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/mern-countries-example/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/mern-countries-example/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/mern-countries-example/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/mern-countries-example/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/mern-countries-example/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/mern-countries-example/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/mern-countries-example/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/mern-countries-example/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/mern-countries-example/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/mern-countries-example/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/mern-countries-example/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/mern-countries-example/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/mern-countries-example/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/mern-countries-example/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/mern-countries-example/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/mern-countries-example/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/mern-countries-example/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/mern-countries-example/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/mern-countries-example/deployments',
     created_at: '2018-11-26T09:46:40Z',
     updated_at: '2018-11-27T15:22:37Z',
     pushed_at: '2018-11-27T15:22:35Z',
@@ -6088,7 +8287,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 156842648,
@@ -6105,57 +8304,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/movie-project',
     description: null,
     fork: false,
     url: 'https://api.github.com/repos/nosregor/movie-project',
     forks_url: 'https://api.github.com/repos/nosregor/movie-project/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/movie-project/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/movie-project/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/movie-project/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/movie-project/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/movie-project/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/movie-project/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/movie-project/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/movie-project/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/movie-project/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/movie-project/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/movie-project/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/movie-project/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/movie-project/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/movie-project/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/movie-project/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/movie-project/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/movie-project/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/movie-project/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/movie-project/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/movie-project/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/movie-project/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/movie-project/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/movie-project/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/movie-project/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/movie-project/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/movie-project/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/movie-project/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/movie-project/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/movie-project/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/movie-project/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/movie-project/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/movie-project/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/movie-project/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/movie-project/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/movie-project/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/movie-project/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/movie-project/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/movie-project/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/movie-project/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/movie-project/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/movie-project/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/movie-project/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/movie-project/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/movie-project/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/movie-project/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/movie-project/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/movie-project/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/movie-project/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/movie-project/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/movie-project/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/movie-project/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/movie-project/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/movie-project/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/movie-project/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/movie-project/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/movie-project/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/movie-project/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/movie-project/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/movie-project/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/movie-project/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/movie-project/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/movie-project/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/movie-project/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/movie-project/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/movie-project/deployments',
     created_at: '2018-11-09T09:53:07Z',
     updated_at: '2018-11-09T09:53:31Z',
     pushed_at: '2018-11-09T09:53:30Z',
@@ -6182,7 +8414,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 24261567,
@@ -6199,67 +8431,104 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/My-Python-GIS_StackExchange-answers',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers',
-    forks_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/keys{/key_id}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/keys{/key_id}',
     collaborators_url:
       'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/hooks',
+    teams_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/hooks',
     issue_events_url:
       'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/comments{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/comments{/number}',
     issue_comment_url:
       'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/milestones{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/My-Python-GIS_StackExchange-answers/deployments',
     created_at: '2014-09-20T11:52:25Z',
     updated_at: '2014-09-20T11:53:18Z',
     pushed_at: '2014-02-16T17:34:22Z',
-    git_url: 'git://github.com/nosregor/My-Python-GIS_StackExchange-answers.git',
+    git_url:
+      'git://github.com/nosregor/My-Python-GIS_StackExchange-answers.git',
     ssh_url: 'git@github.com:nosregor/My-Python-GIS_StackExchange-answers.git',
-    clone_url: 'https://github.com/nosregor/My-Python-GIS_StackExchange-answers.git',
+    clone_url:
+      'https://github.com/nosregor/My-Python-GIS_StackExchange-answers.git',
     svn_url: 'https://github.com/nosregor/My-Python-GIS_StackExchange-answers',
     homepage: null,
     size: 452,
@@ -6280,7 +8549,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 1,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 190010358,
@@ -6297,16 +8566,19 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/my-website',
     description: 'Personal website',
@@ -6314,40 +8586,67 @@ export default [
     url: 'https://api.github.com/repos/nosregor/my-website',
     forks_url: 'https://api.github.com/repos/nosregor/my-website/forks',
     keys_url: 'https://api.github.com/repos/nosregor/my-website/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/my-website/collaborators{/collaborator}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/my-website/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/my-website/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/my-website/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/my-website/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/my-website/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/my-website/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/my-website/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/my-website/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/my-website/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/my-website/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/my-website/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/my-website/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/my-website/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/my-website/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/my-website/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/my-website/statuses/{sha}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/my-website/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/my-website/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/my-website/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/my-website/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/my-website/statuses/{sha}',
     languages_url: 'https://api.github.com/repos/nosregor/my-website/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/my-website/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/my-website/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/my-website/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/my-website/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/my-website/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/my-website/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/my-website/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/my-website/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/my-website/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/my-website/compare/{base}...{head}',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/my-website/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/my-website/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/my-website/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/my-website/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/my-website/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/my-website/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/my-website/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/my-website/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/my-website/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/my-website/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/my-website/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/my-website/{archive_format}{/ref}',
+    archive_url:
+      'https://api.github.com/repos/nosregor/my-website/{archive_format}{/ref}',
     downloads_url: 'https://api.github.com/repos/nosregor/my-website/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/my-website/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/my-website/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/my-website/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/my-website/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/my-website/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/my-website/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/my-website/deployments',
+    issues_url:
+      'https://api.github.com/repos/nosregor/my-website/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/my-website/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/my-website/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/my-website/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/my-website/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/my-website/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/my-website/deployments',
     created_at: '2019-06-03T13:24:46Z',
     updated_at: '2020-02-02T09:35:20Z',
     pushed_at: '2020-02-02T09:35:18Z',
@@ -6375,12 +8674,12 @@ export default [
       name: 'MIT License',
       spdx_id: 'MIT',
       url: 'https://api.github.com/licenses/mit',
-      node_id: 'MDc6TGljZW5zZTEz'
+      node_id: 'MDc6TGljZW5zZTEz',
     },
     forks: 0,
     open_issues: 11,
     watchers: 1,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 156367061,
@@ -6397,57 +8696,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/passport-auth',
     description: null,
     fork: false,
     url: 'https://api.github.com/repos/nosregor/passport-auth',
     forks_url: 'https://api.github.com/repos/nosregor/passport-auth/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/passport-auth/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/passport-auth/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/passport-auth/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/passport-auth/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/passport-auth/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/passport-auth/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/passport-auth/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/passport-auth/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/passport-auth/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/passport-auth/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/passport-auth/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/passport-auth/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/passport-auth/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/passport-auth/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/passport-auth/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/passport-auth/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/passport-auth/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/passport-auth/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/passport-auth/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/passport-auth/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/passport-auth/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/passport-auth/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/passport-auth/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/passport-auth/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/passport-auth/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/passport-auth/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/passport-auth/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/passport-auth/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/passport-auth/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/passport-auth/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/passport-auth/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/passport-auth/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/passport-auth/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/passport-auth/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/passport-auth/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/passport-auth/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/passport-auth/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/passport-auth/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/passport-auth/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/passport-auth/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/passport-auth/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/passport-auth/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/passport-auth/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/passport-auth/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/passport-auth/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/passport-auth/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/passport-auth/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/passport-auth/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/passport-auth/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/passport-auth/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/passport-auth/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/passport-auth/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/passport-auth/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/passport-auth/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/passport-auth/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/passport-auth/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/passport-auth/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/passport-auth/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/passport-auth/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/passport-auth/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/passport-auth/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/passport-auth/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/passport-auth/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/passport-auth/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/passport-auth/deployments',
     created_at: '2018-11-06T10:34:16Z',
     updated_at: '2018-11-06T10:35:04Z',
     pushed_at: '2018-11-06T10:35:03Z',
@@ -6474,7 +8806,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 156435670,
@@ -6491,57 +8823,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/passport-role',
     description: null,
     fork: false,
     url: 'https://api.github.com/repos/nosregor/passport-role',
     forks_url: 'https://api.github.com/repos/nosregor/passport-role/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/passport-role/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/passport-role/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/passport-role/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/passport-role/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/passport-role/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/passport-role/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/passport-role/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/passport-role/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/passport-role/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/passport-role/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/passport-role/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/passport-role/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/passport-role/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/passport-role/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/passport-role/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/passport-role/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/passport-role/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/passport-role/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/passport-role/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/passport-role/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/passport-role/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/passport-role/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/passport-role/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/passport-role/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/passport-role/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/passport-role/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/passport-role/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/passport-role/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/passport-role/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/passport-role/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/passport-role/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/passport-role/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/passport-role/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/passport-role/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/passport-role/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/passport-role/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/passport-role/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/passport-role/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/passport-role/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/passport-role/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/passport-role/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/passport-role/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/passport-role/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/passport-role/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/passport-role/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/passport-role/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/passport-role/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/passport-role/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/passport-role/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/passport-role/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/passport-role/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/passport-role/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/passport-role/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/passport-role/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/passport-role/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/passport-role/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/passport-role/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/passport-role/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/passport-role/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/passport-role/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/passport-role/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/passport-role/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/passport-role/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/passport-role/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/passport-role/deployments',
     created_at: '2018-11-06T19:22:03Z',
     updated_at: '2018-11-06T19:22:20Z',
     pushed_at: '2018-11-06T19:22:19Z',
@@ -6568,7 +8933,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 166708575,
@@ -6585,58 +8950,95 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/passport-social-auth',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/passport-social-auth',
-    forks_url: 'https://api.github.com/repos/nosregor/passport-social-auth/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/passport-social-auth/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/passport-social-auth/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/passport-social-auth/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/passport-social-auth/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/passport-social-auth/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/passport-social-auth/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/passport-social-auth/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/passport-social-auth/branches{/branch}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/passport-social-auth/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/passport-social-auth/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/passport-social-auth/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/passport-social-auth/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/passport-social-auth/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/passport-social-auth/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/passport-social-auth/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/passport-social-auth/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/passport-social-auth/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/passport-social-auth/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/passport-social-auth/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/passport-social-auth/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/passport-social-auth/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/passport-social-auth/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/passport-social-auth/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/passport-social-auth/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/passport-social-auth/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/passport-social-auth/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/passport-social-auth/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/passport-social-auth/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/passport-social-auth/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/passport-social-auth/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/passport-social-auth/milestones{/number}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/passport-social-auth/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/passport-social-auth/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/passport-social-auth/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/passport-social-auth/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/passport-social-auth/deployments',
     created_at: '2019-01-20T20:57:11Z',
     updated_at: '2019-01-20T20:57:14Z',
     pushed_at: '2016-06-08T17:15:54Z',
@@ -6644,7 +9046,8 @@ export default [
     ssh_url: 'git@github.com:nosregor/passport-social-auth.git',
     clone_url: 'https://github.com/nosregor/passport-social-auth.git',
     svn_url: 'https://github.com/nosregor/passport-social-auth',
-    homepage: 'http://mherman.org/blog/2015/09/26/social-authentication-in-node-dot-js-with-passport/',
+    homepage:
+      'http://mherman.org/blog/2015/09/26/social-authentication-in-node-dot-js-with-passport/',
     size: 148,
     stargazers_count: 0,
     watchers_count: 0,
@@ -6663,7 +9066,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 158921168,
@@ -6680,16 +9083,19 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/portfolio',
     description: null,
@@ -6697,40 +9103,65 @@ export default [
     url: 'https://api.github.com/repos/nosregor/portfolio',
     forks_url: 'https://api.github.com/repos/nosregor/portfolio/forks',
     keys_url: 'https://api.github.com/repos/nosregor/portfolio/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/portfolio/collaborators{/collaborator}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/portfolio/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/portfolio/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/portfolio/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/portfolio/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/portfolio/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/portfolio/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/portfolio/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/portfolio/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/portfolio/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/portfolio/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/portfolio/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/portfolio/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/portfolio/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/portfolio/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/portfolio/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/portfolio/statuses/{sha}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/portfolio/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/portfolio/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/portfolio/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/portfolio/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/portfolio/statuses/{sha}',
     languages_url: 'https://api.github.com/repos/nosregor/portfolio/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/portfolio/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/portfolio/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/portfolio/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/portfolio/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/portfolio/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/portfolio/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/portfolio/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/portfolio/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/portfolio/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/portfolio/compare/{base}...{head}',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/portfolio/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/portfolio/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/portfolio/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/portfolio/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/portfolio/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/portfolio/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/portfolio/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/portfolio/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/portfolio/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/portfolio/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/portfolio/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/portfolio/{archive_format}{/ref}',
+    archive_url:
+      'https://api.github.com/repos/nosregor/portfolio/{archive_format}{/ref}',
     downloads_url: 'https://api.github.com/repos/nosregor/portfolio/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/portfolio/issues{/number}',
+    issues_url:
+      'https://api.github.com/repos/nosregor/portfolio/issues{/number}',
     pulls_url: 'https://api.github.com/repos/nosregor/portfolio/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/portfolio/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/portfolio/notifications{?since,all,participating}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/portfolio/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/portfolio/notifications{?since,all,participating}',
     labels_url: 'https://api.github.com/repos/nosregor/portfolio/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/portfolio/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/portfolio/deployments',
+    releases_url:
+      'https://api.github.com/repos/nosregor/portfolio/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/portfolio/deployments',
     created_at: '2018-11-24T09:28:28Z',
     updated_at: '2018-11-25T10:26:48Z',
     pushed_at: '2018-11-25T10:26:47Z',
@@ -6757,7 +9188,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 60083504,
@@ -6774,30 +9205,38 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/PR4E',
-    description: "Solutions to Coursera's: Programming for Everybody (Getting Started with Python) ",
+    description:
+      "Solutions to Coursera's: Programming for Everybody (Getting Started with Python) ",
     fork: false,
     url: 'https://api.github.com/repos/nosregor/PR4E',
     forks_url: 'https://api.github.com/repos/nosregor/PR4E/forks',
     keys_url: 'https://api.github.com/repos/nosregor/PR4E/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/PR4E/collaborators{/collaborator}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/PR4E/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/PR4E/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/PR4E/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/PR4E/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/PR4E/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/PR4E/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/PR4E/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/PR4E/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/PR4E/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/PR4E/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/PR4E/tags',
     blobs_url: 'https://api.github.com/repos/nosregor/PR4E/git/blobs{/sha}',
     git_tags_url: 'https://api.github.com/repos/nosregor/PR4E/git/tags{/sha}',
@@ -6810,18 +9249,25 @@ export default [
     subscribers_url: 'https://api.github.com/repos/nosregor/PR4E/subscribers',
     subscription_url: 'https://api.github.com/repos/nosregor/PR4E/subscription',
     commits_url: 'https://api.github.com/repos/nosregor/PR4E/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/PR4E/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/PR4E/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/PR4E/issues/comments{/number}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/PR4E/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/PR4E/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/PR4E/issues/comments{/number}',
     contents_url: 'https://api.github.com/repos/nosregor/PR4E/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/PR4E/compare/{base}...{head}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/PR4E/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/PR4E/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/PR4E/{archive_format}{/ref}',
+    archive_url:
+      'https://api.github.com/repos/nosregor/PR4E/{archive_format}{/ref}',
     downloads_url: 'https://api.github.com/repos/nosregor/PR4E/downloads',
     issues_url: 'https://api.github.com/repos/nosregor/PR4E/issues{/number}',
     pulls_url: 'https://api.github.com/repos/nosregor/PR4E/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/PR4E/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/PR4E/notifications{?since,all,participating}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/PR4E/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/PR4E/notifications{?since,all,participating}',
     labels_url: 'https://api.github.com/repos/nosregor/PR4E/labels{/name}',
     releases_url: 'https://api.github.com/repos/nosregor/PR4E/releases{/id}',
     deployments_url: 'https://api.github.com/repos/nosregor/PR4E/deployments',
@@ -6851,7 +9297,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 23267013,
@@ -6868,58 +9314,95 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/practice_assignment',
     description: 'Practice assignment for the R programming class on Coursera',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/practice_assignment',
-    forks_url: 'https://api.github.com/repos/nosregor/practice_assignment/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/practice_assignment/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/practice_assignment/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/practice_assignment/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/practice_assignment/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/practice_assignment/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/practice_assignment/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/practice_assignment/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/practice_assignment/branches{/branch}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/practice_assignment/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/practice_assignment/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/practice_assignment/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/practice_assignment/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/practice_assignment/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/practice_assignment/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/practice_assignment/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/practice_assignment/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/practice_assignment/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/practice_assignment/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/practice_assignment/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/practice_assignment/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/practice_assignment/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/practice_assignment/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/practice_assignment/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/practice_assignment/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/practice_assignment/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/practice_assignment/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/practice_assignment/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/practice_assignment/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/practice_assignment/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/practice_assignment/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/practice_assignment/milestones{/number}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/practice_assignment/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/practice_assignment/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/practice_assignment/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/practice_assignment/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/practice_assignment/deployments',
     created_at: '2014-08-23T21:49:08Z',
     updated_at: '2014-08-21T15:45:13Z',
     pushed_at: '2014-08-01T14:40:22Z',
@@ -6946,7 +9429,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 71363017,
@@ -6963,16 +9446,19 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/profile',
     description: null,
@@ -6980,40 +9466,59 @@ export default [
     url: 'https://api.github.com/repos/nosregor/profile',
     forks_url: 'https://api.github.com/repos/nosregor/profile/forks',
     keys_url: 'https://api.github.com/repos/nosregor/profile/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/profile/collaborators{/collaborator}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/profile/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/profile/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/profile/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/profile/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/profile/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/profile/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/profile/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/profile/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/profile/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/profile/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/profile/tags',
     blobs_url: 'https://api.github.com/repos/nosregor/profile/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/profile/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/profile/git/refs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/profile/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/profile/git/refs{/sha}',
     trees_url: 'https://api.github.com/repos/nosregor/profile/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/profile/statuses/{sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/profile/statuses/{sha}',
     languages_url: 'https://api.github.com/repos/nosregor/profile/languages',
     stargazers_url: 'https://api.github.com/repos/nosregor/profile/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/profile/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/profile/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/profile/subscription',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/profile/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/profile/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/profile/subscription',
     commits_url: 'https://api.github.com/repos/nosregor/profile/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/profile/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/profile/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/profile/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/profile/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/profile/compare/{base}...{head}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/profile/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/profile/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/profile/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/profile/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/profile/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/profile/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/profile/{archive_format}{/ref}',
+    archive_url:
+      'https://api.github.com/repos/nosregor/profile/{archive_format}{/ref}',
     downloads_url: 'https://api.github.com/repos/nosregor/profile/downloads',
     issues_url: 'https://api.github.com/repos/nosregor/profile/issues{/number}',
     pulls_url: 'https://api.github.com/repos/nosregor/profile/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/profile/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/profile/notifications{?since,all,participating}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/profile/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/profile/notifications{?since,all,participating}',
     labels_url: 'https://api.github.com/repos/nosregor/profile/labels{/name}',
     releases_url: 'https://api.github.com/repos/nosregor/profile/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/profile/deployments',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/profile/deployments',
     created_at: '2016-10-19T13:59:06Z',
     updated_at: '2016-10-19T14:20:23Z',
     pushed_at: '2016-10-19T23:21:16Z',
@@ -7040,7 +9545,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'gh-pages'
+    default_branch: 'gh-pages',
   },
   {
     id: 60093411,
@@ -7057,58 +9562,97 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/python-for-informatics',
-    description: 'Solutions to Python for Informatics: Exploring Information by Charles Severance ',
+    description:
+      'Solutions to Python for Informatics: Exploring Information by Charles Severance ',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/python-for-informatics',
-    forks_url: 'https://api.github.com/repos/nosregor/python-for-informatics/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/python-for-informatics/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/python-for-informatics/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/python-for-informatics/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/python-for-informatics/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/python-for-informatics/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/python-for-informatics/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/python-for-informatics/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/python-for-informatics/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/python-for-informatics/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/python-for-informatics/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/python-for-informatics/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/python-for-informatics/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/python-for-informatics/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/python-for-informatics/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/python-for-informatics/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/python-for-informatics/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/python-for-informatics/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/python-for-informatics/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/python-for-informatics/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/python-for-informatics/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/python-for-informatics/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/python-for-informatics/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/python-for-informatics/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/python-for-informatics/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/python-for-informatics/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/python-for-informatics/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/python-for-informatics/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/python-for-informatics/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/python-for-informatics/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/python-for-informatics/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/python-for-informatics/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/python-for-informatics/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/python-for-informatics/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/python-for-informatics/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/python-for-informatics/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/python-for-informatics/deployments',
     created_at: '2016-05-31T13:47:41Z',
     updated_at: '2016-05-31T13:47:42Z',
     pushed_at: '2015-05-29T13:59:46Z',
@@ -7135,7 +9679,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 72728329,
@@ -7152,58 +9696,96 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/rails-mister-cocktail',
     description: null,
     fork: false,
     url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail',
-    forks_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/rails-mister-cocktail/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/rails-mister-cocktail/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/rails-mister-cocktail/deployments',
     created_at: '2016-11-03T09:17:31Z',
     updated_at: '2016-11-03T09:17:39Z',
     pushed_at: '2016-11-07T09:28:43Z',
@@ -7230,7 +9812,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 95221696,
@@ -7247,57 +9829,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/rails-pg-docker',
     description: 'Basic Rails App with Docker',
     fork: false,
     url: 'https://api.github.com/repos/nosregor/rails-pg-docker',
     forks_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/rails-pg-docker/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/rails-pg-docker/deployments',
     created_at: '2017-06-23T13:15:56Z',
     updated_at: '2018-08-25T15:54:08Z',
     pushed_at: '2017-12-08T12:22:37Z',
@@ -7324,7 +9939,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 1,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 158396944,
@@ -7341,57 +9956,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/react-countries',
     description: null,
     fork: false,
     url: 'https://api.github.com/repos/nosregor/react-countries',
     forks_url: 'https://api.github.com/repos/nosregor/react-countries/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/react-countries/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/react-countries/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/react-countries/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/react-countries/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/react-countries/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/react-countries/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/react-countries/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/react-countries/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/react-countries/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/react-countries/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/react-countries/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/react-countries/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/react-countries/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/react-countries/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/react-countries/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/react-countries/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/react-countries/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/react-countries/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/react-countries/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/react-countries/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/react-countries/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/react-countries/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/react-countries/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/react-countries/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/react-countries/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/react-countries/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/react-countries/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/react-countries/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/react-countries/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/react-countries/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/react-countries/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/react-countries/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/react-countries/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/react-countries/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/react-countries/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/react-countries/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/react-countries/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/react-countries/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/react-countries/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/react-countries/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/react-countries/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/react-countries/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/react-countries/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/react-countries/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/react-countries/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/react-countries/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/react-countries/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/react-countries/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/react-countries/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/react-countries/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/react-countries/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/react-countries/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/react-countries/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/react-countries/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/react-countries/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/react-countries/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/react-countries/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/react-countries/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/react-countries/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/react-countries/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/react-countries/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/react-countries/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/react-countries/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/react-countries/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/react-countries/deployments',
     created_at: '2018-11-20T13:51:07Z',
     updated_at: '2018-11-20T13:51:21Z',
     pushed_at: '2018-11-20T13:51:19Z',
@@ -7418,7 +10066,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 158397051,
@@ -7435,57 +10083,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/react-events',
     description: null,
     fork: false,
     url: 'https://api.github.com/repos/nosregor/react-events',
     forks_url: 'https://api.github.com/repos/nosregor/react-events/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/react-events/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/react-events/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/react-events/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/react-events/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/react-events/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/react-events/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/react-events/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/react-events/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/react-events/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/react-events/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/react-events/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/react-events/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/react-events/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/react-events/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/react-events/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/react-events/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/react-events/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/react-events/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/react-events/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/react-events/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/react-events/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/react-events/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/react-events/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/react-events/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/react-events/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/react-events/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/react-events/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/react-events/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/react-events/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/react-events/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/react-events/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/react-events/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/react-events/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/react-events/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/react-events/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/react-events/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/react-events/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/react-events/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/react-events/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/react-events/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/react-events/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/react-events/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/react-events/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/react-events/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/react-events/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/react-events/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/react-events/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/react-events/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/react-events/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/react-events/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/react-events/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/react-events/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/react-events/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/react-events/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/react-events/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/react-events/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/react-events/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/react-events/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/react-events/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/react-events/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/react-events/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/react-events/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/react-events/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/react-events/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/react-events/deployments',
     created_at: '2018-11-20T13:51:46Z',
     updated_at: '2018-11-20T13:52:03Z',
     pushed_at: '2018-11-20T13:52:01Z',
@@ -7512,7 +10193,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 162125031,
@@ -7529,16 +10210,19 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/react-hooks',
     description: null,
@@ -7546,40 +10230,69 @@ export default [
     url: 'https://api.github.com/repos/nosregor/react-hooks',
     forks_url: 'https://api.github.com/repos/nosregor/react-hooks/forks',
     keys_url: 'https://api.github.com/repos/nosregor/react-hooks/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/react-hooks/collaborators{/collaborator}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/react-hooks/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/react-hooks/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/react-hooks/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/react-hooks/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/react-hooks/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/react-hooks/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/react-hooks/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/react-hooks/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/react-hooks/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/react-hooks/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/react-hooks/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/react-hooks/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/react-hooks/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/react-hooks/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/react-hooks/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/react-hooks/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/react-hooks/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/react-hooks/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/react-hooks/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/react-hooks/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/react-hooks/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/react-hooks/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/react-hooks/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/react-hooks/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/react-hooks/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/react-hooks/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/react-hooks/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/react-hooks/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/react-hooks/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/react-hooks/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/react-hooks/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/react-hooks/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/react-hooks/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/react-hooks/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/react-hooks/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/react-hooks/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/react-hooks/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/react-hooks/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/react-hooks/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/react-hooks/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/react-hooks/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/react-hooks/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/react-hooks/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/react-hooks/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/react-hooks/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/react-hooks/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/react-hooks/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/react-hooks/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/react-hooks/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/react-hooks/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/react-hooks/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/react-hooks/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/react-hooks/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/react-hooks/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/react-hooks/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/react-hooks/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/react-hooks/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/react-hooks/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/react-hooks/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/react-hooks/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/react-hooks/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/react-hooks/deployments',
     created_at: '2018-12-17T12:09:29Z',
     updated_at: '2018-12-17T12:09:31Z',
     pushed_at: '2018-12-14T13:20:04Z',
@@ -7606,7 +10319,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 185074357,
@@ -7623,16 +10336,19 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/react-intro',
     description: null,
@@ -7640,40 +10356,69 @@ export default [
     url: 'https://api.github.com/repos/nosregor/react-intro',
     forks_url: 'https://api.github.com/repos/nosregor/react-intro/forks',
     keys_url: 'https://api.github.com/repos/nosregor/react-intro/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/react-intro/collaborators{/collaborator}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/react-intro/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/react-intro/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/react-intro/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/react-intro/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/react-intro/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/react-intro/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/react-intro/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/react-intro/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/react-intro/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/react-intro/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/react-intro/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/react-intro/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/react-intro/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/react-intro/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/react-intro/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/react-intro/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/react-intro/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/react-intro/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/react-intro/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/react-intro/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/react-intro/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/react-intro/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/react-intro/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/react-intro/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/react-intro/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/react-intro/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/react-intro/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/react-intro/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/react-intro/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/react-intro/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/react-intro/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/react-intro/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/react-intro/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/react-intro/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/react-intro/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/react-intro/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/react-intro/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/react-intro/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/react-intro/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/react-intro/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/react-intro/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/react-intro/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/react-intro/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/react-intro/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/react-intro/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/react-intro/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/react-intro/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/react-intro/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/react-intro/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/react-intro/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/react-intro/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/react-intro/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/react-intro/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/react-intro/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/react-intro/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/react-intro/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/react-intro/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/react-intro/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/react-intro/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/react-intro/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/react-intro/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/react-intro/deployments',
     created_at: '2019-05-05T19:37:49Z',
     updated_at: '2019-05-05T19:38:29Z',
     pushed_at: '2019-05-05T19:38:27Z',
@@ -7700,7 +10445,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 146715320,
@@ -7717,57 +10462,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/react-piano-task',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/react-piano-task',
     forks_url: 'https://api.github.com/repos/nosregor/react-piano-task/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/react-piano-task/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/react-piano-task/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/react-piano-task/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/react-piano-task/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/react-piano-task/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/react-piano-task/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/react-piano-task/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/react-piano-task/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/react-piano-task/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/react-piano-task/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/react-piano-task/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/react-piano-task/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/react-piano-task/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/react-piano-task/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/react-piano-task/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/react-piano-task/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/react-piano-task/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/react-piano-task/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/react-piano-task/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/react-piano-task/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/react-piano-task/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/react-piano-task/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/react-piano-task/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/react-piano-task/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/react-piano-task/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/react-piano-task/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/react-piano-task/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/react-piano-task/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/react-piano-task/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/react-piano-task/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/react-piano-task/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/react-piano-task/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/react-piano-task/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/react-piano-task/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/react-piano-task/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/react-piano-task/deployments',
     created_at: '2018-08-30T07:53:16Z',
     updated_at: '2018-08-30T07:53:18Z',
     pushed_at: '2018-08-20T14:41:44Z',
@@ -7794,7 +10572,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 171672094,
@@ -7811,57 +10589,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/react-training',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/react-training',
     forks_url: 'https://api.github.com/repos/nosregor/react-training/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/react-training/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/react-training/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/react-training/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/react-training/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/react-training/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/react-training/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/react-training/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/react-training/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/react-training/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/react-training/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/react-training/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/react-training/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/react-training/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/react-training/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/react-training/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/react-training/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/react-training/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/react-training/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/react-training/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/react-training/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/react-training/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/react-training/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/react-training/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/react-training/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/react-training/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/react-training/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/react-training/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/react-training/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/react-training/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/react-training/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/react-training/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/react-training/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/react-training/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/react-training/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/react-training/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/react-training/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/react-training/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/react-training/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/react-training/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/react-training/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/react-training/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/react-training/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/react-training/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/react-training/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/react-training/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/react-training/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/react-training/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/react-training/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/react-training/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/react-training/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/react-training/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/react-training/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/react-training/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/react-training/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/react-training/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/react-training/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/react-training/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/react-training/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/react-training/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/react-training/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/react-training/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/react-training/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/react-training/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/react-training/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/react-training/deployments',
     created_at: '2019-02-20T12:48:21Z',
     updated_at: '2019-02-20T12:48:23Z',
     pushed_at: '2019-02-19T17:23:42Z',
@@ -7888,7 +10699,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 146077390,
@@ -7905,57 +10716,90 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/ReactWorkshop',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/ReactWorkshop',
     forks_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/collaborators{/collaborator}',
+    keys_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/ReactWorkshop/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/ReactWorkshop/deployments',
     created_at: '2018-08-25T08:01:59Z',
     updated_at: '2018-08-25T08:02:01Z',
     pushed_at: '2018-08-24T10:01:58Z',
@@ -7982,7 +10826,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 162122882,
@@ -7999,16 +10843,19 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/resources',
     description: null,
@@ -8016,40 +10863,65 @@ export default [
     url: 'https://api.github.com/repos/nosregor/resources',
     forks_url: 'https://api.github.com/repos/nosregor/resources/forks',
     keys_url: 'https://api.github.com/repos/nosregor/resources/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/resources/collaborators{/collaborator}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/resources/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/resources/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/resources/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/resources/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/resources/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/resources/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/resources/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/resources/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/resources/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/resources/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/resources/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/resources/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/resources/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/resources/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/resources/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/resources/statuses/{sha}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/resources/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/resources/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/resources/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/resources/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/resources/statuses/{sha}',
     languages_url: 'https://api.github.com/repos/nosregor/resources/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/resources/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/resources/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/resources/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/resources/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/resources/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/resources/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/resources/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/resources/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/resources/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/resources/compare/{base}...{head}',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/resources/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/resources/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/resources/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/resources/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/resources/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/resources/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/resources/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/resources/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/resources/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/resources/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/resources/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/resources/{archive_format}{/ref}',
+    archive_url:
+      'https://api.github.com/repos/nosregor/resources/{archive_format}{/ref}',
     downloads_url: 'https://api.github.com/repos/nosregor/resources/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/resources/issues{/number}',
+    issues_url:
+      'https://api.github.com/repos/nosregor/resources/issues{/number}',
     pulls_url: 'https://api.github.com/repos/nosregor/resources/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/resources/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/resources/notifications{?since,all,participating}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/resources/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/resources/notifications{?since,all,participating}',
     labels_url: 'https://api.github.com/repos/nosregor/resources/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/resources/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/resources/deployments',
+    releases_url:
+      'https://api.github.com/repos/nosregor/resources/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/resources/deployments',
     created_at: '2018-12-17T11:50:40Z',
     updated_at: '2018-12-17T11:50:42Z',
     pushed_at: '2018-12-14T13:14:24Z',
@@ -8076,7 +10948,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 154157515,
@@ -8093,58 +10965,95 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/sample-game-breakout',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/sample-game-breakout',
-    forks_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/branches{/branch}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/milestones{/number}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/sample-game-breakout/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/sample-game-breakout/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/sample-game-breakout/deployments',
     created_at: '2018-10-22T14:22:21Z',
     updated_at: '2018-10-22T14:22:23Z',
     pushed_at: '2018-10-22T13:20:19Z',
@@ -8171,7 +11080,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 29735682,
@@ -8188,67 +11097,105 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
-    html_url: 'https://github.com/nosregor/statistical-analysis-python-tutorial',
+    html_url:
+      'https://github.com/nosregor/statistical-analysis-python-tutorial',
     description: 'Statistical Data Analysis in Python',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial',
-    forks_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/keys{/key_id}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/keys{/key_id}',
     collaborators_url:
       'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/hooks',
+    teams_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/hooks',
     issue_events_url:
       'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/comments{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/comments{/number}',
     issue_comment_url:
       'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/milestones{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/statistical-analysis-python-tutorial/deployments',
     created_at: '2015-01-23T14:22:59Z',
     updated_at: '2015-01-21T20:35:53Z',
     pushed_at: '2014-06-20T19:51:45Z',
-    git_url: 'git://github.com/nosregor/statistical-analysis-python-tutorial.git',
+    git_url:
+      'git://github.com/nosregor/statistical-analysis-python-tutorial.git',
     ssh_url: 'git@github.com:nosregor/statistical-analysis-python-tutorial.git',
-    clone_url: 'https://github.com/nosregor/statistical-analysis-python-tutorial.git',
+    clone_url:
+      'https://github.com/nosregor/statistical-analysis-python-tutorial.git',
     svn_url: 'https://github.com/nosregor/statistical-analysis-python-tutorial',
     homepage: null,
     size: 17180,
@@ -8269,7 +11216,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 161448959,
@@ -8286,66 +11233,103 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/technical-interview-test-pokemon',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon',
-    forks_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/keys{/key_id}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/keys{/key_id}',
     collaborators_url:
       'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/comments{/number}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/comments{/number}',
     issue_comment_url:
       'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/milestones{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/technical-interview-test-pokemon/deployments',
     created_at: '2018-12-12T07:24:59Z',
     updated_at: '2018-12-12T07:25:02Z',
     pushed_at: '2018-12-11T20:24:13Z',
     git_url: 'git://github.com/nosregor/technical-interview-test-pokemon.git',
     ssh_url: 'git@github.com:nosregor/technical-interview-test-pokemon.git',
-    clone_url: 'https://github.com/nosregor/technical-interview-test-pokemon.git',
+    clone_url:
+      'https://github.com/nosregor/technical-interview-test-pokemon.git',
     svn_url: 'https://github.com/nosregor/technical-interview-test-pokemon',
     homepage: null,
     size: 223,
@@ -8366,7 +11350,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 161310070,
@@ -8383,59 +11367,96 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/typescript-server-boilerplate',
     description: 'Boilerplate for Typescript',
     fork: true,
     url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate',
-    forks_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/keys{/key_id}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/keys{/key_id}',
     collaborators_url:
       'https://api.github.com/repos/nosregor/typescript-server-boilerplate/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/milestones{/number}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/typescript-server-boilerplate/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/typescript-server-boilerplate/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/typescript-server-boilerplate/deployments',
     created_at: '2018-12-11T09:32:15Z',
     updated_at: '2018-12-11T09:32:18Z',
     pushed_at: '2018-10-02T18:20:35Z',
@@ -8462,7 +11483,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 190225198,
@@ -8479,16 +11500,19 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/v4',
     description: 'Fourth iteration of my personal website built with Gatsby',
@@ -8496,10 +11520,12 @@ export default [
     url: 'https://api.github.com/repos/nosregor/v4',
     forks_url: 'https://api.github.com/repos/nosregor/v4/forks',
     keys_url: 'https://api.github.com/repos/nosregor/v4/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/v4/collaborators{/collaborator}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/v4/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/v4/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/v4/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/v4/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/v4/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/v4/events',
     assignees_url: 'https://api.github.com/repos/nosregor/v4/assignees{/user}',
     branches_url: 'https://api.github.com/repos/nosregor/v4/branches{/branch}',
@@ -8515,18 +11541,24 @@ export default [
     subscribers_url: 'https://api.github.com/repos/nosregor/v4/subscribers',
     subscription_url: 'https://api.github.com/repos/nosregor/v4/subscription',
     commits_url: 'https://api.github.com/repos/nosregor/v4/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/v4/git/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/v4/git/commits{/sha}',
     comments_url: 'https://api.github.com/repos/nosregor/v4/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/v4/issues/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/v4/issues/comments{/number}',
     contents_url: 'https://api.github.com/repos/nosregor/v4/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/v4/compare/{base}...{head}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/v4/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/v4/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/v4/{archive_format}{/ref}',
+    archive_url:
+      'https://api.github.com/repos/nosregor/v4/{archive_format}{/ref}',
     downloads_url: 'https://api.github.com/repos/nosregor/v4/downloads',
     issues_url: 'https://api.github.com/repos/nosregor/v4/issues{/number}',
     pulls_url: 'https://api.github.com/repos/nosregor/v4/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/v4/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/v4/notifications{?since,all,participating}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/v4/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/v4/notifications{?since,all,participating}',
     labels_url: 'https://api.github.com/repos/nosregor/v4/labels{/name}',
     releases_url: 'https://api.github.com/repos/nosregor/v4/releases{/id}',
     deployments_url: 'https://api.github.com/repos/nosregor/v4/deployments',
@@ -8557,12 +11589,12 @@ export default [
       name: 'MIT License',
       spdx_id: 'MIT',
       url: 'https://api.github.com/licenses/mit',
-      node_id: 'MDc6TGljZW5zZTEz'
+      node_id: 'MDc6TGljZW5zZTEz',
     },
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 152768376,
@@ -8579,58 +11611,96 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/w1-friday-dom-manipulation',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation',
-    forks_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/milestones{/number}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/keys{/key_id}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/collaborators{/collaborator}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/w1-friday-dom-manipulation/deployments',
     created_at: '2018-10-12T15:07:05Z',
     updated_at: '2018-10-12T15:07:07Z',
     pushed_at: '2018-10-12T15:06:08Z',
@@ -8657,7 +11727,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 156242309,
@@ -8674,59 +11744,96 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/w4d5-express-mongoose-librairy',
     description: null,
     fork: true,
     url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy',
-    forks_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/forks',
-    keys_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/keys{/key_id}',
+    forks_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/forks',
+    keys_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/keys{/key_id}',
     collaborators_url:
       'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/collaborators{/collaborator}',
-    teams_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/teams',
-    hooks_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/issues/events{/number}',
-    events_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/branches{/branch}',
-    tags_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/compare/{base}...{head}',
-    merges_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/milestones{/number}',
+    teams_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/teams',
+    hooks_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/hooks',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/issues/events{/number}',
+    events_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/events',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/branches{/branch}',
+    tags_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/tags',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/compare/{base}...{head}',
+    merges_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/merges',
+    archive_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/milestones{/number}',
     notifications_url:
       'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/deployments',
+    labels_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/w4d5-express-mongoose-librairy/deployments',
     created_at: '2018-11-05T15:46:44Z',
     updated_at: '2018-11-05T15:46:46Z',
     pushed_at: '2018-11-02T16:37:53Z',
@@ -8753,7 +11860,7 @@ export default [
     forks: 0,
     open_issues: 0,
     watchers: 0,
-    default_branch: 'master'
+    default_branch: 'master',
   },
   {
     id: 158141307,
@@ -8770,16 +11877,19 @@ export default [
       url: 'https://api.github.com/users/nosregor',
       html_url: 'https://github.com/nosregor',
       followers_url: 'https://api.github.com/users/nosregor/followers',
-      following_url: 'https://api.github.com/users/nosregor/following{/other_user}',
+      following_url:
+        'https://api.github.com/users/nosregor/following{/other_user}',
       gists_url: 'https://api.github.com/users/nosregor/gists{/gist_id}',
-      starred_url: 'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
+      starred_url:
+        'https://api.github.com/users/nosregor/starred{/owner}{/repo}',
       subscriptions_url: 'https://api.github.com/users/nosregor/subscriptions',
       organizations_url: 'https://api.github.com/users/nosregor/orgs',
       repos_url: 'https://api.github.com/users/nosregor/repos',
       events_url: 'https://api.github.com/users/nosregor/events{/privacy}',
-      received_events_url: 'https://api.github.com/users/nosregor/received_events',
+      received_events_url:
+        'https://api.github.com/users/nosregor/received_events',
       type: 'User',
-      site_admin: false
+      site_admin: false,
     },
     html_url: 'https://github.com/nosregor/web-toolkit',
     description: 'List of resources for Web Design',
@@ -8787,40 +11897,69 @@ export default [
     url: 'https://api.github.com/repos/nosregor/web-toolkit',
     forks_url: 'https://api.github.com/repos/nosregor/web-toolkit/forks',
     keys_url: 'https://api.github.com/repos/nosregor/web-toolkit/keys{/key_id}',
-    collaborators_url: 'https://api.github.com/repos/nosregor/web-toolkit/collaborators{/collaborator}',
+    collaborators_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/collaborators{/collaborator}',
     teams_url: 'https://api.github.com/repos/nosregor/web-toolkit/teams',
     hooks_url: 'https://api.github.com/repos/nosregor/web-toolkit/hooks',
-    issue_events_url: 'https://api.github.com/repos/nosregor/web-toolkit/issues/events{/number}',
+    issue_events_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/issues/events{/number}',
     events_url: 'https://api.github.com/repos/nosregor/web-toolkit/events',
-    assignees_url: 'https://api.github.com/repos/nosregor/web-toolkit/assignees{/user}',
-    branches_url: 'https://api.github.com/repos/nosregor/web-toolkit/branches{/branch}',
+    assignees_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/assignees{/user}',
+    branches_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/branches{/branch}',
     tags_url: 'https://api.github.com/repos/nosregor/web-toolkit/tags',
-    blobs_url: 'https://api.github.com/repos/nosregor/web-toolkit/git/blobs{/sha}',
-    git_tags_url: 'https://api.github.com/repos/nosregor/web-toolkit/git/tags{/sha}',
-    git_refs_url: 'https://api.github.com/repos/nosregor/web-toolkit/git/refs{/sha}',
-    trees_url: 'https://api.github.com/repos/nosregor/web-toolkit/git/trees{/sha}',
-    statuses_url: 'https://api.github.com/repos/nosregor/web-toolkit/statuses/{sha}',
-    languages_url: 'https://api.github.com/repos/nosregor/web-toolkit/languages',
-    stargazers_url: 'https://api.github.com/repos/nosregor/web-toolkit/stargazers',
-    contributors_url: 'https://api.github.com/repos/nosregor/web-toolkit/contributors',
-    subscribers_url: 'https://api.github.com/repos/nosregor/web-toolkit/subscribers',
-    subscription_url: 'https://api.github.com/repos/nosregor/web-toolkit/subscription',
-    commits_url: 'https://api.github.com/repos/nosregor/web-toolkit/commits{/sha}',
-    git_commits_url: 'https://api.github.com/repos/nosregor/web-toolkit/git/commits{/sha}',
-    comments_url: 'https://api.github.com/repos/nosregor/web-toolkit/comments{/number}',
-    issue_comment_url: 'https://api.github.com/repos/nosregor/web-toolkit/issues/comments{/number}',
-    contents_url: 'https://api.github.com/repos/nosregor/web-toolkit/contents/{+path}',
-    compare_url: 'https://api.github.com/repos/nosregor/web-toolkit/compare/{base}...{head}',
+    blobs_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/git/blobs{/sha}',
+    git_tags_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/git/tags{/sha}',
+    git_refs_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/git/refs{/sha}',
+    trees_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/git/trees{/sha}',
+    statuses_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/statuses/{sha}',
+    languages_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/languages',
+    stargazers_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/stargazers',
+    contributors_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/contributors',
+    subscribers_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/subscribers',
+    subscription_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/subscription',
+    commits_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/commits{/sha}',
+    git_commits_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/git/commits{/sha}',
+    comments_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/comments{/number}',
+    issue_comment_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/issues/comments{/number}',
+    contents_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/contents/{+path}',
+    compare_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/compare/{base}...{head}',
     merges_url: 'https://api.github.com/repos/nosregor/web-toolkit/merges',
-    archive_url: 'https://api.github.com/repos/nosregor/web-toolkit/{archive_format}{/ref}',
-    downloads_url: 'https://api.github.com/repos/nosregor/web-toolkit/downloads',
-    issues_url: 'https://api.github.com/repos/nosregor/web-toolkit/issues{/number}',
-    pulls_url: 'https://api.github.com/repos/nosregor/web-toolkit/pulls{/number}',
-    milestones_url: 'https://api.github.com/repos/nosregor/web-toolkit/milestones{/number}',
-    notifications_url: 'https://api.github.com/repos/nosregor/web-toolkit/notifications{?since,all,participating}',
-    labels_url: 'https://api.github.com/repos/nosregor/web-toolkit/labels{/name}',
-    releases_url: 'https://api.github.com/repos/nosregor/web-toolkit/releases{/id}',
-    deployments_url: 'https://api.github.com/repos/nosregor/web-toolkit/deployments',
+    archive_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/{archive_format}{/ref}',
+    downloads_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/downloads',
+    issues_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/issues{/number}',
+    pulls_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/pulls{/number}',
+    milestones_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/milestones{/number}',
+    notifications_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/notifications{?since,all,participating}',
+    labels_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/labels{/name}',
+    releases_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/releases{/id}',
+    deployments_url:
+      'https://api.github.com/repos/nosregor/web-toolkit/deployments',
     created_at: '2018-11-19T00:37:45Z',
     updated_at: '2019-01-23T17:38:09Z',
     pushed_at: '2018-12-04T18:38:41Z',
@@ -8847,6 +11986,6 @@ export default [
     forks: 1,
     open_issues: 4,
     watchers: 3,
-    default_branch: 'master'
-  }
+    default_branch: 'master',
+  },
 ];
