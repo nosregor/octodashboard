@@ -1,2 +1,6 @@
 /** @type {import('next').NextConfig} */
-module.exports = {};
+module.exports = {
+  outputFileTracingIncludes: {
+    '/api/visits': ['./node_modules/uncrypto/dist/**/*'],
+  },
+};
