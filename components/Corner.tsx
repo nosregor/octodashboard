@@ -3,7 +3,7 @@ const Corner = () => (
     href="https://github.com/nosregor/octodashboard"
     target="_blank"
     rel="noopener noreferrer"
-    className="github-corner absolute top-0 right-0 border-0 print:hidden"
+    className="github-corner absolute top-0 right-0 border-0"
     aria-label="View source on GitHub"
   >
     <svg

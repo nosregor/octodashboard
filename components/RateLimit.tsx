@@ -5,7 +5,7 @@ interface RateLimitProps {
 }
 
 const RateLimit = ({ rateLimit }: RateLimitProps) => (
-  <div className="absolute top-0 left-0 p-4 print:hidden">
+  <div className="absolute top-0 left-0 p-4">
     {rateLimit && (
       <div>
         <div className="text-[#6a737d] text-[20px] mb-2">

@@ -108,28 +108,13 @@ const User = () => {
             <ChartsSkeleton />
           )}
 
-          <div className="print:hidden">
-            {repoData ? (
-              <Repos repoData={repoData} />
-            ) : (
-              <ReposSkeleton />
-            )}
-          </div>
+          {repoData ? (
+            <Repos repoData={repoData} />
+          ) : (
+            <ReposSkeleton />
+          )}
 
           <Footer />
-
-          {userData && (
-            <button
-              onClick={() => window.print()}
-              className="print:hidden fixed bottom-6 right-6 flex items-center gap-2 bg-[#0070f3] hover:bg-[#0058d0] text-white text-sm font-medium px-4 py-3 rounded-lg shadow-lg transition-colors"
-            >
-              <svg width="16" height="16" viewBox="0 0 16 16" fill="currentColor" aria-hidden="true">
-                <path d="M5 1a2 2 0 0 0-2 2v1h10V3a2 2 0 0 0-2-2H5zm6 8H5a1 1 0 0 0-1 1v3h8v-3a1 1 0 0 0-1-1z"/>
-                <path d="M0 7a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v3a2 2 0 0 1-2 2h-1v-2a2 2 0 0 0-2-2H5a2 2 0 0 0-2 2v2H2a2 2 0 0 1-2-2V7zm2.5 1a.5.5 0 1 0 0-1 .5.5 0 0 0 0 1z"/>
-              </svg>
-              Print Portfolio
-            </button>
-          )}
         </>
       )}
     </main>

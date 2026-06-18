@@ -61,7 +61,7 @@ const UserInfo = ({ userData }: UserInfoProps) => (
             )}
           </div>
 
-          <div className="grid grid-cols-[repeat(3,150px)] gap-2 mt-8">
+          <div className="grid grid-cols-[repeat(3,minmax(100px,150px))] gap-2 mt-8 justify-center">
             <div className="flex flex-col items-center bg-[#24292e] p-4 rounded text-center max-[400px]:px-2">
               <span className="text-[#f6f8fa] text-2xl max-[400px]:text-base">
                 {userData.public_repos.toLocaleString()}
