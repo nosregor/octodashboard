@@ -6,7 +6,7 @@ interface UserInfoProps {
 }
 
 const UserInfo = ({ userData }: UserInfoProps) => (
-  <section className="py-12 px-20 pb-40 bg-[#1A1E22] text-[#c8e1ff] max-[900px]:py-8 max-[900px]:px-8 max-[900px]:pb-40 max-[400px]:p-4 max-[400px]:pb-40 print:pb-4">
+  <section className="py-12 px-20 pb-40 bg-[#1A1E22] text-[#c8e1ff] max-[900px]:py-8 max-[900px]:px-8 max-[900px]:pb-40 max-[400px]:p-4 max-[400px]:pb-40">
     <div className="max-w-[1400px] mx-auto">
       {userData && (
         <div className="flex flex-col items-center text-center max-[600px]:pt-16">

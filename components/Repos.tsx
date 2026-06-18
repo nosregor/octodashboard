@@ -43,7 +43,7 @@ const Repos = ({ repoData }: ReposProps) => {
         <header className="relative z-30 flex flex-wrap items-center gap-x-2 gap-y-2 mb-8">
           <h2 className="section-heading text-[1.75rem]">Top Repos</h2>
 
-          <div className="flex items-center text-base text-[#6a737d] print:hidden">
+          <div className="flex items-center text-base text-[#6a737d]">
             <span className="mx-2">by</span>
             <div className="relative z-30 min-w-[100px] text-sm font-medium">
               <button
@@ -91,7 +91,7 @@ const Repos = ({ repoData }: ReposProps) => {
               className="grid grid-cols-[repeat(auto-fit,minmax(300px,1fr))] gap-4"
             >
               {topRepos.map(repo => (
-                <li key={repo.id} className="repo-card">
+                <li key={repo.id}>
                   <a
                     href={repo.html_url}
                     target="_blank"
