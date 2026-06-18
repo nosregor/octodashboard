@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { useRouter } from "next/router";
 import Octicon, { MarkGithub } from "@primer/octicons-react";
 import { Head } from "../components";
@@ -6,6 +6,14 @@ import { Head } from "../components";
 const Home = () => {
   const router = useRouter();
   const [username, setUsername] = useState<string>("");
+  const [visits, setVisits] = useState<number | null>(null);
+
+  useEffect(() => {
+    fetch("/api/visits", { method: "POST" })
+      .then(res => res.json())
+      .then(({ count }) => setVisits(count))
+      .catch(() => setVisits(null));
+  }, []);
 
   const handleChange = (event: React.ChangeEvent<HTMLInputElement>) =>
     setUsername(event.target.value);
@@ -30,6 +38,12 @@ const Home = () => {
         <label htmlFor="username" className="block text-[2.5rem] font-medium my-8">
           OctoDashboard
         </label>
+
+        {visits !== null && (
+          <p className="text-[#6a737d] text-sm mb-4">
+            {visits.toLocaleString()} {visits === 1 ? "person has" : "people have"} visited OctoDashboard
+          </p>
+        )}
 
         <p className="text-[#79b8ff] font-sans text-base">
           Enter a GitHub username
